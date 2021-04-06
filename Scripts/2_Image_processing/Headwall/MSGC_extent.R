@@ -1,16 +1,17 @@
 #Functions to get extent of an large binary file/small header file pair
 
 #set different paths for testing
-path<-"./Original_data/Headwall/MSGC_TST_IMG"
+#path<-"./Original_data/Headwall/MSGC_TST_IMG"
 path<-"./Original_data/Headwall/"
-path3<-"/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/SubsetDatacube"
-path<-"/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/"
-path<-"M:/MSGC_DATA/Deboullie/Imagery/100332_Deboullie_Push_flight_2020_07_21_15_19_27/"
+#path3<-"/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/SubsetDatacube"
+#path<-"/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/"
+#path<-"M:/MSGC_DATA/Deboullie/Imagery/100332_Deboullie_Push_flight_2020_07_21_15_19_27/"
+out_put<-"./Outputs/2_Imagery/Headwall/Extents/"
 
 files<-list.files(path)
 filenames<- subset(files,grepl(".hdr",files)==TRUE|grepl(".HDR",files)==TRUE)
-filenames<-file_path_sans_ext(filenames)  
-fileread<-lapply(1:length(filenames), function(x) {raster(paste(path,"/",filenames[x],sep=""))})  
+filenames<-lapply(1:length(filenames),function(x) {str_split(filenames[x], ".hdr")}) %>% unlist()  
+fileread<-lapply(1:length(filenames), function(x) {raster(paste(path,filenames[x],".hdr",sep=""))})  
 file_crs<-lapply(fileread,crs)  #%>% unlist() 
 ext_out<-lapply(fileread, extent) #%>% unlist() %>%
 file_list<-list(file_crs,ext_out)
@@ -58,7 +59,7 @@ file_polys<-lapply(1:length(file_extents[[2]]),
                    crs(r)<-r_crs
                    r_df<-as(r,"SpatialPolygonsDataFrame")
                    r_df_proj <- spTransform(r_df, CRS("+proj=longlat +datum=WGS84"))
-                   r_out<-writeOGR(r_df_proj, paste("Flight100332",x,".kml",sep=""),layer=paste("",x,""), driver="KML")
+                   r_out<-writeOGR(r_df_proj, paste(out_put,"Flight100332",x,".kml",sep=""),layer=paste("",x,""), driver="KML")
                    return(r_out)
                    })
 
@@ -70,16 +71,16 @@ file_check<-lapply(1:length(file_extents[[2]]),
 file_check
 
 file_check_poly<-lapply(1:length(file_extents[[2]]), 
-                        function(x)
-                        { 
-                          check<-as(file_extents[[2]][[x]],"list") %>% min %>% abs
-                          #tst1@xmin[1];
-                          if(check>0)
-                          {r<-as(file_extents[[2]][[x]],"SpatialPolygons") 
-                          r_crs<-unlist(file_extents[[1]][[x]])
-                          crs(r)<-r_crs
-                          r_df<-as(r,"SpatialPolygonsDataFrame")
-                          r_df_proj <- spTransform(r_df, CRS("+proj=longlat +datum=WGS84"))
-                          r_out<-writeOGR(r_df_proj, paste("Flight100332",x,".kml",sep=""),layer=paste("",x,""), driver="KML")
-                          return(r_out)}
-                        })
+   function(x)
+   { 
+     check<-as(file_extents[[2]][[x]],"list") %>% min %>% abs
+     #tst1@xmin[1];
+     if(check>0)
+     {r<-as(file_extents[[2]][[x]],"SpatialPolygons") 
+     r_crs<-unlist(file_extents[[1]][[x]])
+     crs(r)<-r_crs
+     r_df<-as(r,"SpatialPolygonsDataFrame")
+     r_df_proj <- spTransform(r_df, CRS("+proj=longlat +datum=WGS84"))
+     r_out<-writeOGR(r_df_proj, paste("Flight100332",x,".kml",sep=""),layer=paste("",x,""), driver="KML")
+     return(r_out)}
+   })
