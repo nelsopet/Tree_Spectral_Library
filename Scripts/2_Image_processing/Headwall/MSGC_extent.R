@@ -2,16 +2,22 @@
 
 #set different paths for testing
 #path<-"./Original_data/Headwall/MSGC_TST_IMG"
-path<-"./Original_data/Headwall/"
+#path<-"./Original_data/Headwall/"
 #path3<-"/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/SubsetDatacube"
 #path<-"/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/"
-#path<-"M:/MSGC_DATA/Deboullie/Imagery/100332_Deboullie_Push_flight_2020_07_21_15_19_27/"
-out_put<-"./Outputs/2_Imagery/Headwall/Extents/"
+path<-"M:/MSGC_DATA/Deboullie/Imagery/100332_Deboullie_Push_flight_2020_07_21_15_19_27/"
+#out_put<-"./Outputs/2_Imagery/Headwall/Extents/"
+out_put<-"./Outputs/Extents/"
 
 files<-list.files(path)
-filenames<- subset(files,grepl(".hdr",files)==TRUE|grepl(".HDR",files)==TRUE)
-filenames<-lapply(1:length(filenames),function(x) {str_split(filenames[x], ".hdr")}) %>% unlist()  
-fileread<-lapply(1:length(filenames), function(x) {raster(paste(path,filenames[x],".hdr",sep=""))})  
+#filenames<-subset(files,grepl("^raw",files)==TRUE)
+filenames<- subset(files,grepl(".hdr",files)==TRUE&grepl("^raw",files)|grepl(".HDR",files)==TRUE&grepl("^raw",files))
+filenames<-lapply(1:length(filenames),function(x) {str_split(filenames[x], ".hdr")}) %>% unlist(recursive = FALSE) %>% as.data.frame() %>% t() %>% as.data.frame() %>% dplyr::select(1) 
+#fileread<-lapply(1:length(filenames), function(x) {raster(paste(path,filenames[x],".hdr",sep=""))})  
+rownames(filenames)<-NULL
+filenames[1,1]
+fileread<-lapply(1:nrow(filenames), function(x) {raster(paste(path,filenames[x,1],sep=""))})  
+
 file_crs<-lapply(fileread,crs)  #%>% unlist() 
 ext_out<-lapply(fileread, extent) #%>% unlist() %>%
 file_list<-list(file_crs,ext_out)
