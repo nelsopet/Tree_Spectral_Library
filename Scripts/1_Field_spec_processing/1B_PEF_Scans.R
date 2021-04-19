@@ -2,6 +2,7 @@ library(spectrolab)
 library(tidyverse)
 require(Polychrome)
 require(gplots)
+require(OpenImageR)
 
 source("./Functions/Scan_Metadata_Reader.R")
 
