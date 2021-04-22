@@ -15,7 +15,8 @@ require(rgdal)
 #View images
 #path="./Original_data/Headwall/MSGC_TST_IMG.png"
 path="./Original_data/Headwall/MSGC_TST_IMG"
-
+#path ="M:/MSGC_DATA/MSGC_Report/Images/MSGCIMAGE.tif"
+#raster(path)
 tst<-brick(path)
 
 tst_rgb<-tst[[c(160,80,25)]]
@@ -48,7 +49,7 @@ tst_seg_26983_winSize21_Dist50  <-itcIMG(tst_proj_812, epsg = 26983, searchWinSi
 #tst_seg_26983_winSize21_Dist500 <-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = 21, DIST = 500) #Works with error
 #tst_seg_26983_winSize51_Dist100 <-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = 51, DIST = 100) #Works with error
 tst_seg_26983_winSize51_Dist500 <-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = 51, DIST = 500) #Works with error
-tst_seg_26983_winSize51_Dist1000<-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = 51, DIST = 1000) #Works with error
+#tst_seg_26983_winSize51_Dist1000<-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = 51, DIST = 1000) #Works with error
 
 
 #WinSizeTry = c(3,9,21,51,101)
@@ -71,41 +72,29 @@ tst_seg_26983_winSize51_Dist1000<-itcIMG(tst_proj_812, epsg = 26983, searchWinSi
 plot(tst_rgb)
 
 seg_group<-c(
-tst_seg_26983_winSize3_Dist50   
-,tst_seg_26983_winSize3_Dist100  
-,tst_seg_26983_winSize3_Dist500  
-,tst_seg_26983_winSize9_Dist100  
-,tst_seg_26983_winSize9_Dist500  
+ tst_seg_26983_winSize3_Dist50   
 ,tst_seg_26983_winSize9_Dist50   
 ,tst_seg_26983_winSize21_Dist50  
-,tst_seg_26983_winSize21_Dist100 
-,tst_seg_26983_winSize21_Dist500 
-,tst_seg_26983_winSize51_Dist100 
-,tst_seg_26983_winSize51_Dist500 
-,tst_seg_26983_winSize51_Dist1000)
-
+,tst_seg_26983_winSize51_Dist500)
 str(seg_group)
 plot(seg_group)
-seg_names<-c("tst_seg_26983_winSize3_Dist50   "
-,"tst_seg_26983_winSize3_Dist100  "
-,"tst_seg_26983_winSize3_Dist500  "
-,"tst_seg_26983_winSize9_Dist100  "
-,"tst_seg_26983_winSize9_Dist500  "
-,"tst_seg_26983_winSize9_Dist50   "
-,"tst_seg_26983_winSize21_Dist50  "
-,"tst_seg_26983_winSize21_Dist100 "
-,"tst_seg_26983_winSize21_Dist500 "
-  ,"tst_seg_26983_winSize51_Dist100 "
-  ,"tst_seg_26983_winSize51_Dist500 "
-  ,"tst_seg_26983_winSize51_Dist1000")
+seg_names<-c(
+  
+  "tst_seg_26983_winSize3_Dist50  "
+  ,"tst_seg_26983_winSize9_Dist50  "
+  ,"tst_seg_26983_winSize21_Dist50 "
+  ,"tst_seg_26983_winSize51_Dist500"
+)
 
 
 
-#writeOGR(tst_seg_26983, dsn = "./Outputs/2_Imagery/Headwall/Segments/", driver="ESRI Shapefile" , layer="tst_seg_26983")
+writeOGR(tst_seg_26983, dsn = "./Outputs/2_Imagery/Headwall/Segments/", driver="ESRI Shapefile" , layer="tst_seg_26983")
 #seg_group[1]
-#lapply(1:dim(seg_group[1]), function(x){
-#writeOGR(seg_group[x], dsn = "./Outputs/2_Imagery/Headwall/Segments/", driver="ESRI Shapefile" , layer=paste(seg_group[x]))
-#})
+#writeOGR(tst_seg_26983_winSize3_Dist50, dsn = "./Outputs/2_Imagery/Headwall/Segments/", driver="ESRI Shapefile" , layer="tst_seg_26983_winSize3_Dist50")
+
+lapply(1:length(seg_group), function(x){
+writeOGR(seg_group[[x]], dsn = "./Outputs/2_Imagery/Headwall/Segments/", driver="ESRI Shapefile" , layer=paste("'",seg_group[[x]],"'"))
+})
 
 pdf("./Outputs/2_Imagery/Headwall/Segments/test_forest_canopy_segments.pdf")
 lapply(1:length(seg_group),
