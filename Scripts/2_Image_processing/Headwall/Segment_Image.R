@@ -138,6 +138,7 @@ lapply(1:length(seg_group), function(x){
 writeOGR(seg_group[[x]], dsn = paste("Outputs/2_Imagery/Headwall/Segments/",x,".shp",sep=""), driver="ESRI Shapefile" , layer=x)
 })
 
+
 pdf("./Outputs/2_Imagery/Headwall/Segments/test_forest_canopy_segments.pdf")
 lapply(1:length(seg_group),
 function(x){
@@ -148,6 +149,20 @@ title(main =seg_names[x])
 #ggplot(seg_group[[1]],aes(X,Y))+geom_polygon()
 dev.off()
 
+
+lapply(1:length(tst2_segments), function(x){
+  writeOGR(tst2_segments[[x]], dsn = paste("Outputs/2_Imagery/Headwall/Segments/full_cube_test/",x,".shp",sep=""), driver="ESRI Shapefile" , layer=x)
+})
+
+jpeg("./Outputs/2_Imagery/Headwall/Segments/full_cube_test/full_cube_test_forest_canopy_segments.jpeg")
+lapply(1:length(tst2_segments),
+       function(x){
+         plot(tst2_segments[[x]])
+         title(main =paste("segment", x))
+       })
+dev.off(
+  
+)
 #tst_seg_42310<-itcIMG(tst_proj_812, epsg = 42310) #Fail ... I need to reproject first 
   #Error in sp::CRS(paste("+init=epsg:", epsg, sep = "")) : 
   #no arguments in initialization list
