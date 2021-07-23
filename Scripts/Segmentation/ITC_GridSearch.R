@@ -85,11 +85,14 @@ cropped_shape <- raster::crop(
     transformed_trees,
     raster::extent(transformed_master_raster))
 
+rm(test_raster)
+gc()
+
 save_directory <- "Outputs/ImageSegmentationSearch/"
 thresholds <- c(0.4, 0.5, 0.6)
 threshold_delta <- c(0.05, 0.1, 0.15)
 distances <- c(10, 20, 30)
-window_sizes <- c(11, 35, 51)
+window_sizes <- c(15, 35, 51)
 # good question: other wavelengths;
 # shelve for later
 # could do gradient descent on linear functional from spectra to model input
@@ -116,28 +119,14 @@ for (dist in distances) {
             dist,
             ".png",
             sep = "_")
+
         # save plot image
         png(filename = plot_filename)
         plot(image_data)
-        plot(segments, add = TRUE)
-        plot(cropped_shape, add = TRUE)
+        plot(segments, border = "blue", add = TRUE)
+        plot(cropped_shape, border = "red", add = TRUE)
         dev.off()
 
-        # name for the shapefile
-        shape_filepath <- paste(
-            save_directory,
-            "shp",
-            window,
-            dist,
-            sep = "_"
-            )
-        # write to disk as ESRI shapefile.  
-        #See rgdal::ogrDrivers() for complete list of drivers/formats
-        rgdal::writeOGR(
-            segments, 
-            shape_filepath,
-            "Segmentation",
-            "ESRI Shapefile"
-        )
+        gc()
     }
 }
