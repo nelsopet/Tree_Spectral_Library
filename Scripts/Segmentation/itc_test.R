@@ -65,6 +65,8 @@ tree_segments <- itcSegment::itcIMG(
     imagery = as(projected_raster, "RasterLayer"),
     epsg = epsg_code,
     searchWinSize = search_window_size,
+    TRESHSeed = 0.5,
+    TRESHCrown = 0.6,
     DIST = min_distance)
 
 

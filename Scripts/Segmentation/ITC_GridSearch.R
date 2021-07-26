@@ -14,6 +14,7 @@ require(itcSegment)
 
 
 # get relevant CRS
+# comment of solving this problem
 epsg_code <- 26983
 target_wkt <- sf::st_crs(epsg_code)[[2]]
 print(target_wkt)
@@ -23,7 +24,7 @@ print(target_crs)
 # define tile files for the test
 base_tile_path <- paste0(
     getwd(),
-    "/Data/raw_15366_rd_rf_or/Tiles/A_001_raw_rd_rf_or_Tile_"
+    "/Data/raw_15366_rd_rf_or/Tiles/A_001_raw_15366_rd_rf_or_Tile_"
     )
 tile_paths <- c(
     paste0(base_tile_path, 16, ".envi"),
@@ -34,6 +35,7 @@ tile_paths <- c(
 )
 
 # define function to merge the tiles and extract the correct band
+# should live in general lecospec
 merge_tiles <- function(input_files, output_path = NA) {
 
     master_raster <- as(raster::brick(input_files[[1]])[[225]], "RasterLayer")
@@ -61,7 +63,7 @@ merge_tiles <- function(input_files, output_path = NA) {
 test_raster <- merge_tiles(tile_paths)
 
 image_data <- raster::projectRaster(
-    master_raster,
+    test_raster,
     crs = target_crs,
     method = "bilinear")
 
@@ -83,7 +85,7 @@ transformed_trees <- sp::spTransform(
 
 cropped_shape <- raster::crop(
     transformed_trees,
-    raster::extent(transformed_master_raster))
+    raster::extent(image_data))
 
 rm(test_raster)
 gc()
@@ -91,8 +93,8 @@ gc()
 save_directory <- "Outputs/ImageSegmentationSearch/"
 thresholds <- c(0.4, 0.5, 0.6)
 threshold_delta <- c(0.05, 0.1, 0.15)
-distances <- c(10, 20, 30)
-window_sizes <- c(15, 35, 51)
+distances <- c(30, 35, 40)
+window_sizes <- c(25, 35, 45)
 # good question: other wavelengths;
 # shelve for later
 # could do gradient descent on linear functional from spectra to model input
@@ -103,30 +105,40 @@ window_sizes <- c(15, 35, 51)
 
 for (dist in distances) {
     for (window in window_sizes) {
-        # create segmentation 
-        segments <- itcSegment::itcIMG(
-            imagery = image_data,
-            epsg = 26983,
-            searchWinSize = window,
-            DIST = dist
-        )
+        for (thresh_base in thresholds) {
+            for (delta_t in threshold_delta) {
+                # create segmentation 
+                segments <- itcSegment::itcIMG(
+                    imagery = image_data,
+                    epsg = 26983,
+                    TRESHSeed = thresh_base,
+                    TRESHCrown = (thresh_base + delta_t),
+                    searchWinSize = window,
+                    DIST = dist
+                )
 
-        # create filename for the plot
-        plot_filename <- paste(
-            save_directory,
-            "img",
-            window,
-            dist,
-            ".png",
-            sep = "_")
+                # create filename for the plot
+                plot_filename <- paste(
+                    save_directory,
+                    "img",
+                    window,
+                    dist,
+                    thresh_base,
+                    delta_t,
+                    ".png",
+                    sep = "_")
 
-        # save plot image
-        png(filename = plot_filename)
-        plot(image_data)
-        plot(segments, border = "blue", add = TRUE)
-        plot(cropped_shape, border = "red", add = TRUE)
-        dev.off()
+                # save plot image
+                png(filename = plot_filename)
+                plot(image_data)
+                plot(segments, border = "blue", add = TRUE)
+                plot(cropped_shape, border = "red", add = TRUE)
+                dev.off()
 
-        gc()
+                # note the memory management issue
+                gc()
+
+           }
+        }
     }
 }
