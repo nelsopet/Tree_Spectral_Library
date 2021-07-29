@@ -1,7 +1,7 @@
 
 Data/
-Output/
 *.envi
+Outputs/
 merged_test_tiles_projected.gri
 merged_test_tiles_15366.grd
 merged_test_tiles_15366.gri
