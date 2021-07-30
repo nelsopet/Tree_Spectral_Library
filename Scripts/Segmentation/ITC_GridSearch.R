@@ -128,6 +128,12 @@ for (dist in distances) {
                     ".png",
                     sep = "_")
 
+                shape_filename <- paste0(
+                    save_directory,
+                    "shp",
+                    
+                )
+
                 # save plot image
                 png(filename = plot_filename)
                 plot(image_data)

@@ -50,7 +50,7 @@ crop_raster_to_shapes <- function(raster_obj, spdf, epsg = NA) {
     return(cropped_rasters)
 }
 
-get_raster_uniform_acc <- function(
+raster_uniform_acc <- function(
     raster_obj,
     ground_truth_label
     ) {
@@ -59,10 +59,11 @@ get_raster_uniform_acc <- function(
     # return num_correct / nrows(df)
     df <- raster::rasterToPoints(raster_obj)
     num_pts <- nrow(df)
-    target_col_name <- colnames(df)[[3]] 
+    target_col_name <- colnames(df)[[3]]
     num_correct <- nrow(dplyr::filter(
-        df, 
+        df,
         target_col_name == ground_truth_label)
         )
     return(num_correct / num_pts)
 }
+
