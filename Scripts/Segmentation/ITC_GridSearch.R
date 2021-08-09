@@ -17,9 +17,7 @@ require(itcSegment)
 # comment of solving this problem
 epsg_code <- 26983
 target_wkt <- sf::st_crs(epsg_code)[[2]]
-print(target_wkt)
 target_crs <- sp::CRS(target_wkt)
-print(target_crs)
 
 # define tile files for the test
 base_tile_path <- paste0(
