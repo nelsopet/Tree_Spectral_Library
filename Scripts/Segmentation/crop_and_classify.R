@@ -4,23 +4,25 @@ require(sp)
 require(sf)
 
 #' crops a given raster opject to a shapefile
-#' 
+#'
 #' Long Description here
-#' 
+#'
 #' @inheritParams None
-#' @return A raster object, cropped to fit inside the given 
+#' @return A raster object, cropped to fit inside the given
 #' spatialPolygonsDataFrame
-#' @param rsater_obj: A raster object 
-#' (RasterLayer, RasterStack, or RasterBrick).  
-#' @param spdf: A SpatialPolygonsDataFrame.  
+#' @param rsater_obj: A raster object
+#' (RasterLayer, RasterStack, or RasterBrick).
+#' @param spdf: A SpatialPolygonsDataFrame.
 #' @param epsg: An epsg code for the output raster (optional).
-#' If epsg is not given, the two inputs are assumed to have the same 
-#' projection/crs.  If epsg is provided, the inputs will be projected to that epsg code 
+#' If epsg is not given, the two inputs are assumed to have the same
+#' projection/crs.
+#'
+#' If epsg is provided, the inputs will be projected to that epsg code
 #' and then cropped.
 #' @seealso None
 #' @export 
 #' @examples Not Yet Implmented
-#' 
+#'
 crop_raster_to_shape <- function(raster_obj, spdf, epsg = NA) {
     if(!is.na(epsg)) {
         target_wkt <- sf::st_crs(epsg)[[2]]
@@ -37,10 +39,10 @@ crop_raster_to_shape <- function(raster_obj, spdf, epsg = NA) {
     }
 }
 
-#' crops a raster to each polygon in a SpatialPolygonsDataFrame 
+#' crops a raster to each polygon in a SpatialPolygonsDataFrame individually
 #' 
 #' Crops a raster object to each polygon in a SpatialPolygonsDataFrame
-#' individually, and returns the results in a list.  Raster objects 
+#' individually, and returns the results in a list.  Raster objects
 #' will tbe the same type as the input raster, except that RasterStacks may
 #' be converted to other types.  Also handles projection of the inputs
 #' to the same projection scheme if an EPSG code is provided.
@@ -61,29 +63,30 @@ crop_raster_to_shape <- function(raster_obj, spdf, epsg = NA) {
 crop_raster_to_shapes <- function(raster_obj, spdf, epsg = NA) {
     num_polygons <- nrow(spdf)
     cropped_rasters <- list()
+    # if an EPSG is specified, project the object to that CRS
     if (!is.na(epsg)) {
         target_wkt <- sf::st_crs(epsg)[[2]]
         target_crs <- sp::CRS(target_wkt)
         projected_ras <- raster::projectRaster(
-            raster_obj, 
+            raster_obj,
             crs = target_crs,
             method = "bilinear")
 
         projected_spdf <- sp::spTransform(spdf, target_crs)
-        
+        # then add the cropped raster to the list
         for (i in seq_len(num_polygons)) {
             cropped_ras <- crop_raster_to_shape(
                 projected_ras,
                 projected_spdf[i,])
             append(cropped_rasters, cropped_ras)
         }
+        # if no EPSG is specified, just crop
     } else {
         for (i in seq_len(num_polygons)) {
             cropped_ras <- crop_raster_to_shape(
                 raster_obj,
                 spdf[i,])
             append(cropped_rasters, cropped_ras)
-    
         }
     }
     return(cropped_rasters)
@@ -212,3 +215,4 @@ filter_segmentation <- function(predicted, targets) {
     return(predicted[idxs])
 }
 
+extract_segments_spectra <- function(raster_obj, )
