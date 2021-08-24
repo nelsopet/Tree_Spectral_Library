@@ -125,7 +125,7 @@ raster_uniform_acc <- function(
 
 #' gets the centroids for a SpatialPolygonsDataFrame
 #' 
-#' this function is a wrapped on rgeos::gCentroid() that enables
+#' this function is a wrapper on rgeos::gCentroid() that enables
 #' faster computation and applies to each polygon in a 
 #' SpatialPolygonsDataFrame individually
 #' 
@@ -141,13 +141,17 @@ get_centroids <- function(shapes) {
         shapes,
         FUN = rgeos::gCentroid
     )
+    print(centroids$features)
     return(centroids)
 }
 
 
-#' Calculates the Euclidian 
+#' Calculates the Euclidian distance between two (x,y) points.
 #' 
-#' Long Description here
+#' Calculates the PLANAR euclidean distance between two (x,y) points.
+#' Assumes a planar (flat, distance-based) projection is used, 
+#' NOT an angular, curved, or 3D one.
+#' E.g. NO WSG!  Won't give the correct distances from degree-based measures
 #' 
 #' @inheritParams None
 #' @return explanation
@@ -164,7 +168,19 @@ euclidean_distance <- function(x1, x2, y1, y2) {
 }
 
 
-# define a helper function; finds minimum in each row of a matrix
+#' Finds the minimum of a column 
+#' 
+#' A helper function complementary to max.col.
+#' Returns the minimum of a column from a data.frame.
+#' See max.col for more information
+#' 
+#' @inheritParams None
+#' @return explanation
+#' @param m
+#' @seealso max.col()
+#' @export 
+#' @examples Not Yet Implmented
+#' 
 min.col <- function(m, ...) max.col(-m, ...)
 
 #' Finds the nearest neighbor centroids between two lists of centroids
@@ -185,11 +201,11 @@ match_centroids <- function(predicted, targets) {
 
     for(i in seq_len(num_targets)){
         for(j in seq_len(num_pred)) {
-            distances[[i,j]] <- euclidean_distance(
-                targets[[i,1]],
-                predicted[[j,1]],
-                targets[[i,2]],
-                predicted[[j,2]]
+            distances[[i, j]] <- euclidean_distance(
+                targets[[i, 1]],
+                predicted[[j, 1]],
+                targets[[i, 2]],
+                predicted[[j, 2]]
             )
         }
     }
@@ -211,8 +227,35 @@ match_centroids <- function(predicted, targets) {
 filter_segmentation <- function(predicted, targets) {
     target_centroids <- get_centroids(targets)
     predicted_centroids <- get_centroids(predicted)
-    idxs <- match_centroids(predicted_centroids, target_centroids)
+    idxs <- match_centroids(
+        predicted_centroids,
+        target_centroids)
     return(predicted[idxs])
 }
 
-extract_segments_spectra <- function(raster_obj, )
+
+#' Extracts the spectra based on the center of the segmentation
+#' 
+#' Long Description here
+#' 
+#' @inheritParams None
+#' @return explanation
+#' @param
+#' @seealso None
+#' @export 
+#' @examples Not Yet Implmented
+#' 
+extract_center_segments_spectra <- function(raster_obj, segments) {
+    centroid_points <- get_centroids(segments)
+    raster_points <- raster::rasterToPoints(raster_obj)
+    closest_pixels_to_centroids <- match_centroids(
+        centroid_points,
+        raster_points)
+    extracted_spectra <- raster_points[closest_pixels_to_centroids, ]
+
+    return(extracted_spectra)
+}
+
+assign_segments_to_mode_class <- function(raster_obj, segments){
+
+}

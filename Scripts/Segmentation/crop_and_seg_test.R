@@ -98,6 +98,36 @@ segments <- itcSegment::itcIMG(
 # filter the segmentation
 filtered_segments <- filter_segmentation(segments, cropped_shape)
 
-# load the predictions
-prediction_path <- ""
-prediction_raster <- raster::raster()
+
+
+merge_brick <- function(input_files, output_path = NA) {
+
+    master_raster <- as(raster::brick(input_files[[1]]), "RasterBrick")
+        print("Extent of first tile:")
+        print(raster::extent(master_raster))
+
+    for (input_file in tail(input_files, -1)) {
+        new_raster <- as(raster::brick(input_file), "RasterBrick")
+        print("Extent of tile:")
+        print(raster::extent(new_raster))
+        master_raster <- raster::merge(
+            master_raster,
+            new_raster,
+            tolerance = 0.5)
+    }
+    if(!is.na(output_path)) {
+        raster::writeRaster(master_raster, output_path)
+    }
+    return(master_raster)
+}
+
+
+base_raster_brick <- merge_brick(tile_paths)
+projected_brick <- raster::projectRaster(
+    base_raster_brick,
+    crs = target_crs,
+    method = "bilinear"
+)
+spectra <- extract_segments_spectra(projected_brick, filtered_segments)
+
+plot(spectra[[1]])
