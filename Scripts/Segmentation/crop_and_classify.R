@@ -10,7 +10,7 @@ require(sf)
 #' @inheritParams None
 #' @return A raster object, cropped to fit inside the given
 #' spatialPolygonsDataFrame
-#' @param rsater_obj: A raster object
+#' @param raster_obj: A raster object
 #' (RasterLayer, RasterStack, or RasterBrick).
 #' @param spdf: A SpatialPolygonsDataFrame.
 #' @param epsg: An epsg code for the output raster (optional).
@@ -19,22 +19,23 @@ require(sf)
 #'
 #' If epsg is provided, the inputs will be projected to that epsg code
 #' and then cropped.
+#' 
 #' @seealso None
 #' @export 
 #' @examples Not Yet Implmented
 #'
-crop_raster_to_shape <- function(raster_obj, spdf, epsg = NA) {
+crop_raster_to_shape <- function(raster_obj, spdf, epsg = NA, method="bilinear") {
     if(!is.na(epsg)) {
         target_wkt <- sf::st_crs(epsg)[[2]]
         target_crs <- sp::CRS(target_wkt)
         projected_ras <- raster::projectRaster(
-            raster_obj, 
+            raster_obj,
             crs = target_crs,
-            method = "bilinear")
+            method = method)
         projected_spdf <- sp::spTransform(spdf, target_crs)
         cropped_ras <- raster::crop(projected_ras, projected_spdf)
         return(cropped_ras)
-    } else {
+    } else { #this is likely source of error; add CRS validation
         return(raster::crop(raster_obj, spdf))
     }
 }
@@ -113,14 +114,21 @@ raster_uniform_acc <- function(
     # convert raster to data.frame
     # compare each entry to target
     # return num_correct / nrows(df)
-    df <- raster::rasterToPoints(raster_obj)
+    df <- raster::rasterToPoints(raster_obj, target_col = 3)
     num_pts <- nrow(df)
-    target_col_name <- colnames(df)[[3]]
+    target_col_name <- colnames(df)[[target_col]]
     num_correct <- nrow(dplyr::filter(
         df,
         target_col_name == ground_truth_label)
         )
+    # ADD: confusion matrix for segemented tree
     return(num_correct / num_pts)
+}
+
+segmentation_mode <- function(raster_obj, target_col = 3) {
+    df <- raster::rasterToPoints(raster_obj)
+    majority_val <- mode(df[[target_col]])
+    return(majority_val)
 }
 
 #' gets the centroids for a SpatialPolygonsDataFrame
@@ -140,7 +148,7 @@ get_centroids <- function(shapes) {
     centroids <- apply(
         shapes,
         FUN = rgeos::gCentroid
-    )
+    ) # may massage output to list
     print(centroids$features)
     return(centroids)
 }
@@ -165,8 +173,8 @@ euclidean_distance <- function(x1, x2, y1, y2) {
     delta_y_squared <- (y1 - y2)^2
     distance <- sqrt(delta_x_squared + delta_y_squared)
     return(distance)
-}
-
+} # replace with something from geospatial packages?
+# dist function is 
 
 #' Finds the minimum of a column 
 #' 
@@ -201,7 +209,7 @@ match_centroids <- function(predicted, targets) {
 
     for(i in seq_len(num_targets)){
         for(j in seq_len(num_pred)) {
-            distances[[i, j]] <- euclidean_distance(
+            distances[[i, j]] <- euclidean_distance(#use dist instead?
                 targets[[i, 1]],
                 predicted[[j, 1]],
                 targets[[i, 2]],
@@ -256,6 +264,10 @@ extract_center_segments_spectra <- function(raster_obj, segments) {
     return(extracted_spectra)
 }
 
-assign_segments_to_mode_class <- function(raster_obj, segments){
+assign_segments_to_mode_class <- function(raster_obj, segments) {
+    
+}
+
+extract_pixels_near_center <- function(raster, segments, epsilon=0.1) {
 
 }

@@ -131,3 +131,7 @@ projected_brick <- raster::projectRaster(
 spectra <- extract_segments_spectra(projected_brick, filtered_segments)
 
 plot(spectra[[1]])
+
+
+## To do: Move lecospec funcitonality to move
+# 1. Pull tree reposito
