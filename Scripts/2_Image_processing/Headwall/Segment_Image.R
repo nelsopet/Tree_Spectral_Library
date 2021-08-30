@@ -17,8 +17,8 @@ library(parallel)
 library(randomForest)
 #View images
 #path="./Original_data/Headwall/MSGC_TST_IMG.png"
-path1="./Original_data/Headwall/MSGC_TST_IMG" # This works
-path2 = "M:/MSGC_DATA/Howland/Imagery/100043_Howland_plot_7b_110m_2019_07_09_16_35_19/Orthos/raw_0_rd_rf_or"
+path1 <- "Data/MSGC_TST_IMG" # This works
+path2 <- "M:/MSGC_DATA/Howland/Imagery/100043_Howland_plot_7b_110m_2019_07_09_16_35_19/Orthos/raw_0_rd_rf_or"
 #path ="M:/MSGC_DATA/MSGC_Report/Images/MSGCIMAGE.tif"
 #raster(path)
 
@@ -47,7 +47,7 @@ new_prj<-crs(new_prj)
 help(CRS)
 
 tst_812<-tst$Resize..Band.225.raw_0_rd_rf_or...812.390000.Nanometers.
-  tst_812_proj<-projectRaster(tst_812, crs=new_prj)
+tst_812_proj<-projectRaster(tst_812, crs=new_prj)
   
   
 tst2_812<-tst2$X812.39.nm
@@ -67,13 +67,17 @@ tst2_812_proj<-as(tst2_812_proj,"RasterLayer")
 
 
 ##Very slow to run
-#tst_seg_4326_winSize51_Dist500 <-itcIMG(tst_proj_812, epsg = 4326, searchWinSize = 51, DIST = 500) #Works with error
+tst_seg_4326_winSize51_Dist500 <-itcIMG(
+  tst_812_proj,
+  epsg = 26983,
+  searchWinSize = 51,
+  DIST = 500) #Works with error
 ##Very very slow to run .. hours
 #tst2_seg_4326_winSize51_Dist500 <-itcIMG(tst2_812_proj, epsg = 4326, searchWinSize = 51, DIST = 500) #
 
 #tst2_tile1_seg_4326_winSize51_Dist500 <-itcIMG(tst2_812_tiles[[1]], epsg = 4326, searchWinSize = 51, DIST = 500) #Throws projection error
   #Error in `proj4string<-`(`*tmp*`, value = sp::CRS(paste("+init=epsg:",  : Geographical CRS given to non-conformant data:   69427.2832844 -218911.3310360
-tst2_tile1_seg_26983_winSize51_Dist500 <-itcIMG(tst2_812_tiles[[1]], epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
+tst2_tile1_seg_26983_winSize51_Dist500 <-itcIMG(tst_812_proj, epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
   plot(tst2_tile1_seg_26983_winSize51_Dist500)
 
 tst2_tile2_seg_26983_winSize51_Dist500 <-itcIMG(tst2_812_tiles[[2]], epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
@@ -143,7 +147,7 @@ pdf("./Outputs/2_Imagery/Headwall/Segments/test_forest_canopy_segments.pdf")
 lapply(1:length(seg_group),
 function(x){
 plot(seg_group[[x]])
-title(main =seg_names[x])
+title(main = seg_names[x])
 })
   #plotRGB(tst, r=160, g=80, b=25, stretch="lin")
 #ggplot(seg_group[[1]],aes(X,Y))+geom_polygon()
