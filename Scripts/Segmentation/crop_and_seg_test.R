@@ -128,10 +128,7 @@ projected_brick <- raster::projectRaster(
     crs = target_crs,
     method = "bilinear"
 )
-spectra <- extract_spectra(projected_brick, filtered_segments)
-
-plot(spectra[[1, ]])
-
-
-## To do: Move lecospec funcitonality to move
-# 1. Pull tree reposito
+spectra <- extract_spectra(projected_brick, segments)
+spectra_2 <- extract_center_segments_spectra(projected_brick, segments)
+print(dim(spectra))
+plot(spectra[8, 3:280])
