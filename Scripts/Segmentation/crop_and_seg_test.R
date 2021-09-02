@@ -128,9 +128,9 @@ projected_brick <- raster::projectRaster(
     crs = target_crs,
     method = "bilinear"
 )
-spectra <- extract_segments_spectra(projected_brick, filtered_segments)
+spectra <- extract_spectra(projected_brick, filtered_segments)
 
-plot(spectra[[1]])
+plot(spectra[[1, ]])
 
 
 ## To do: Move lecospec funcitonality to move
