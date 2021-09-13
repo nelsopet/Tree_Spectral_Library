@@ -433,12 +433,10 @@ extract_spectra_by_radius <- function(raster_obj, segments, threshold = 1000) {
 
 extract_spectra <- function(raster_obj, segments) {
     cropped_ras <- crop_raster_to_shapes(raster_obj, segments)
-    print(paste0("List of Cropped Rasters has length ", length(cropped_ras)))
     spectra_df_list <- lapply(
         cropped_ras,
         raster::rasterToPoints
     )
-    print(paste0("List of spectral data-frames has length", length(spectra_df_list)))
     spectra_df <- condense_df_list(spectra_df_list)
     return(spectra_df)
 }
