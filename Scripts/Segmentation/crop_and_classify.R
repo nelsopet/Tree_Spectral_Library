@@ -446,3 +446,14 @@ get_raster_mode <- function(raster_obj) {
     mode_val <- stat_mode(raster_df[[3]])
     return(mode_val)
 }
+
+jaccard_index <- function(raster_one, raster_two, epsg = NA) {
+    intersection_ras <- raster::instersect(raster_one, raster_two)
+    intersection_area <- raster::area(intersection_ras, na.rm = TRUE)
+    union_ras <- raster::union(raster_one, raster_two)
+    union_area <- raster::area(union_ras, na.rm = TRUE)
+    jaccard <- intersection_area / union_area
+    return(jaccard)
+}
+
+
