@@ -430,7 +430,18 @@ extract_spectra_by_radius <- function(raster_obj, segments, threshold = 1000) {
     return(pixel_df)
 }
 
-
+#' Extracts the spectra from the entire segment
+#' 
+#' Long Description here
+#' 
+#' @inheritParams None
+#' @return explanation
+#' @param raster_obj: a raster object (RasterLayer, RasterBrick, or RasterStack)
+#' @param segments: segmentation results, a spatialPolygonsDataFrame
+#' @seealso None
+#' @export 
+#' @examples Not Yet Implmented
+#' 
 extract_spectra <- function(raster_obj, segments) {
     cropped_ras <- crop_raster_to_shapes(raster_obj, segments)
     spectra_df_list <- lapply(
@@ -441,12 +452,39 @@ extract_spectra <- function(raster_obj, segments) {
     return(spectra_df)
 }
 
-get_raster_mode <- function(raster_obj) {
+#' gets the mode class from a raster of classes
+#' 
+#' Long Description here
+#' 
+#' @inheritParams None
+#' @return explanation
+#' @param raster_obj: a RasterLayer object 
+#' (assumes one layer; layers after the first are ignored)
+#' @seealso None
+#' @export 
+#' @examples Not Yet Implmented
+#' 
+raster_mode <- function(raster_obj) {
     raster_df <- raster::rasterToPoints(raster_obj)
     mode_val <- stat_mode(raster_df[[3]])
     return(mode_val)
 }
 
+#' calculates the jaccard index for two rasters
+#' 
+#' Calculates the jaccard index as the ratio of the area of the
+#' intersection of the rasters to the area of the union of the rasters.
+#' Returns the result as a floating-point number in the interval [0,1].
+#' Order of inputs is irrelevant. 
+#' 
+#' @inheritParams None
+#' @return explanation
+#' @param raster_one: a raster object (RasterLayer, RasterBrick, or RasterStack)
+#' @param raster_two: a raster object (RasterLayer, RasterBrick, or RasterStack)
+#' @seealso None
+#' @export 
+#' @examples Not Yet Implmented
+#' 
 jaccard_index <- function(raster_one, raster_two, epsg = NA) {
     intersection_ras <- raster::instersect(raster_one, raster_two)
     intersection_area <- raster::area(intersection_ras, na.rm = TRUE)
@@ -457,3 +495,36 @@ jaccard_index <- function(raster_one, raster_two, epsg = NA) {
 }
 
 
+run_segmentation <- function(raster_obj){
+    
+}
+#hookset9105 images
+
+assign_target_to_segment <- function(raster_obj, target_class = raster_mode(raster_obj)) {
+    df <- raster::rasterToPoints(raster_obj)
+    df[, 3] <- target_class
+    altered_raster <- raster::rasterFromXYZ(df)
+    return(altered_raster)
+}
+
+# convert to percentage of area for 
+# plot histogram of frequency of targets
+
+merge_raster_list <- function(input_files, output_path = NA) {
+    num_files <- length(input_files)
+     master_raster <- as(input_files[[1]], "RasterLayer")
+
+    for (input_file in input_files[2:num_files]) {
+        new_raster <- as(input_file, "RasterLayer")
+        master_raster <- raster::merge(
+            master_raster,
+            new_raster,
+            tolerance = 0.5)
+        
+    }
+    if(!is.na(output_path)) {
+        raster::writeRaster(master_raster, output_path)
+    }
+
+    return(master_raster)
+}

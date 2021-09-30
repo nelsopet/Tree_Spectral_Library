@@ -12,6 +12,7 @@ require(itcSegment)
 # Theme 4 cross-polination w/ theme 1
 # week of July 19
 
+source("./Scripts/Segmentation/crop_and_classify.R")
 
 # get relevant CRS
 # comment of solving this problem
@@ -34,7 +35,7 @@ tile_paths <- c(
 
 # define function to merge the tiles and extract the correct band
 # should live in general lecospec
-merge_tiles <- function(input_files, output_path = NA) {
+merge_tile_layers <- function(input_files, output_path = NA) {
 
     master_raster <- as(raster::brick(input_files[[1]])[[225]], "RasterLayer")
         print("Extent of first tile:")
@@ -58,7 +59,7 @@ merge_tiles <- function(input_files, output_path = NA) {
 }
 
 # load the data from the relevant tiles
-test_raster <- merge_tiles(tile_paths)
+test_raster <- merge_tile_layers(tile_paths)
 
 image_data <- raster::projectRaster(
     test_raster,
