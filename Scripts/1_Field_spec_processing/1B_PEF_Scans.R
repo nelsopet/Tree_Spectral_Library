@@ -66,7 +66,10 @@ saveRDS(PEF_spectra      ,"Outputs/PEF_spectra.rds")
 ##############
 #Combine spectra
 tst<-c(PEF_07082019_spectra, PEF_06182019_spectra, PEF_06192019_spectra)
-spectrolab::combine(PEF_07082019_spectra, PEF_06182019_spectra)
+
+tst<-spectrolab::combine(PEF_07082019_spectra, PEF_06182019_spectra)
+
+PEF_dates_spectra<-spectrolab::combine(tst,PEF_07082019_spectra)
 
 
 # Import file path names of .rds files into character list (Spectral libraries based on each location in alaska) 
