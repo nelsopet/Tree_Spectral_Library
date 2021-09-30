@@ -7,3 +7,6 @@ merged_test_tiles_15366.grd
 merged_test_tiles_15366.gri
 merged_test_tiles_projected.grd
 Scripts/Segmentation/alg_test.ipynb
+Outputs/Howland_spectra.rds
+automatically_extracted_spectra.csv
+manually_extracted_spectra.csv

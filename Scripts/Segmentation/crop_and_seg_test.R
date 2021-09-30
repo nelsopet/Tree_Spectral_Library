@@ -129,6 +129,5 @@ projected_brick <- raster::projectRaster(
     method = "bilinear"
 )
 spectra <- extract_spectra(projected_brick, segments)
-spectra_2 <- extract_center_segments_spectra(projected_brick, segments)
 print(dim(spectra))
 plot(spectra[8, 3:280])
