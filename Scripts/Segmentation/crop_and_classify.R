@@ -38,10 +38,10 @@ crop_raster_to_shape <- function(
             crs = target_crs,
             method = method)
         projected_spdf <- sp::spTransform(spdf, target_crs)
-        cropped_ras <- raster::crop(projected_ras, projected_spdf)
+        cropped_ras <- raster::mask(projected_ras, projected_spdf)
         return(cropped_ras)
     } else { #this is likely source of error; add CRS validation
-        return(raster::crop(raster_obj, spdf))
+        return(raster::mask(raster_obj, spdf))
     }
 }
 
@@ -528,3 +528,4 @@ merge_raster_list <- function(input_files, output_path = NA) {
 
     return(master_raster)
 }
+
