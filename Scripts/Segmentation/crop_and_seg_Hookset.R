@@ -1,7 +1,10 @@
 source("Scripts/Segmentation/crop_and_classify.R")
-
-
-
+require(raster)
+require(terra)
+require(tidyverse)
+require(leaflet)
+require(leafem)
+require(rgdal)
 ## Messy data loading
 # get relevant CRS
 # comment of solving this problem
@@ -10,49 +13,178 @@ target_wkt <- sf::st_crs(epsg_code)[[2]]
 target_crs <- sp::CRS(target_wkt)
 
 
+##NHTI 0 data cube
+nhti_path = "D:/Chan_Thesis_Missions/Ash_07262019/100145_ash_nhti_2019_07_28_18_03_33"
+nhti_input_file_path <- paste(nhti_path, "raw_0_rd_rf_or", sep="/")
+nhti_image_data <- brick(nhti_input_file_path)
+nhti_image_data_RGB<-nhti_image_data[[c("X701.284.nm","X551.29.nm","X425.369.nm")]]
+nhti_image_data_812nm<-nhti_image_data$X812.39.nm
 
+nhti_image_data_812nm_proj<--raster::projectRaster(
+  nhti_image_data_812nm,
+  crs = target_crs,
+  method = "bilinear")
+
+nhti_image_data_RGB_proj<--raster::projectRaster(
+  nhti_image_data_RGB,
+  crs = target_crs,
+  method = "bilinear")
+
+leaflet(nhti_image_data_RGB_proj) %>%
+  leaflet::addTiles("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                    options = providerTileOptions(minZoom = 3, maxZoom = 100)) %>%
+  leafem::addRasterRGB(nhti_image_data_RGB_proj, r=3, g=2, b=1 ) #%>%
+
+
+#Read in predicted layers and validation and project them 
+#hookset_9150_pred<-raster("C:/Users/Nelson Lab/Downloads/hook_9105_shadmasked.envi_PredLayer.tif")
+#hookset_9150_pred_proj<-projectRaster(hookset_9150_pred, crs=target_crs)
+nhti_shapefile_path <-"D:/Forests/OriginalData/nhti_0_crop.shp"
+nhti_human_tree_shapes <- rgdal::readOGR(dsn = nhti_shapefile_path) #,  #layer = "15366_crown_delins",)
+nhti_transformed_trees <- sp::spTransform(nhti_human_tree_shapes, target_crs)
+
+#Crop validation by 
+nhti_cropped_shape <- raster::crop(nhti_transformed_trees,extent(nhti_image_data_812nm_proj))
+#nhti_cropped_image_allbands<-raster::crop(nhti_image_data,extent(nhti_human_tree_shapes))
+nhti_cropped_image_RGB<-raster::crop(nhti_image_data_RGB, extent(nhti_human_tree_shapes))
+nhti_cropped_image_data_812nm<-raster::crop(nhti_image_data_812nm,extent(nhti_human_tree_shapes))
+#nhti_mask_pred<-raster::mask(nhtiset_9150_pred_proj,segments)
+#writeRaster(mask_pred, "Outputs/2_Imagery/Headwall/Segments/nhtiset/nhtiset_9105_pred_mask.tiff" )
+nhti_cropped_image_812nm_proj<-projectRaster(nhti_cropped_image_data_812nm, crs =target_crs)
+
+
+    # define parameters based on grid search
+    dist <- 40
+    window <- 41
+    thresh_base <- 0.6
+    delta_t <- 0.15
+    
+        # Perform segmentation
+        gc()
+        Sys.time()
+        nhti_segments <- itcSegment::itcIMG(
+          imagery = nhti_cropped_image_812nm_proj,
+          epsg = 26983,
+          TRESHSeed = thresh_base,
+          TRESHCrown = (thresh_base + delta_t),
+          searchWinSize = window,
+          DIST = dist
+        )
+        Sys.time()
+    
+        writeOGR(nhti_segments, dsn = "Outputs/nhti_0_segments.shp", layer = "segment", driver="ESRI Shapefile")
+       
+        
+ ##NHTI 2489 data cube
+  nhti_2489_path = "D:/Chan_Thesis_Missions/Ash_07262019/100145_ash_nhti_2019_07_28_18_03_33"
+  nhti_2489_input_file_path <- paste(nhti_2489_path, "raw_2489_rd_rf_or", sep="/")
+  nhti_2489_image_data <- brick(nhti_2489_input_file_path)
+  nhti_2489_image_data_RGB<-nhti_2489_image_data[[c("X701.284.nm","X551.29.nm","X425.369.nm")]]
+  nhti_2489_image_data_812nm<-nhti_2489_image_data$X812.39.nm
+  
+  nhti_2489_image_data_812nm_proj<--raster::projectRaster(
+    nhti_2489_image_data_812nm,
+    crs = target_crs,
+    method = "bilinear")
+  
+  nhti_2489_image_data_RGB_proj<--raster::projectRaster(
+    nhti_2489_image_data_RGB,
+    crs = target_crs,
+    method = "bilinear")
+  
+  leaflet(nhti_2489_image_data_RGB_proj) %>%
+    leaflet::addTiles("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                      options = providerTileOptions(minZoom = 3, maxZoom = 100)) %>%
+    leafem::addRasterRGB(nhti_2489_image_data_RGB_proj, r=3, g=2, b=1 ) #%>%
+  
+  #Read in predicted layers and validation and project them 
+  #hookset_9150_pred<-raster("C:/Users/Nelson Lab/Downloads/hook_9105_shadmasked.envi_PredLayer.tif")
+  #hookset_9150_pred_proj<-projectRaster(hookset_9150_pred, crs=target_crs)
+  nhti_2489_shapefile_path <-"D:/Forests/OriginalData/nhti_2489_crop_PRN.shp"
+  nhti_2489_human_tree_shapes <- rgdal::readOGR(dsn = nhti_2489_shapefile_path) #,  #layer = "15366_crown_delins",)
+  nhti_2489_transformed_trees <- sp::spTransform(nhti_2489_human_tree_shapes, target_crs)
+  
+  #Crop validation by 
+  nhti_2489_cropped_shape <- raster::crop(nhti_2489_transformed_trees,extent(nhti_2489_image_data_812nm_proj))
+  #nhti_2489_cropped_image_allbands<-raster::crop(nhti_2489_image_data,extent(nhti_2489_human_tree_shapes))
+  nhti_2489_cropped_image_RGB<-raster::crop(nhti_2489_image_data_RGB, extent(nhti_2489_human_tree_shapes))
+  nhti_2489_cropped_image_data_812nm<-raster::crop(nhti_2489_image_data_812nm,extent(nhti_2489_human_tree_shapes))
+  #nhti_2489_mask_pred<-raster::mask(nhtiset_9150_pred_proj,segments)
+  #writeRaster(mask_pred, "Outputs/2_Imagery/Headwall/Segments/nhtiset/nhtiset_9105_pred_mask.tiff" )
+  nhti_2489_cropped_image_812nm_proj<-projectRaster(nhti_2489_cropped_image_data_812nm, crs =target_crs)
+  
+  # define parameters based on grid search
+  dist <- 40
+  window <- 41
+  thresh_base <- 0.6
+  delta_t <- 0.15
+  
+  # Perform segmentation
+  gc()
+  Sys.time()
+  nhti_2489_segments <- itcSegment::itcIMG(
+    imagery = nhti_2489_cropped_image_812nm_proj,
+    epsg = 26983,
+    TRESHSeed = thresh_base,
+    TRESHCrown = (thresh_base + delta_t),
+    searchWinSize = window,
+    DIST = dist
+  )
+  Sys.time()
+  
+  writeOGR(nhti_2489_segments, dsn = "Outputs/nhti_2489_segments.shp", layer = "segment", driver="ESRI Shapefile")
+  
+ 
+  
+  #Hookset
 #crop data cube
 hook_path = "F:/TreeSpecLib_BigFiles/Hooksett"
 hook_path_valid = "F:/TreeSpecLib_BigFiles/Hooksett/Validation"
-list.files(hook_path)
 
+hook_input_file_path <- paste(hook_path,"raw_9105_rd_rf_or", sep="/")
+hook_image_data <- brick(hook_input_file_path)
+hook_image_data_RGB<-hook_image_data[[c("X701.284.nm","X551.29.nm","X425.369.nm")]]
+hook_image_data_812nm<-hook_image_data$X812.39.nm
 
-
-
-# should pre-load dataset as input_data object
-input_file_path <- paste(hook_path,"raw_9105_rd_rf_or", sep="/")
-image_data <- brick(input_file_path)
-image_data_proj<-raster::projectRaster(
-  image_data_proj,
+hook_image_data_812nm_proj<--raster::projectRaster(
+    hook_image_data_812nm,
+    crs = target_crs,
+    method = "bilinear")
+  
+hook_image_data_RGB_proj<--raster::projectRaster(
+  hook_image_data_RGB,
   crs = target_crs,
   method = "bilinear")
 
-image_data_812nm_proj<-raster::projectRaster(
-  image_data_812nm,
-  crs = target_crs,
-  method = "bilinear")
+leaflet(hook_image_data_RGB_proj) %>%
+  leaflet::addTiles("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                    options = providerTileOptions(minZoom = 3, maxZoom = 100)) %>%
+  leafem::addRasterRGB(hook_image_data_RGB_proj, r=1, g=2, b=3 ) #%>%
+  #addOpacitySlider(layerId = "layer")
 
-image_data_RGB<-image_data[[c("X701.284.nm","X551.29.nm","X425.369.nm")]]
 
+
+#Read in predicted layers and validation and project them 
 hookset_9150_pred<-raster("C:/Users/Nelson Lab/Downloads/hook_9105_shadmasked.envi_PredLayer.tif")
 hookset_9150_pred_proj<-projectRaster(hookset_9150_pred, crs=target_crs)
 shapefile_path <- paste(hook_path_valid,"hook_9105_crowndelins.shp", sep="/")
-human_tree_shapes <- rgdal::readOGR(dsn = shapefile_path) #,  #layer = "15366_crown_delins",)
-transformed_trees <- sp::spTransform(human_tree_shapes, target_crs)
+hook_human_tree_shapes <- rgdal::readOGR(dsn = shapefile_path) #,  #layer = "15366_crown_delins",)
+hook_transformed_trees <- sp::spTransform(human_tree_shapes, target_crs)
 
-cropped_shape <- raster::crop(transformed_trees,extent(image_data_812nm))
-cropped_image_allbands<-raster::crop(image_data,extent(human_tree_shapes))
-cropped_image_RGB<-raster::crop(image_data_RGB, extent(human_tree_shapes))
-cropped_image<-raster::crop(image_data_812nm,extent(human_tree_shapes))
-mask_pred<-raster::mask(hookset_9150_pred_proj,segments)
-writeRaster(mask_pred, "Outputs/2_Imagery/Headwall/Segments/Hookset/hookset_9105_pred_mask.tiff" )
+#Crop validation by 
+hook_cropped_shape <- raster::crop(hook_transformed_trees,extent(hook_image_data_812nm_proj))
+#hook_cropped_image_allbands<-raster::crop(hook_image_data,extent(hook_human_tree_shapes))
+hook_cropped_image_RGB<-raster::crop(hook_image_data_RGB, extent(hook_human_tree_shapes))
+hook_cropped_image_data_812nm<-raster::crop(hook_image_data_812nm,extent(hook_human_tree_shapes))
+#hook_mask_pred<-raster::mask(hookset_9150_pred_proj,segments)
+#writeRaster(mask_pred, "Outputs/2_Imagery/Headwall/Segments/Hookset/hookset_9105_pred_mask.tiff" )
 
-plot(mask_pred)
-plot(cropped_image)
+#plot(mask_pred)
+plot(hook_cropped_image_data_812nm)
 crs(cropped_image)
 
 gc()
-cropped_image_proj<-projectRaster(cropped_image, crs =target_crs)
+hook_cropped_image_812nm_proj<-projectRaster(hook_cropped_image_data_812nm, crs =target_crs)
 
 #### Run the Pipeline ####
 
@@ -63,17 +195,9 @@ thresh_base <- 0.6
 delta_t <- 0.15
 
 # Perform segmentation
-segments <- itcSegment::itcIMG(
-    imagery = cropped_image_proj,
-    epsg = 26983,
-    TRESHSeed = thresh_base,
-    TRESHCrown = (thresh_base + delta_t),
-    searchWinSize = window,
-    DIST = dist
-)
-Sys.time()
-segments <- itcSegment::itcIMG(
-  imagery = image_data_812nm_proj,
+  Sys.time()
+hook_segments <- itcSegment::itcIMG(
+  imagery = hook_cropped_image_812nm_proj,
   epsg = 26983,
   TRESHSeed = thresh_base,
   TRESHCrown = (thresh_base + delta_t),
@@ -87,6 +211,9 @@ filtered_segments <- filter_segmentation(segments, cropped_shape)
 
 
 
+
+
+######Not sure if we need this below
 merge_brick <- function(input_files, output_path = NA) {
 
     master_raster <- as(raster::brick(input_files[[1]]), "RasterBrick")
