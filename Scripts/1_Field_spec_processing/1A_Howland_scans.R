@@ -35,9 +35,6 @@ saveRDS(HOW_07092019_spectra      ,"Outputs/HOW_07092019_spectra.rds")
 ##############
 #Combine spectra
 
-
-
-
 HOW_dates_spectra<-spectrolab::combine(HOW_07042019_spectra,HOW_07092019_spectra)
 
 saveRDS(PEF_dates_spectra     ,"Outputs/PEF_dates_spectra.rds")

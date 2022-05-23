@@ -16,14 +16,17 @@ library(doParallel)
 library(parallel)
 library(randomForest)
 #View images
-#path="./Original_data/Headwall/MSGC_TST_IMG.png"
-path1 <- "Data/MSGC_TST_IMG" # This works
-path2 <- "M:/MSGC_DATA/Howland/Imagery/100043_Howland_plot_7b_110m_2019_07_09_16_35_19/Orthos/raw_0_rd_rf_or"
+path="./Original_data/Headwall/MSGC_TST_IMG"
+#path1 <- "Data/MSGC_TST_IMG" # This works
+#path2 <- "M:/MSGC_DATA/Howland/Imagery/100043_Howland_plot_7b_110m_2019_07_09_16_35_19/Orthos/raw_0_rd_rf_or"
 #path ="M:/MSGC_DATA/MSGC_Report/Images/MSGCIMAGE.tif"
 #raster(path)
 
-tst<-brick(path1)
-  tst_rgb<-tst[[c(160,80,25)]]
+tst<-brick(path)
+  plotRGB(msgc_tst, r= 160, g=80, b=25, stretch="lin")
+
+#tst<-brick(path1)
+#  tst_rgb<-tst[[c(160,80,25)]]
 
 tst2<-brick(path2)
   tst2_rgb<-tst2[[c(160,80,25)]]
@@ -50,15 +53,15 @@ tst_812<-tst$Resize..Band.225.raw_0_rd_rf_or...812.390000.Nanometers.
 tst_812_proj<-projectRaster(tst_812, crs=new_prj)
   
   
-tst2_812<-tst2$X812.39.nm
-  tst2_812_proj<-projectRaster(tst2_812, crs=new_prj)
-    tst2_812_tiles<-splitRaster(tst2_812_proj, nx=3, ny=5)
-      tst2_812_tiles
+#tst2_812<-tst2$X812.39.nm
+#  tst2_812_proj<-projectRaster(tst2_812, crs=new_prj)
+#    tst2_812_tiles<-splitRaster(tst2_812_proj, nx=3, ny=5)
+#      tst2_812_tiles
 
 #tst_proj_crs42310<-projectRaster(tst, crs=crs())
-tst_proj_812<-as(tst_proj$Resize..Band.225.raw_0_rd_rf_or...812.390000.Nanometers.,"RasterLayer")
+  #tst_proj_812<-as(tst_proj$Resize..Band.225.raw_0_rd_rf_or...812.390000.Nanometers.,"RasterLayer")
 
-tst2_812_proj<-as(tst2_812_proj,"RasterLayer")
+  #tst2_812_proj<-as(tst2_812_proj,"RasterLayer")
 
 #tst_seg_26983_winSize3_Dist50   <-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = 3, DIST = 50) #Works with error
 #tst_seg_26983_winSize9_Dist50   <-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = 9, DIST = 50) #Works with error
@@ -67,33 +70,34 @@ tst2_812_proj<-as(tst2_812_proj,"RasterLayer")
 
 
 ##Very slow to run
+Sys.time()
 tst_seg_4326_winSize51_Dist500 <-itcIMG(
   tst_812_proj,
   epsg = 26983,
   searchWinSize = 51,
   DIST = 500) #Works with error
+Sys.time()
 ##Very very slow to run .. hours
 #tst2_seg_4326_winSize51_Dist500 <-itcIMG(tst2_812_proj, epsg = 4326, searchWinSize = 51, DIST = 500) #
-
 #tst2_tile1_seg_4326_winSize51_Dist500 <-itcIMG(tst2_812_tiles[[1]], epsg = 4326, searchWinSize = 51, DIST = 500) #Throws projection error
   #Error in `proj4string<-`(`*tmp*`, value = sp::CRS(paste("+init=epsg:",  : Geographical CRS given to non-conformant data:   69427.2832844 -218911.3310360
-tst2_tile1_seg_26983_winSize51_Dist500 <-itcIMG(tst_812_proj, epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
-  plot(tst2_tile1_seg_26983_winSize51_Dist500)
-
-tst2_tile2_seg_26983_winSize51_Dist500 <-itcIMG(tst2_812_tiles[[2]], epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
-  plot(tst2_tile2_seg_26983_winSize51_Dist500)
-    plot(tst2_812_tiles[[2]])
+#tst2_tile1_seg_26983_winSize51_Dist500 <-itcIMG(tst_812_proj, epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
+#  plot(tst2_tile1_seg_26983_winSize51_Dist500)
+#
+#tst2_tile2_seg_26983_winSize51_Dist500 <-itcIMG(tst2_812_tiles[[2]], epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
+#  plot(tst2_tile2_seg_26983_winSize51_Dist500)
+#    plot(tst2_812_tiles[[2]])
 #tst2_tile1_seg_4326_winSize51_Dist500<-spTransform(tst2_tile1_seg_4326_winSize51_Dist500, CRS ="+proj=longlat +datum=WGS84")
 
 #tst_seg_4326_winSize3<-spTransform(tst_seg_26983_winSize3_Dist50, CRS ="+proj=longlat +datum=WGS84")
 
-seg_fnc<- function(x)
-{
-tile_seg<-list()
-tile_seg[x] <-itcIMG(tst2_812_tiles[[x]], epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
-}
-    
-tst2_segments<-lapply(1:length(tst2_812_tiles), seg_fnc)
+#seg_fnc<- function(x)
+#{
+#tile_seg<-list()
+#tile_seg[x] <-itcIMG(tst2_812_tiles[[x]], epsg = 26983, searchWinSize = 51, DIST = 500) #Throws projection error
+#}
+#    
+#tst2_segments<-lapply(1:length(tst2_812_tiles), seg_fnc)
 
 
 #WinSizeTry = c(3,9,21,51,101)
@@ -102,7 +106,6 @@ tst2_segments<-lapply(1:length(tst2_812_tiles), seg_fnc)
 #function(x,y) {
 #canopy_seg<-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = x, DIST = y) #Works with error
 #}
-
 
 #tst_seg_26983_winSize3_Dist100<-itcIMG(tst_proj_812, epsg = 26983, searchWinSize = 9, DIST = 100) #Works with error
 

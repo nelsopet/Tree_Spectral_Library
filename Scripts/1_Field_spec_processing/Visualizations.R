@@ -1,4 +1,8 @@
 #Visualizations
+#Read in data
+#Cleaned_Speclib<-read_csv("./Outputs/D_002_SpecLib_Derivs.csv")
+Cleaned_Speclib<-read_csv("./Outputs/Cleaned_Tree_SpectralLib.csv")
+
 ################# Lichen yellow
 
 Cleaned_Speclib_onlyspectra<-Cleaned_Speclib[,-1:-32]
@@ -8,7 +12,7 @@ dist(Cleaned_Speclib_onlyspectra) %>% hist()
 Cleaned_Speclib_onlyspectra_names<-colnames(Cleaned_Speclib_onlyspectra) #%>% as.numeric() %>% as.data.frame() %>% filter(.<1000)
 Cleaned_Speclib_meta<-Cleaned_Speclib[,1:32]
 unique(Cleaned_Speclib_meta$taxon_code) %>% as.matrix()
-Cleaned_Speclib_onlyspectra_vnir<-Cleaned_Speclib_onlyspectra[1:651]
+Cleaned_Speclib_onlyspectra_vnir<-Cleaned_Speclib_onlyspectra[52:502]
 Genus<-c("Abies"
 ,"Acer"
 ,"Acer"

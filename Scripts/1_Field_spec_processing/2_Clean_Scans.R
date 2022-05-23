@@ -1,10 +1,10 @@
 ## Combine spectral libraries
 TreeSpecLib<-spectrolab::combine(PEF_dates_spectra,HOW_dates_spectra) %>% as.data.frame
-TreeSpecLib_df<-SpecLib %>% 
+TreeSpecLib_df<-TreeSpecLib %>% 
   as.data.frame() 
 
 TreeSpecLib_df<-TreeSpecLib_df %>%
-  filter(duplicated(TreeSpecLib_df[,32:ncol(SpecLib_df)])==FALSE) #%>%
+  dplyr::filter(duplicated(TreeSpecLib_df[,32:ncol(SpecLib_df)])==FALSE) #%>%
   #filter(taxon_code=="abibal") %>%
   #dim()
 
@@ -48,55 +48,55 @@ each_target<-each_target%>%setNames(Target_names)
 #[1] "abibal" "acepen" "acerub" "alninc" "betall" "betpap" "betpop"
 #[8] "faggra" "fraame" "larlar" "picrub" "pinstr" "popgra" "prupen"
 #[15] "querub" "rhutyp" "tsucan"
-plot_interactive(each_target[["abibal"    ]]) #
+#plot_interactive(each_target[["abibal"    ]]) #
 each_target[["abibal"    ]]<-each_target[["abibal"    ]][-c(11, 12, 48),]
 
-plot_interactive(each_target[["acepen"    ]]) # Good
-plot_interactive(each_target[["acerub"    ]]) # 
+#plot_interactive(each_target[["acepen"    ]]) # Good
+#plot_interactive(each_target[["acerub"    ]]) # 
 each_target[["acerub"    ]]<-each_target[["acerub"    ]][-c(3,21, 22, 25, 27),]
 each_target[["acerub"    ]]<-each_target[["acerub"    ]][-c(15:19),]
 each_target[["acerub"    ]]<-each_target[["acerub"    ]][-c(19),]
 
 
-plot_interactive(each_target[["alninc"    ]]) # Good mostly
+#plot_interactive(each_target[["alninc"    ]]) # Good mostly
 #each_target[["alninc"    ]]<-each_target[["alninc"    ]][-c(7:10),]
 
-plot_interactive(each_target[["betall"    ]]) # 
+#plot_interactive(each_target[["betall"    ]]) # 
 each_target[["betall"    ]]<-each_target[["betall"    ]][-c(10),]
 
-plot_interactive(each_target[["betpap"    ]]) # Good mostly
-plot_interactive(each_target[["betpop"    ]]) # Good mostly
+#plot_interactive(each_target[["betpap"    ]]) # Good mostly
+#plot_interactive(each_target[["betpop"    ]]) # Good mostly
 #each_target[["betpop"    ]]<-each_target[["betpop"    ]][-c(1:4),]
 
-plot_interactive(each_target[["faggra"    ]]) # Good mostly
+#plot_interactive(each_target[["faggra"    ]]) # Good mostly
 each_target[["faggra"    ]]<-each_target[["faggra"    ]][-c(17, 18),]
 
-plot_interactive(each_target[["fraame"    ]]) # Good mostly
+#plot_interactive(each_target[["fraame"    ]]) # Good mostly
 
 #Where did the Larix scans go?
 #plot_interactive(each_target[["larlar"    ]]) # Good mostly
 #each_target[["larlar"    ]]<-each_target[["larlar"    ]][-c(8),]
 
-plot_interactive(each_target[["picrub"    ]]) # Good mostly
+#plot_interactive(each_target[["picrub"    ]]) # Good mostly
 each_target[["picrub"    ]]<-each_target[["picrub"    ]][-c(27,33),]
 
-plot_interactive(each_target[["pinstr"    ]]) # Good mostly
-plot_interactive(each_target[["popgra"    ]]) # Good mostly
+#plot_interactive(each_target[["pinstr"    ]]) # Good mostly
+#plot_interactive(each_target[["popgra"    ]]) # Good mostly
 #each_target[["popgra"    ]]<-each_target[["popgra"    ]][-c(4:5),]
 
 #Where did pruns go?
 #plot_interactive(each_target[["prupen"    ]]) # Good mostly
 #each_target[["prupen"    ]]<-each_target[["prupen"    ]][-c(8),]
 
-plot_interactive(each_target[["querub"    ]]) # Good mostly
-plot_interactive(each_target[["rhutyp"    ]]) # Good mostly
+#plot_interactive(each_target[["querub"    ]]) # Good mostly
+#plot_interactive(each_target[["rhutyp"    ]]) # Good mostly
 each_target[["rhutyp"    ]]<-each_target[["rhutyp"    ]][-c(10, 13, 20, 21),]
 #each_target[["rhutyp"    ]]<-each_target[["rhutyp"    ]][-c(25),]
 
 
-plot_interactive(each_target[["thuocc"    ]]) # Good mostly
+#plot_interactive(each_target[["thuocc"    ]]) # Good mostly
 
-plot_interactive(each_target[["tsucan"    ]]) # Good mostly
+#plot_interactive(each_target[["tsucan"    ]]) # Good mostly
 each_target[["tsucan"    ]]<-each_target[["tsucan"    ]][-c(37,38),]
 each_target[["tsucan"    ]]<-each_target[["tsucan"    ]][-c(20),]
 each_target[["tsucan"    ]]<-each_target[["tsucan"    ]][-c(17),]

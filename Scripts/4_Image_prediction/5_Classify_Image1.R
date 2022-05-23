@@ -14,15 +14,8 @@ library(tools)
 library(randomForest)
 
 # Calls the function that will classify image
-source("Functions/LandCoverEstimator.R")
-
-# Classify Image using the HyperSpec_DerivGenerator function
-# filename = file location to datacube
-# out_file = output location for the predicted layer
-# Classif_Model = calssification model built using spectral library
-# datatype = is you data is a raster file or a .csv file
-# extension = does your input file has a extension associated with it?
-# e.g (.tif,.csv, .dat)
+#source("Functions/LandCoverEstimator.R")
+source("Functions/lecospectR.R")
 
 system.time(PredLayer <- LandCoverEstimator(
     filename = "Original_data/Headwall/MSGC_TST_IMG",
