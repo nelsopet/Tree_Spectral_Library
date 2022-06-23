@@ -69,6 +69,7 @@ file_polys<-lapply(1:length(file_extents[[2]]),
                    return(r_out)
                    })
 
+file_polys_merge<-Reduce(raster::merge, file_polys)
 file_check<-lapply(1:length(file_extents[[2]]), 
                    function(x)
                    { tst1<-as(file_extents[[2]][[x]],"list") %>% min %>% abs
