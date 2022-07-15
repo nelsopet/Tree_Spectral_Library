@@ -19,13 +19,13 @@
 source("./Functions/treespectR.R")
 
 
-system.time(PredLayer <- LandCoverEstimator(
-    filename = "Data/test_data/tree_spec_lib_test_raw_14552_rd_rf_or_crop.xml",
-    out_file = "Outputs/test/",
-    #Classif_Model = "Output/E_003_Best_Model_RandomForest_86vars.rda",
-    Classif_Model = "Outputs/Best_Model_Ranger.rda",
-    datatype = "raster",
-    extension = FALSE))
+# system.time(PredLayer <- LandCoverEstimator(
+#     filename = "Data/test_data/tree_spec_lib_test_raw_14552_rd_rf_or_crop.xml",
+#     out_file = "Outputs/test/",
+#     #Classif_Model = "Output/E_003_Best_Model_RandomForest_86vars.rda",
+#     Classif_Model = "Outputs/Best_Model_Ranger.rda",
+#     datatype = "raster",
+#     extension = FALSE))
 
 
 test <- estimate_land_cover(

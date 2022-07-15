@@ -32,36 +32,43 @@ Genus<-c("Abies"
         ,"Betula"
         ,"Fagus"
         ,"Fraxinus"
-        , "Larix"
-        , "Picea"
-        , "Pinus"
-        , "Populus"
-        , "Prunus"
-        , "Quercus"
-        , "Rhus"
-        , "Tsuga")
+        ,"Picea"
+        ,"Pinus"
+        ,"Populus"
+        ,"Quercus"
+        ,"Rhus"
+        ,"Thuja"
+        ,"Tsuga")
 
-Guild<-c("Conifer"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Conifer"
-        ,"Conifer"
-        ,"Conifer"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Deciduous"
-        ,"Conifer")
+# Guild<-c("Conifer"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Conifer"
+#         ,"Conifer"
+#         ,"Conifer"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Deciduous"
+#         ,"Conifer")
 
-Sp_Info <- cbind(Guild, Genus, unique(Cleaned_Speclib_meta$taxon_code)) %>% 
+Sp_Info <- cbind(Genus, unique(Cleaned_Speclib_meta$taxon_code)) %>% 
   as.data.frame() %>% 
-  rename(taxon_code = V3)
+  mutate(Guild = ifelse(Genus == "Abies" |
+                        Genus == "Picea" |
+                        Genus == "Pinus" |
+                        Genus == "Thuja" |
+                        Genus == "Tsuga", 
+                        "Coniferous", 
+                        "Deciduous")) %>% 
+  dplyr::select(Guild, Genus, taxon_code = V2)
+
 
 fnc_grp1_colors = createPalette(length(unique(Cleaned_Speclib_meta$taxon_code)), c("#ff0000", "#00ff00", "#0000ff")) %>%
   as.data.frame() %>%
