@@ -1007,7 +1007,7 @@ estimate_land_cover <- function(
     input_filepath,
     config_path = "./config.json",
     cache_filepath = "./",
-    output_filepath =  paste("output-",format(Sys.time(), "%a-%b-%d-%H-%M-%S-%Y"), ".envi", sep=""),
+    output_filepath =  paste("output-", format(Sys.time(), "%a-%b-%d-%H-%M-%S-%Y"), ".envi", sep=""),
     use_external_bands = TRUE
 ) {
   

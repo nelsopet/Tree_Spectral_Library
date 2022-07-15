@@ -48,33 +48,38 @@ colremove<-x[,meta]
 return(colremove)
 }# bandsRemove Function ends
 
+
 #--------------------------- Functions For Derivative Calculations ------------------------
-# Function responsible for resampling
-Func_Resamp<-function(Resamp){
 
-# Removes metadata before function can be applied
-df<-metaRemove(Resamp)
 
-# Converts the dataframe to a spectral object
-SpeclibObj<-spectrolab::as.spectra(df)
+# function responsible for resampling
+Func_Resamp <- function(x){
+
+# removes metadata before function can be applied
+df <- metaRemove(x)
+
+# converts the dataframe to a spectral object
+SpeclibObj <- spectrolab::as_spectra(df)
 
 print("Resampling spectra every 5nm")
 
-# Creates functions that will do the resampling every 5nm
-final<-spectrolab::resample(SpeclibObj,seq(397.593,899.424,5))%>%
-    as.data.frame()%>%
+# creates functions that will do the resampling every 5nm
+final <- spectrolab::resample(SpeclibObj, seq(397.593, 899.424, 5)) %>%
+    as.data.frame() %>%
     dplyr::select(-sample_name)
 
-# Rename columns
-colnames(final)<-paste(colnames(final),"5nm",sep = "_")
+# rename columns
+colnames(final) <- paste(colnames(final), "5nm", sep = "_")
 
 # Combines all the dataframes created into one df
-ResampledDF<-cbind(bandsRemove(Resamp),final)
+ResampledDF <- cbind(bandsRemove(x), final)
 
 print("Resampling sucessful")
 
 return(ResampledDF)}
 # Func_Resamp ends
+
+
   
 # Function Responsible For Vegindex Calculations
 Func_VI<-function(VI){

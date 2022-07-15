@@ -21,6 +21,7 @@ scan_names<-function(x){
 }
 
 read_batch<-function(files){
+  options(readr.show_col_types = FALSE)
   files_batch<-lapply(files,read_header)
   files_batch<-files_batch %>% as.data.frame() %>% t
   #Make a list of header names
