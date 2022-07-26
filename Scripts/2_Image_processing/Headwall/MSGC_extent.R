@@ -1,39 +1,56 @@
 #Functions to get extent of a large binary file/small header file pair
 
+library(plyr)
 library(tidyverse)
 library(tools)
 library(raster)
 library(rgdal)
 library(sf)
-library(plyr)
+
+##PJB note 7/26/2022: got extents for all directories of interest
+  #one weird flight "100056_PEF_SM_22b_110m_2019_06_19_15_39_14_Orthos_raw_0_rd_rf_or"
+    #is way larger (extent) than the rest
 
 ####PART 1: Create KML of each flight extent####
-# 'path' is a directory that contains orthorectified reflectance data from one flight
-###path<-"M:/MSGC_DATA/Deboullie/Imagery/100332_Deboullie_Push_flight_2020_07_21_15_19_27/"
-out_put<-"./Outputs/Extents/"
+# 'path' is a directory that contains orthorectified reflectance data from one region
+# within this directory we will need to pull the OR data folders (NOT white or dark)
+# then within these dirs we just want or.hdr data 
 
-path <- "E:/Tree_Spectral_Library_pjb/PEF_flights/"
+###path_Deboullie <-"M:/MSGC_DATA/Deboullie/Imagery/"
+###path_Howland <-"M:/MSGC_DATA/Howland/Imagery/"
+###path_Neil_Ash_Sites <-"M:/MSGC_DATA/Neil_AshSites/"
+###path_PEF_Demerit <-"M:/MSGC_DATA/PEF-Demerit/Imagery/"
+
+
+path <- "M:/MSGC_DATA/Howland/Imagery/"
+
 #define output paths
-indiv_output <- "./Outputs/Extents/"
-combined_output <- "./Outputs/Extents/"
+  # these also need to be customized to match directory
+indiv_output <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Howland/Individual_extents/"
+combined_output <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Howland/"
 
 #get extents loop
+# this is a function that pulls the CRS and geometry of flight paths from 
+  # orthorectified reflectance header files within a given directory
 get_extents <- function(path) 
 {
-  files<-list.files(path)
-  #bring in .hdr files
-  filenames1<- subset(files,grepl(".hdr",files)==TRUE|grepl(".HDR",files)==TRUE)
+  orthos1 <- list.dirs(path)
+  orthos <- subset(orthos1, grepl("*rtho*", orthos1)==TRUE)
+  files<-list.files(orthos, full.names = TRUE)
+  #bring in rd_rf_or.hdr files
+  filenames1<- subset(files,grepl("rd_rf_or.hdr",files)==TRUE|grepl("rd_rf_oror.HDR",files)==TRUE)
   #drop .hdr
   filenames<-file_path_sans_ext(filenames1)  
   #bring in binary files as rasters
-  fileread<-lapply(1:length(filenames), function(x) {raster(paste(path,"/",filenames[x],sep=""))})  
+  fileread<-lapply(1:length(filenames), function(x) {raster(filenames[x])})  
   #extract proj and datum from rasters
-  ##make this proj6
   file_crs<-lapply(fileread,crs)  #%>% unlist() 
   #extract extents from rasters
   ext_out<-lapply(fileread, extent)
+  #extract file path (for flight ID info)
+  file_path <- lapply(fileread, filename)
   #combine proj, datum, extent infos
-  file_list<-list(file_crs,ext_out)
+  file_list<-list(file_crs,ext_out, file_path)
   return(file_list)
 }
 
@@ -52,7 +69,10 @@ file_polys<-lapply(1:length(file_extents[[2]]),
                      crs(r)<-r_crs
                      r_df<-as(r,"SpatialPolygonsDataFrame")
                      r_df_proj <- spTransform(r_df, CRS("+proj=longlat +datum=WGS84"))
-                     r_out<-writeOGR(r_df_proj, paste(indiv_output,"PEF_flight",x,".kml",sep=""),layer=paste("",x,""), driver="KML")
+                     r_names_list <- unlist(file_extents[[3]])
+                     r_name1 <- sub(".*Imagery\\\\", "", r_names_list)
+                     r_name <- gsub("\\\\", "_", r_name1)
+                     r_out<-writeOGR(r_df_proj, paste(indiv_output, r_name[x],".kml",sep=""),layer=paste("",x,""), driver="KML")
                      return(r_out)
                    })
 
@@ -72,8 +92,10 @@ all_kmls_list <- lapply(1:length(kml_files),
 all_kmls_df <- do.call(rbind, all_kmls_list)
 
 #write combined KML file
-st_write(all_kmls_df, paste(combined_output, "/", "PEF_all.kml", sep = ""), driver = "kml")
-st_write(all_kmls_df, paste(combined_output, "/", "PEF_all.shp", sep = ""), driver = "ESRI Shapefile")
+st_write(all_kmls_df, paste(combined_output, "/", "Howland_all.kml", sep = ""), driver = "kml")
+
+#write to combined shapefile
+#st_write(all_kmls_df, paste(combined_output, "/", "PEF_all.shp", sep = ""), driver = "ESRI Shapefile")
 
 
 
