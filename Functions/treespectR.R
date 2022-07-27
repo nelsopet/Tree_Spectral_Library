@@ -1007,7 +1007,7 @@ estimate_land_cover <- function(
     input_filepath,
     config_path = "./config.json",
     cache_filepath = "./",
-    output_filepath =  paste("output-", format(Sys.time(), "%a-%b-%d-%H-%M-%S-%Y"), ".envi", sep=""),
+    output_filepath =  paste("output-", format(Sys.time(), "%a-%b-%d-%H-%M-%S-%Y"), ".envi", sep = ""),
     use_external_bands = TRUE
 ) {
   
@@ -1045,7 +1045,9 @@ estimate_land_cover <- function(
   model <- load_model(config$model_path)
   
   # load the input datacube and split into tiles
-  input_raster <- raster::brick(input_filepath)
+  #input_raster <- raster::brick(input_filepath)
+  input_raster <- raster::raster(input_filepath)
+  
   
   input_crs <- raster::crs(input_raster)
   

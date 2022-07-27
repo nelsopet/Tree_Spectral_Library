@@ -29,7 +29,7 @@ source("./Functions/treespectR.R")
 
 
 test <- estimate_land_cover(
-    input_filepath = "Data/test_data/tree_spec_lib_test_raw_14552_rd_rf_or_crop.xml"
+    input_filepath = "Data/test_data/tree_spec_lib_test_raw_14552_rd_rf_or_crop.dat"
 )
 
 
