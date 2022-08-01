@@ -1,6 +1,7 @@
 #Functions to get extent of a large binary file/small header file pair
 
 library(plyr)
+library(maptools)
 library(tidyverse)
 library(tools)
 library(raster)
@@ -22,12 +23,12 @@ library(sf)
 ###path_PEF_Demerit <-"M:/MSGC_DATA/PEF-Demerit/Imagery/"
 
 
-path <- "M:/MSGC_DATA/Howland/Imagery/"
+path <- "M:/MSGC_DATA/Neil_AshSites/"
 
 #define output paths
   # these also need to be customized to match directory
-indiv_output <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Howland/Individual_extents/"
-combined_output <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Howland/"
+indiv_output <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Neil_AshSites/Individual_extents/"
+combined_output <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Neil_AshSites/"
 
 #get extents loop
 # this is a function that pulls the CRS and geometry of flight paths from 
@@ -72,10 +73,9 @@ file_polys<-lapply(1:length(file_extents[[2]]),
                      r_names_list <- unlist(file_extents[[3]])
                      r_name1 <- sub(".*Imagery\\\\", "", r_names_list)
                      r_name <- gsub("\\\\", "_", r_name1)
-                     r_out<-writeOGR(r_df_proj, paste(indiv_output, r_name[x],".kml",sep=""),layer=paste("",x,""), driver="KML")
+                     r_out <- kmlPolygons(obj = r_df_proj, kmlfile = paste(indiv_output, r_name[x],".kml",sep=""), name = r_name[x])
                      return(r_out)
                    })
-
 ####PART 2: Combine all KMLs into one####
 
 #this method uses st_read into a list
@@ -98,40 +98,8 @@ st_write(all_kmls_df, paste(combined_output, "/", "Howland_all.kml", sep = ""), 
 #st_write(all_kmls_df, paste(combined_output, "/", "PEF_all.shp", sep = ""), driver = "ESRI Shapefile")
 
 
+####END OF EXTENTS CODE--PJB 8/1/22####
 
-#This method uses a script from lecospec
-allKmlLayers <- function(kmls){
-  lyr <- ogrListLayers(indiv_output)
-  mykml <- list()
-  for (i in 1:length(lyr)) {
-    mykml[i] <- readOGR(indiv_output,lyr[i])
-  }
-  names(mykml) <- lyr
-  return(mykml)
-}
-
-kmls1 <- list.files(indiv_output)
-kmls <- file_path_sans_ext(kmls1)
-
-dat.out <- data.frame()
-
-for(i in kmls){
-  temp <- readOGR(dsn = indiv_output, layer = i)
-  dat.out <- rbind(temp, dat.out)
-}
-
-ogrListLayers(indiv_output)
-
-
-all_PEF <- allKmlLayers(indiv_output)
-
-peter_vnir_uas_sf_poly <- do.call(rbind, peter_vnir_uas) %>%
-  st_as_sf()
-
-peter_vnir_uas_sf_points <- peter_vnir_uas_sf_poly %>%
-  st_centroid()
-
-mapview(peter_vnir_uas_sf_points)
 
 
 ####PART 3: COMBINE KML WITH TREE STEM MAPS####
@@ -165,107 +133,4 @@ coords <- st_coordinates(all_trees_df)
 over(all_trees_df$geometry, flight_extents$geometry)
 
 
-
-
 ################################################END############################
-##everything below here is old code from PN
-
-#Functions to get extent of an large binary file/small header file pair
-
-#set different paths for testing
-#pjb testing
-###path<-"M:/MSGC_DATA/Deboullie/Imagery/100332_Deboullie_Push_flight_2020_07_21_15_19_27/"
-out_put<-"./Outputs/Extents/"
-
-
-#path<-"./Original_data/Headwall/MSGC_TST_IMG"
-#path<-"./Original_data/Headwall/"
-#path3<-"/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/SubsetDatacube"
-#path<-"/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/"
-###path<-"M:/MSGC_DATA/Deboullie/Imagery/100332_Deboullie_Push_flight_2020_07_21_15_19_27/"
-#out_put<-"./Outputs/2_Imagery/Headwall/Extents/"
-out_put<-"./Outputs/Extents/"
-
-files<-list.files(path)
-#filenames<-subset(files,grepl("^raw",files)==TRUE)
-filenames<- subset(files,grepl(".hdr",files)==TRUE&grepl("^raw",files)|grepl(".HDR",files)==TRUE&grepl("^raw",files))
-filenames<-lapply(1:length(filenames),function(x) {str_split(filenames[x], ".hdr")}) %>% unlist(recursive = FALSE) %>% as.data.frame() %>% t() %>% as.data.frame() %>% dplyr::select(1) 
-#fileread<-lapply(1:length(filenames), function(x) {raster(paste(path,filenames[x],".hdr",sep=""))})  
-rownames(filenames)<-NULL
-filenames[1,1]
-fileread<-lapply(1:nrow(filenames), function(x) {raster(paste(path,filenames[x,1],sep=""))})  
-
-file_crs<-lapply(fileread,crs)  #%>% unlist() 
-ext_out<-lapply(fileread, extent) #%>% unlist() %>%
-file_list<-list(file_crs,ext_out)
-
-#get extents loop
-get_extents<- function(path)
-{
-  files<-list.files(path)
-  filenames<- subset(files,grepl(".hdr",files)==TRUE|grepl(".HDR",files)==TRUE)
-  filenames<-file_path_sans_ext(filenames)  
-  fileread<-lapply(1:length(filenames), function(x) {raster(paste(path,"/",filenames[x],sep=""))})  
-  file_crs<-lapply(fileread,crs)  #%>% unlist() 
-  ext_out<-lapply(fileread, extent)
-  file_list<-list(file_crs,ext_out)
-  return(file_list)
-}
-
-file_extents<-lapply(path,get_extents)
-
-#UNIT TEST 
-file_extents<-unlist(file_extents, recursive = FALSE)
-file_crs<-file_extents[[1]] %>% unlist()
-file_extents[[2]][[1]] %>% unlist() %>% class()
-tst<-as(unlist(file_extents[[2]][[1]]),"SpatialPolygons")
-tst1<-file_extents[[2]][[3]]
-tst_num<-as(tst1@xmin,"numeric");
-if(tst_num==0) "TRUE" else "FALSE"
-
-tst2<-as(unlist(file_extents[[2]][[1]]),"list") #%>% abs() %>% min()
-ifelse(min(abs(tst2))<0, 1, 0)
-tst_crs<-unlist(file_extents[[1]][[1]])
-crs(tst)<-tst_crs
-tst_df<-as(tst,"SpatialPolygonsDataFrame")
-length(tst_df)
-tst_df[,2]#%>% unlist() %>% as.data.frame()
-tst_df_proj <- spTransform(tst_df, CRS("+proj=longlat +datum=WGS84"))
-writeOGR(tst_df_proj,"tst.kml",layer="tst_df", driver="KML")
-#PASS
-
-##Function writes out KMLs of every spatial extent in file_extents generated by prior function
-file_polys<-lapply(1:length(file_extents[[2]]), 
-                   function(x)
-                   { 
-                     r<-as(file_extents[[2]][[x]],"SpatialPolygons") 
-                     r_crs<-unlist(file_extents[[1]][[x]])
-                     crs(r)<-r_crs
-                     r_df<-as(r,"SpatialPolygonsDataFrame")
-                     r_df_proj <- spTransform(r_df, CRS("+proj=longlat +datum=WGS84"))
-                     r_out<-writeOGR(r_df_proj, paste(out_put,"Flight100332",x,".kml",sep=""),layer=paste("",x,""), driver="KML")
-                     return(r_out)
-                   })
-
-file_polys_merge<-Reduce(raster::merge, file_polys)
-file_check<-lapply(1:length(file_extents[[2]]), 
-                   function(x)
-                   { tst1<-as(file_extents[[2]][[x]],"list") %>% min %>% abs
-                   #tst1@xmin[1];
-                   if(tst1>0) return("TRUE") else "FALSE"})
-file_check
-
-file_check_poly<-lapply(1:length(file_extents[[2]]), 
-                        function(x)
-                        { 
-                          check<-as(file_extents[[2]][[x]],"list") %>% min %>% abs
-                          #tst1@xmin[1];
-                          if(check>0)
-                          {r<-as(file_extents[[2]][[x]],"SpatialPolygons") 
-                          r_crs<-unlist(file_extents[[1]][[x]])
-                          crs(r)<-r_crs
-                          r_df<-as(r,"SpatialPolygonsDataFrame")
-                          r_df_proj <- spTransform(r_df, CRS("+proj=longlat +datum=WGS84"))
-                          r_out<-writeOGR(r_df_proj, paste("Flight100332",x,".kml",sep=""),layer=paste("",x,""), driver="KML")
-                          return(r_out)}
-                        })
