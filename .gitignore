@@ -1,4 +1,3 @@
-
 Data/
 *.envi
 Outputs/
@@ -11,3 +10,4 @@ Outputs/Howland_spectra.rds
 automatically_extracted_spectra.csv
 manually_extracted_spectra.csv
 .Rproj.user
+tiles/

@@ -1460,9 +1460,9 @@ preprocess_raster_to_df <- function(raster_obj, model, band_names=NULL) {
   
   print(is.data.frame(df))
   
-  df <- remove_noisy_cols(df, max_index = 284) %>% as.data.frame()
+  # df <- remove_noisy_cols(df, max_index = 284) %>% as.data.frame()
   
-  print("Noisy columns removed")
+  # print("Noisy columns removed")
   
   print(is.data.frame(df))
   
