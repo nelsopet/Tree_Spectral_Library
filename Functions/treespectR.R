@@ -15,6 +15,7 @@ require(snow)
 require(doSNOW)
 require(stats)
 require(rasterVis)
+require(useful)
 
 
 #' Functions returns columns that are bandpasses
@@ -115,7 +116,7 @@ resample_spectral_dataframe <- function(
 #' @examples Not yet implemented
 
 extract_bands <- function(df){
-  
+
   bands <- remove_meta_column(df) %>% colnames()
   bands <- gsub(".nm", "", bands)
   bands <- gsub("_5", "", bands)
@@ -138,18 +139,30 @@ extract_bands <- function(df){
 df_to_speclib <- function(df, type = "hsdar") {
   # convert to a spectral library
   # print(colnames(df))
-  df_no_metadata <- remove_meta_column(df)
+  df_no_metadata <- remove_meta_column(df) #modified by KL
+  
+  # # This if else if statment creating by KL
+  # if (use_external_bands == FALSE) {
+  #   
+  # bands <- extract_bands(df) # This was the only original part
+  # 
+  # } else if (use_external_bands == TRUE) {
+  #   
+  # bands <- read.csv(config$external_bands)$x[1:326] %>% as.vector()
+  # 
+  # }
   
   bands <- extract_bands(df)
   
   spectral_lib <- NULL
   
+  
   if (type=="hsdar"){
-    spectral_matrix <- as.matrix(df_no_metadata)
+    spectral_matrix <- as.matrix(df)
     spectral_lib <- hsdar::speclib(spectral_matrix, wavelength = bands)
   } else if (type == "spectrolab") {
-    colnames(df_no_metadata) <- bands
-    spectral_lib <- spectrolab::as_spectra(df_no_metadata)
+    colnames(df) <- bands
+    spectral_lib <- spectrolab::as_spectra(df)
   }
   
   return(spectral_lib)
@@ -271,6 +284,8 @@ calculate_aviris_veg_index <- function(spec_library) {
   return(indices)
 }
 
+
+
 resample_df <- function(df) {
 
   spec_library <- df_to_speclib(df, type="spectrolab")
@@ -292,6 +307,7 @@ resample_df <- function(df) {
 
   return(combined_df)
 }
+
 
 quick_veg_index <- function(df) {
 
@@ -1032,7 +1048,7 @@ estimate_land_cover <- function(
   cl <- raster::getCluster()
   
   print(cl)
-  
+
   print(paste0(parallel::detectCores(), " Cores Detected for processing..."))
   
   print(paste0("Cluster initialized with ", num_cores, " processes"))
@@ -1045,9 +1061,8 @@ estimate_land_cover <- function(
   model <- load_model(config$model_path)
   
   # load the input datacube and split into tiles
-  #input_raster <- raster::brick(input_filepath)
-  input_raster <- raster::raster(input_filepath)
-  
+  input_raster <- raster::brick(input_filepath)
+  #input_raster <- raster::raster(input_filepath)
   
   input_crs <- raster::crs(input_raster)
   
@@ -1086,7 +1101,7 @@ estimate_land_cover <- function(
     num_x = num_tiles_x,
     num_y = num_tiles_y,
     save_path = config$tile_path,
-    cluster = cl,
+    #cluster = cl,
     verbose = FALSE)
   
   rm(input_raster)
@@ -1179,6 +1194,18 @@ estimate_land_cover <- function(
   return(results)
 }
 
+
+
+#' Deals with an empty tile during the estimate_land_cover function
+#'
+#' @return 
+#' @param tile_raster: A rastered tile
+#' @param save_path: path to save to
+#' @param target_crs: CRS of the tile that should be used
+#' @seealso None
+#' @export 
+#' @examples Not yet implemented
+
 handle_empty_tile <- function(tile_raster, save_path = NULL, target_crs = NULL){
   # convert to a raster
   output_raster <- tile_raster[[1]]
@@ -1209,8 +1236,18 @@ handle_empty_tile <- function(tile_raster, save_path = NULL, target_crs = NULL){
   return(output_raster)
 }
 
+
+
+#' Checks if there are any empty columns
+#'
+#' @return 
+#' @param df: A target dataframe
+#' @seealso None
+#' @export 
+#' @examples Not yet implemented
+
 has_empty_column <- function(df){
-  # chack if there are not enough data in any column for missForest
+  # check if there are not enough data in any column for missForest
   num_na_per_col <- colSums(is.na(df))
   
   all_na_column <- (num_na_per_col >= (nrow(df) - 2))
@@ -1221,6 +1258,15 @@ has_empty_column <- function(df){
   return( FALSE )
 }
 
+
+
+#' Drops the empty columns while running the estimate_land_cover function
+#'
+#' @return 
+#' @param df: A dataframe produced during the estimate_land_cover function
+#' @seealso None
+#' @export 
+#' @examples Not yet implemented
 
 drop_empty_columns <- function(df){
   
@@ -1234,7 +1280,8 @@ drop_empty_columns <- function(df){
 }
 
 
-#' Processes a small raster imarge
+
+#' Processes a small raster image
 #'
 #' Processes the given image in-memory. This assumes that the image is small enough that tiling is not required.  
 #' Functions include data munging, imputation, automated vegetation index calculation, model inference, and data type conversion. 
@@ -1260,7 +1307,7 @@ process_tile <- function(
     aggregation,
     cluster = NULL,
     return_raster = TRUE,
-    band_names=NULL,
+    band_names = NULL,
     return_filename = FALSE,
     save_path = NULL,
     suppress_output = FALSE
@@ -2785,6 +2832,7 @@ get_log_filename <- function(tile_path) {
     )[[1]]
   )
 }
+
 
 safe_merge <- function(raster_one, raster_two, target_crs = NULL){
   

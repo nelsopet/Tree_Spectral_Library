@@ -3,7 +3,7 @@
   "max_size": 200,
   "x_tiles": 2,
   "y_tiles": 2,
-  "tile_path": "./tiles/",
+  "tile_path": "./tiles",
   "model_path": "./Outputs/Best_Model_Ranger.rda",
   "clusterCores": null,
   "parallelize_by_tiles": false,
