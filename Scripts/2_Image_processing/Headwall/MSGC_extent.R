@@ -103,34 +103,57 @@ st_write(all_kmls_df, paste(combined_output, "/", "Howland_all.kml", sep = ""), 
 
 
 ####PART 3: COMBINE KML WITH TREE STEM MAPS####
+library(plyr)
+library(sf)
+library(rgdal)
 
-#read in combined kml
-flight_extents <- st_read(paste(combined_output, "/", "PEF_all.kml", sep = ""))
+
+#File paths
+#Need one for extents and one for trees
+extents_path <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Howland/"
+#"M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Howland/"
+#"M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/PEF-Demerit/"
+
+trees_path <- "M:/MSGC_DATA/Shapefiles for all areas (Elias)/Howland/"
+#"M:/MSGC_DATA/Shapefiles for all areas (Elias)/Howland/"
+#"M:/MSGC_DATA/Shapefiles for all areas (Elias)/PEF/"
+
+#read in combined kml for given directory
+flight_extents <- st_read(paste(extents_path, "/", "Howland_all.kml", sep = ""))
+
 
 #bring in all point data for tree stem maps
-pef_path <- "E:/Tree_Spectral_Library_pjb/Stem_Maps/Field/PEF/"
-pef_trees <- list.files(pef_path, recursive = T, pattern = ".shp")
-print(pef_trees)
+#These must be hand-checked to ensure the data is appropriate!
+treelist1 <- list.files(trees_path, recursive = T, pattern = ".shp")
+treelist <- subset(treelist1, grepl(".shp.", treelist1)==FALSE)
+#treelist <- treelist2[c(1,2,3,6,7,8)] 
 
-#1. list of .shps with attributes
-all_trees_list <- lapply(1:length(pef_trees), 
-                         function(x) {
-                           st_read(paste(pef_path, "/", pef_trees[x], sep = ""))})
+#read in stem maps, transform CRS to match flight extents, and compile into df
+trees_in <- data.frame()
+for(i in treelist) {
+  treefile1 <- st_read(paste0(trees_path, i))
+  treefile <- st_transform(treefile1, crs = st_crs(flight_extents))
+  pts_in <- st_join(treefile, flight_extents, join = st_within)
+  trees_in <- rbind.fill(pts_in, trees_in)
+}
 
-#convert to df
-all_trees_df <- do.call(rbind.fill, all_trees_list)
+#subset df to remove NAs
+trees_in_sub <- trees_in[!is.na(trees_in$Name),]
+
+#write to file
+st_write(trees_in_sub, paste0(extents_path, "Howland_trees.shp"), driver = "ESRI Shapefile")
 
 
-pts_in <- st_join(all_trees_df$geometry, flight_extents$geometry, join = st_within)
 
+##EXTRAS##
 
-#2. separate df for each .shp
-for (i in pef_trees) {assign(i, st_read(paste0(pef_path, i)))}
-
-
-coords <- st_coordinates(all_trees_df)
-
-over(all_trees_df$geometry, flight_extents$geometry)
+#this reads in all stem maps into one list, but the formatting does not work for st_join
+read_trees <- lapply(1:length(treelist), 
+                     function(x) {
+                       temp <- st_read(paste0(trees_path, treelist[x]))
+                       st_transform(temp, crs= st_crs(flight_extents))})
 
 
 ################################################END############################
+
+
