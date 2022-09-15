@@ -7,16 +7,16 @@ library(rgdal)
 
 #File paths
 #Need one for extents and one for trees
-extents_path <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/PEF-Demerit/"
+extents_path <- "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Howland/"
 #"M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/Howland/"
 #"M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/PEF-Demerit/"
 
-trees_path <- "M:/MSGC_DATA/Shapefiles for all areas (Elias)/PEF/"
+trees_path <- "M:/MSGC_DATA/Shapefiles for all areas (Elias)/Howland/"
 #"M:/MSGC_DATA/Shapefiles for all areas (Elias)/Howland/"
 #"M:/MSGC_DATA/Shapefiles for all areas (Elias)/PEF/"
 
 #read in combined kml for given directory
-flight_extents <- st_read(paste(extents_path, "/", "PEF_all.kml", sep = ""))
+flight_extents <- st_read(paste(extents_path, "/", "Howland_all.kml", sep = ""))
 
 
 #bring in all point data for tree stem maps
@@ -52,18 +52,10 @@ tree_countsbyspecies <- trees_in_sub %>% count(Name, SP)
 
 #favorite images (based on image quality and occurrence of P. rubens)
 #HOWLAND
-#100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or
-#100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_16552_rd_rf_or
+#100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_16552_rd_rf_or (yes)
 
 #PEF
-#100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or (decent red maple and maybe red spruce)
-#100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_7492_rd_rf_or (16RS and 7EH delineated 8-22-22)
-#100047_PEF_SM_12a_110m_2019_06_16_15_25_41_Orthos_raw_15568_rd_rf_or (smaller sample but looks good)
-#100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_11194_rd_rf_or (decent)
-#1000044 has several good images 
-#100044_PEF_SM_11b_110m_2019_06_15_15_26_52_Orthos_raw_19597_rd_rf_or (several trees and good image)
-#100044_PEF_SM_11b_110m_2019_06_15_15_26_52_Orthos_raw_10410_rd_rf_or
-
+#maybe 100032_24245
 
 
 #bad images
