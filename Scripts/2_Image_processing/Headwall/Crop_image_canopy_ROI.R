@@ -1,6 +1,5 @@
 #This script crops and masks an image by a shapefile. The output is a raster of each tree canopy for that image.
 
-
 #source("Functions/lecospectR.R")
 library(terra)
 library(raster)
@@ -10,17 +9,17 @@ library(rgeos)
 library(sf)
 
 #Define file paths
-image_path = "M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100038_PEF_SM_4_110m_2019_06_18_15_16_13\\ortho\\raw_7492_rd_rf_or"
-canopies_path = "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_7492\\"
+image_path = "M:/MSGC_DATA/PEF-Demerit/Imagery/100047_PEF_SM_12a_110m_2019_06_16_15_25_41/Orthos/raw_15568_rd_rf_or"
+canopies_path = "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\"
 
 #bring in test image
 img <- brick(image_path)
 
 #bring in vector of canopies
 #canopies_vec <- readOGR(dsn = paste0(canopies_path, "100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_7492_rd_rf_or.shp"))
-canopies_full <- readOGR(dsn = paste0(canopies_path, "Full_100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_7492_rd_rf_or.shp"))
-canopies_light <- readOGR(dsn = paste0(canopies_path, "Light_100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_7492_rd_rf_or.shp"))
-canopies_shadow <- readOGR(dsn = paste0(canopies_path, "Shadow_100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_7492_rd_rf_or.shp"))
+canopies_full <- readOGR(dsn = paste0(canopies_path, "full_PEF_100047_15568.shp"))
+canopies_light <- readOGR(dsn = paste0(canopies_path, "light_PEF_100047_15568.shp"))
+canopies_shadow <- readOGR(dsn = paste0(canopies_path, "shadow_PEF_100047_15568.shp"))
 
 #Now, crop and mask image by each canopy shapefile. Functions are split into
   #full canopies, illuminated only, and shadowed only
