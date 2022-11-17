@@ -2,6 +2,8 @@
 library(raster)
 library(hsdar)
 library(stringr)
+library(tidyr)
+library(spectrolab)
 
 
 #source("M:\\lecospec\\lecospec\\Functions\\spectral_operations.R")
@@ -57,4 +59,9 @@ Canopy_labeled<-lapply(1:length(imgs), function(x){
   return(df)
 })
 
-####END OF LOOP####
+Canopy_image_spectra<-Reduce(spectrolab::combine,Canopy_labeled)
+
+write.csv(as.data.frame(Canopy_image_spectra), "M:/MSGC_DATA/PEF-Demerit/Spectral_libraries/PEF_spec_lib.csv")
+
+saveRDS(Canopy_image_spectra,"M:/MSGC_DATA/PEF-Demerit/Spectral_libraries/PEF_spec_lib.rds")
+
