@@ -21,7 +21,7 @@ source("M:\\lecospec\\lecospec\\Functions\\training_utilities.R")
 
 
 #Set directory
-path <- ("M:\\MSGC_DATA\\PEF-Demerit\\Cropped_ROIs_spectra\\")
+path <- ("M:\\MSGC_DATA\\Howland\\Cropped_ROIs_spectra\\")
 
 #list all .grd files of full canopies
 allfiles <- list.files(path) 
@@ -61,7 +61,7 @@ Canopy_labeled<-lapply(1:length(imgs), function(x){
 
 Canopy_image_spectra<-Reduce(spectrolab::combine,Canopy_labeled)
 
-write.csv(as.data.frame(Canopy_image_spectra), "M:/MSGC_DATA/PEF-Demerit/Spectral_libraries/PEF_spec_lib.csv")
+write.csv(as.data.frame(Canopy_image_spectra), "M:/MSGC_DATA/Howland/Spectral_libraries/Howland_spec_lib.csv")
 
-saveRDS(Canopy_image_spectra,"M:/MSGC_DATA/PEF-Demerit/Spectral_libraries/PEF_spec_lib.rds")
+saveRDS(Canopy_image_spectra,"M:/MSGC_DATA/Howland/Spectral_libraries/Howland_spec_lib.rds")
 
