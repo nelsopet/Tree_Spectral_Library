@@ -1,9 +1,24 @@
+library(dplyr)
+
+#source("M:\\lecospec\\lecospec\\Functions\\spectral_operations.R")
+##^^this needs to be run manually PJB 11/1/22##
+
+source("M:\\lecospec\\lecospec\\Functions\\raster_operations.R")
+source("M:\\lecospec\\lecospec\\Functions\\dataframe_operations.R")
+source("M:\\lecospec\\lecospec\\Functions\\model_support.R")
+source("M:\\lecospec\\lecospec\\Functions\\utilities.R")
+source("M:\\lecospec\\lecospec\\Functions\\validation.R")
+source("M:\\lecospec\\lecospec\\Functions\\visualization.R")
+source("M:\\lecospec\\lecospec\\Functions\\pfts.R")
+source("M:\\lecospec\\lecospec\\Functions\\type_conversion.R")
+source("M:\\lecospec\\lecospec\\Functions\\training_utilities.R")
+
 ground_spec<-read.csv("M:/Tree_Spectral_Library/Outputs/Cleaned_Tree_SpectralLib.csv")
 img_spec<-read.csv("M:/MSGC_DATA/PEF-Demerit/Spectral_libraries/Clean_PEF_spec_lib.csv")
 
 
 ##Bind both ground and image spectra summaries (quantiles) together
-PFT_SPEC_GROUND_IMAGE <- bind_rows(clean_img_spec, ground_spec)
+PFT_SPEC_GROUND_IMAGE <- bind_rows(img_spec, ground_spec)
 
 
 #Plot median refl for one PFT from two different sources
@@ -20,11 +35,11 @@ ggplot((PFT_SPEC_GROUND_IMAGE %>% dplyr::filter(taxon_code == "abibal") ), aes(W
         title = element_text(size=25),
         strip.text = element_text(size = 25),
         axis.text = element_text(size = 20),
-        axis.text.x = element_text(angle = 90)) +
+        axis.text.x = element_text(angle = 90)) 
   #geom_line(aes(Wavelength, Median_Reflectance,color = "red"),size = 2)+
-  geom_line(aes(Wavelength, Median_Reflectance,color = Source),size = 2)+
+  #geom_line(aes(Wavelength, Median_Reflectance,color = Source),size = 2)+
   
-  facet_wrap(vars(sample_name), scales = "fixed", ncol = 4) 
+  #facet_wrap(vars(sample_name), scales = "fixed", ncol = 4) 
 #facet_wrap(vars(Functional_group1), scales = "fixed", ncol = 3) 
 
 dev.off()
