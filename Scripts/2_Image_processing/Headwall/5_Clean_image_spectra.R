@@ -2,7 +2,7 @@
 
 library(dplyr)
 
-img_spec<-read.csv("M:/MSGC_DATA/PEF-Demerit/Spectral_libraries/PEF_spec_lib.csv")
+img_spec<-read.csv("M:/MSGC_DATA/Howland/Spectral_libraries/Howland_spec_lib_shadow.csv")
 
 #remove duplicate columns
 clean_img_spec <- img_spec %>% select(!c(
@@ -48,4 +48,4 @@ clean_img_spec <- clean_img_spec %>% mutate(taxon_code =
 
 
 #Write to file
-write.csv(clean_img_spec, "M:/MSGC_DATA/PEF-Demerit/Spectral_libraries/Clean_PEF_spec_lib.csv")
+write.csv(clean_img_spec, "M:/MSGC_DATA/Howland/Spectral_libraries/Clean_Howland_spec_lib_shadow.csv")
