@@ -9,7 +9,6 @@ editor_options:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-source("M:/lecospec/lecospec/Functions/lecospectR.R")
 require(maptiles)
 require(terra)
 require(sf)
@@ -134,20 +133,20 @@ validation_path are the ground cover estimates by tree derived from
 ground photos by a single expert observer.
 
 ```{r, echo=FALSE, include=FALSE}
-require(leaflet)
-require(mapview)
-EightmileQuads<-readOGR("Data/Vectors/EightMile_Quadrats_revised.shp")
+#require(leaflet)
+#require(mapview)
+#EightmileQuads<-readOGR("Data/Vectors/EightMile_Quadrats_revised.shp")
 #BisonExtent <- get_tiles(ext(BisonQuads))
 #plot(BisonQuads)
 #lines(BisonQuads, col="blue", lwd=10)
-EightmileMap<-leaflet(EightmileQuads) %>%
+#EightmileMap<-leaflet(EightmileQuads) %>%
     #leaflet::addTiles("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
     #  options = providerTileOptions(minZoom = 1, maxZoom = 100)
     #) %>%
-    leaflet::addTiles() %>%
-    leaflet::addPolygons(data=EightmileQuads)
+ #   leaflet::addTiles() %>%
+  #  leaflet::addPolygons(data=EightmileQuads)
 
-mapshot(EightmileMap, file = "Output/Prediction/EightmileQuads.jpeg")
+#mapshot(EightmileMap, file = "Output/Prediction/EightmileQuads.jpeg")
 
 #EightmileMap
 ```
