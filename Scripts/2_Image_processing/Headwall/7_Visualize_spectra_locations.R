@@ -36,3 +36,18 @@ plotRGB(loc)
 points(UAS_all_centroids, col="blue", lwd=2)
 dev.off()
 
+#plot with leaflet
+require(leaflet)
+require(mapview)
+
+all_flights<-readOGR("M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/All_flights_Maine/PEF_all.kml")
+
+all_flights_map<-leaflet(all_flights) %>%
+  addProviderTiles(
+    "Esri.WorldImagery",
+    group = "Esri.WorldImagery",
+    #options = providerTileOptions(minZoom = 1, maxZoom = 50)
+  ) %>%
+  leaflet::addPolygons(data=all_flights, color = "red", weight = 3, opacity = 1, fillOpacity = 0)
+
+mapshot(all_flights_map, file = "M:/Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg")

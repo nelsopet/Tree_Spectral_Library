@@ -54,13 +54,12 @@ extracted from hand-digitized tree canopies provided as a shapefile to
 the script (3_crop_image_canopy_ROI). Each canopy is associated with
 three hand-digitized shapefiles: 1) full canopy, 2) illuminated-only
 branches, and 3) shaded-only branches. Cropping each image by the
-shapefile creates a set of images with 326 bands from 400-1000nm
-covering only the tree canopies that were hand digitized based on stem
-maps of known tree locations. Script (4_Parse_ROI_canopy_spectra) adds
-metadata to each pixel by tree species and outputs a spectral library in
-wide format. Scripts (5_Clean_image_spectra) and
-(6_Preprocess_viz_image) clean and process data to facilitate the
-visualization of reflectance data by species.
+shapefile creates a set of images with 326 bands from 400-1000nm, with
+each image representing the spectral profile of one tree canopy. Script
+(4_Parse_ROI_canopy_spectra) adds metadata to each pixel by tree species
+and outputs a spectral library in wide format. Scripts
+(5_Clean_image_spectra) and (6_Preprocess_viz_image) clean and process
+data to facilitate the visualization of reflectance data by species.
 
     /Scripts/2_Image_processing/Headwall/1_MSGC_extent.R                     
     /Scripts/2_Image_processing/Headwall/2_MSGC_get_trees.R
@@ -87,23 +86,17 @@ NUMBER OF INDIVIDUALS BY SPECIES.
 
 ## Study Area and Data locations
 
-The centers of all UAV flights are shown in the map in the first image
-below. Flight extents are generated from
+All UAV flights for Maine are shown in the map in the first image below.
+Flight extents are generated from
 /Scripts/2_Image_processing/Headwall/1_MSGC_extent. These locations are
 then collected and summarized using
 /Scripts/2_Image_processing/Headwall/7_Visualize_spectra_locations,
-which produces the flight locations plotted on the map in the first
-image below. The second image below shows a screen capture of one
-hyperspectral image (aka imaging spectrometer data cube). The third
-image below shows a portion of the same data cube enlarged, with
-hand-digitized shapefiles of tree canopies overlaid.
+which produces the flight locations plotted on the map. The second image
+below shows all flight extents at the Penobscot Experimental Forest.
+Each overlapping rectangle polygon represents a single hyperspectral
+image (aka imaging spectrometer data cube). The third image below shows
+a screen capture of one data cube. The fourth image below shows a
+portion of the same data cube enlarged, with hand-digitized shapefiles
+of tree canopies overlaid.
 
-<img src="Outputs/Spectra_locations/MSGC_flight_locations_Maine.jpg" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_envicapture.JPG" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.JPG" width="40%" />
-
-In this script, The test_paths are set to the output of Script
-3_Crop_image_canopy_ROI.R, which are a set of images with 326 bands from
-400-1000nm covering only the tree canopies that were hand digitized
-based on stem maps of known tree locations. The vector layers of each
-hand digitized tree canopy are set in the shape_paths. The
-validation_path are the ground cover estimates by tree derived from
-ground photos by a single expert observer.
+<img src="Outputs/Spectra_locations/MSGC_flight_locations_Maine_esristreet.jpg" width="40%" /><img src="Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_envicapture.JPG" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.JPG" width="40%" />
