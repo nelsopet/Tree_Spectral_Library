@@ -26,14 +26,14 @@ loaded by sourcing /Functions/lecospectR.R
 
 ## How to run treespectra
 
-1\) Our workflow assumes a list of tree species: NEED SPECIES TABLE.
-This table is used for several steps, including aggregating validation
-to the same taxonomic level as training data. 2) Build a spectral
-library from a range of field scans collected with Tungsten halogen
-illumination using a leaf clip or contact probe. These scripts delete
-bad scans and standardize the associated information into a single
-metadata format. Around 90 vegetation indices are also calculated and
-the narrow band reflectance is resampled and smoothed to 5 nm bands.
+1\) Our workflow assumes a list of tree species from a table. This table
+is used for several steps, including aggregating validation to the same
+taxonomic level as training data. 2) Build a spectral library from a
+range of field scans collected with Tungsten halogen illumination using
+a leaf clip or contact probe. These scripts delete bad scans and
+standardize the associated information into a single metadata format.
+Around 90 vegetation indices are also calculated and the narrow band
+reflectance is resampled and smoothed to 5 nm bands.
 
     /Scripts/2_DataMunging.R
     /Scripts/2B_DataMunging_missing_spectra.R   
@@ -69,9 +69,10 @@ data to facilitate the visualization of reflectance data by species.
     /Scripts/2_Image_processing/Headwall6_Preprocess_viz_image.R
 
 After running these scripts, the outputs include the relectance for each
-pixel from the canopies digitized from images.
+pixel from the canopies digitized from images. These data can be found
+in the MSGC_DATA directory (PEF example is shown here).
 
-    M:/MSGC...
+    M:/MSGC_DATA/PEF-Demerit/Spectral_libraries/
 
 After cleaning and pre-processing, the reflectance data can be
 summarized and visualized in various ways. Below is a summary of the
@@ -79,24 +80,27 @@ median (purple) and interquartile ranges (75% dark grey & 95% light
 grey) of reflectance for a number of forest tree species in Maine.
 Median reflectance of fully-illuminated branches (orange) and
 fully-shaded branches (blue) are also shown. Sample size in number of
-pixels is displayed for each species CHANGE THIS TO SAMPLE SIZE IN
-NUMBER OF INDIVIDUALS BY SPECIES.
+individuals and number of spectral pixels is displayed for each species.
 
 <img src="Outputs/Spectral_profiles/PEF_all.jpg" width="9000" />
 
 ## Study Area and Data locations
 
-All UAV flights for Maine are shown in the map in the first image below.
-Flight extents are generated from
+All UAV flights for Maine are shown in the map in the first image below
+(top left). Flight extents are generated from
 /Scripts/2_Image_processing/Headwall/1_MSGC_extent. These locations are
 then collected and summarized using
 /Scripts/2_Image_processing/Headwall/7_Visualize_spectra_locations,
 which produces the flight locations plotted on the map. The second image
-below shows all flight extents at the Penobscot Experimental Forest.
-Each overlapping rectangle polygon represents a single hyperspectral
-image (aka imaging spectrometer data cube). The third image below shows
-a screen capture of one data cube. The fourth image below shows a
-portion of the same data cube enlarged, with hand-digitized shapefiles
-of tree canopies overlaid.
+below (top right) shows all flight extents at the Penobscot Experimental
+Forest. Each overlapping rectangle polygon represents a single
+hyperspectral image (aka imaging spectrometer data cube). The third
+image below (bottom left) shows a screen capture of one data cube. The
+fourth image below (bottom right) shows a portion of the same data cube
+enlarged, with hand-digitized shapefiles of tree canopies overlaid.
 
 <img src="Outputs/Spectra_locations/MSGC_flight_locations_Maine_esristreet.jpg" width="40%" /><img src="Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_envicapture.JPG" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.JPG" width="40%" />
+
+## Model training and validation
+
+\~Currently in development\~
