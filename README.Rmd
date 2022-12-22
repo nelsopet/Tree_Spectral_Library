@@ -1,5 +1,22 @@
-Tree Spectral Library
-================
+---
+title: "Tree Spectral Library"
+output: github_document
+keep_md: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+require(maptiles)
+require(terra)
+require(sf)
+library(rgdal)
+library(tidyverse)
+library(sf)
+require(stars)
+```
 
 ## Tree Spectral Library (treespectra)
 
@@ -53,11 +70,9 @@ spectra (1_MSGC_extent, 2_MSGC_get_trees). Reflectance spectra are
 extracted from hand-digitized tree canopies provided as a shapefile to
 the script (3_crop_image_canopy_ROI). Each canopy is associated with
 three hand-digitized shapefiles: 1) full canopy, 2) illuminated-only
-branches, and 3) shaded-only branches. Cropping each image by the
-shapefile creates a set of images with 326 bands from 400-1000nm, with
-each image representing the spectral profile of one tree canopy. Script
-(4_Parse_ROI_canopy_spectra) adds metadata to each pixel by tree species
-and outputs a spectral library in wide format. Scripts
+branches, and 3) shaded-only branches. Cropping each image by the shapefile creates a set of images with 326 bands from 400-1000nm, with each image representing the spectral profile of one tree canopy. Script
+(4_Parse_ROI_canopy_spectra) adds metadata to each pixel by tree species and
+outputs a spectral library in wide format. Scripts
 (5_Clean_image_spectra) and (6_Preprocess_viz_image) clean and process
 data to facilitate the visualization of reflectance data by species.
 
@@ -82,21 +97,32 @@ fully-shaded branches (blue) are also shown. Sample size in number of
 pixels is displayed for each species CHANGE THIS TO SAMPLE SIZE IN
 NUMBER OF INDIVIDUALS BY SPECIES.
 
-<img src="Outputs/Spectral_profiles/PEF_all.jpg" width="9000" />
+```{r}
+knitr::include_graphics("M:/Tree_Spectral_Library/Outputs/Spectral_profiles/PEF_all.jpg")
+#<img src = "M:/Tree_Spectral_Library/Outputs/Spectral_profiles/PEF_all.jpg" width = 500 height = 500 >
+```
 
 ## Study Area and Data locations
 
-All UAV flights for Maine are shown in the map in the first image below.
-Flight extents are generated from
+All UAV flights for Maine are shown in the map in the first image
+below. Flight extents are generated from
 /Scripts/2_Image_processing/Headwall/1_MSGC_extent. These locations are
 then collected and summarized using
 /Scripts/2_Image_processing/Headwall/7_Visualize_spectra_locations,
-which produces the flight locations plotted on the map. The second image
-below shows all flight extents at the Penobscot Experimental Forest.
-Each overlapping rectangle polygon represents a single hyperspectral
-image (aka imaging spectrometer data cube). The third image below shows
-a screen capture of one data cube. The fourth image below shows a
-portion of the same data cube enlarged, with hand-digitized shapefiles
-of tree canopies overlaid.
+which produces the flight locations plotted on the map. The second image below shows all flight extents at the Penobscot Experimental Forest. Each overlapping rectangle polygon represents a single hyperspectral image (aka imaging spectrometer data cube).
+The third image below shows a screen capture of one
+data cube. The fourth
+image below shows a portion of the same data cube enlarged, with
+hand-digitized shapefiles of tree canopies overlaid.
 
-<img src="Outputs/Spectra_locations/MSGC_flight_locations_Maine_esristreet.jpg" width="40%" /><img src="Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_envicapture.JPG" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.JPG" width="40%" />
+```{r, echo=FALSE, out.width="40%", include=TRUE}
+
+knitr::include_graphics(path=c("M:/Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_Maine_esristreet.jpg", "M:/Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg", "M:/Tree_Spectral_Library/Outputs/Spectra_locations/PEF_100047_15568_envicapture.jpg", "M:/Tree_Spectral_Library/Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.jpg"))
+#<img src = "M:/Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_Maine.jpg" width = 500 height = 500 >
+#<img src = "M:/Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg" width = 500 height = 500 >
+#<img src = "M:/Tree_Spectral_Library/Outputs/Spectra_locations/PEF_100047_15568_envicapture.jpg" width = 500 height = 500 >
+#<img src = "M:/Tree_Spectral_Library/Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.jpg" width = 500 height = 500 >
+```
+
+
+

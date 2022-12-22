@@ -98,6 +98,20 @@ st_write(all_kmls_df, paste(combined_output, "/", "Howland_all.kml", sep = ""), 
 #st_write(all_kmls_df, paste(combined_output, "/", "PEF_all.shp", sep = ""), driver = "ESRI Shapefile")
 
 
+####PART 3: Combine KMLs from all Maine flights into one (for making maps)####
+
+#list files in directory
+kml_files <- list.files("M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/All_flights_Maine")
+
+#make list of kml inputs
+all_kmls_list <- lapply(1:length(kml_files), 
+                        function(x) {
+                          st_read(paste("M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/All_flights_Maine", "/", kml_files[x], sep = ""))})
+#convert to df
+all_kmls_df <- do.call(rbind, all_kmls_list)
+
+#write combined KML file
+st_write(all_kmls_df, "M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Extents/All_flights_Maine/All_flights_Maine.kml", driver = "kml")
 
 ################################################END############################
 
