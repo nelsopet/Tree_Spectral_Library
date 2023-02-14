@@ -1,5 +1,5 @@
 ##Functions
-read_files<-function(path) {list.files(paste(path),pattern = ".sed")}
+read_files<-function(path) {list.files(paste(path),pattern = ".sed", full.names = TRUE)}
 
 read_header<-function(files) {read_delim(paste(path,files[1],sep=""), n_max=24, delim=":") %>% 
     as.data.frame() %>% 
