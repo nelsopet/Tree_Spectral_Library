@@ -1,4 +1,5 @@
 require(glue)
+source("M:/lecospec/lecospec/Functions/lecospectR.R")
 #Plot ground spectra by tree species 
 Cleaned_Speclib<-read.csv("./Outputs/Cleaned_Tree_SpectralLib.csv")
 

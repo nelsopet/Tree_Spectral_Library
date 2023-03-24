@@ -112,4 +112,4 @@ enlarged, with hand-digitized shapefiles of tree canopies overlaid.
 
 ## Model training and validation
 
-\~Currently in development\~
+~Currently in development~
