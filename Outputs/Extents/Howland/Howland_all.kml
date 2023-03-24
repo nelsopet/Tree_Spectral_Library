@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>Howland_all</name>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.7450866,45.204222821 -68.7450866,45.205884572 -68.743074102,45.205884572 -68.743074102,45.204222821 -68.7450866,45.204222821</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_11583_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742788342,45.205105193 -68.742788342,45.206761114 -68.740773064,45.206761114 -68.740773064,45.205105193 -68.742788342,45.205105193</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_13583_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742001052,45.2062124 -68.742001052,45.207316347 -68.740400904,45.207316347 -68.740400904,45.2062124 -68.742001052,45.2062124</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741692714,45.205735487 -68.741692714,45.207057114 -68.739473966,45.207057114 -68.739473966,45.205735487 -68.741692714,45.205735487</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_16552_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742321263,45.204573599 -68.742321263,45.205895226 -68.740267519,45.205895226 -68.740267519,45.204573599 -68.742321263,45.204573599</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_18552_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742689052,45.204041438 -68.742689052,45.204711969 -68.740871777,45.204711969 -68.740871777,45.204041438 -68.742689052,45.204041438</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744336071,45.205382684 -68.744336071,45.207026943 -68.742392267,45.207026943 -68.742392267,45.205382684 -68.744336071,45.205382684</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743643392,45.206506556 -68.743643392,45.207528873 -68.742125719,45.207528873 -68.742125719,45.206506556 -68.743643392,45.206506556</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_4756_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743317513,45.206050604 -68.743317513,45.207298375 -68.74111525,45.207298375 -68.74111525,45.206050604 -68.743317513,45.206050604</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_6756_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743994263,45.204876521 -68.743994263,45.206120405 -68.741778299,45.206120405 -68.741778299,45.204876521 -68.743994263,45.204876521</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_8756_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744251151,45.204417764 -68.744251151,45.204911431 -68.742571332,45.204911431 -68.742571332,45.204417764 -68.744251151,45.204417764</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_9583_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743577332,45.203954528 -68.743577332,45.205602675 -68.74150161,45.205602675 -68.74150161,45.203954528 -68.743577332,45.203954528</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742123264,45.203639311 -68.742123264,45.20532964 -68.740008554,45.20532964 -68.740008554,45.203639311 -68.742123264,45.203639311</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_10301_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741165494,45.20331552 -68.741165494,45.204933649 -68.738714368,45.204933649 -68.738714368,45.20331552 -68.741165494,45.20331552</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_12301_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.740001932,45.204367133 -68.740001932,45.206034103 -68.737830121,45.206034103 -68.737830121,45.204367133 -68.740001932,45.204367133</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_14301_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739101861,45.205414529 -68.739101861,45.206803317 -68.737218394,45.206803317 -68.737218394,45.205414529 -68.739101861,45.205414529</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_15702_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738483358,45.205242303 -68.738483358,45.206584373 -68.736212391,45.206584373 -68.736212391,45.205242303 -68.738483358,45.205242303</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_17702_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739282012,45.204130652 -68.739282012,45.205428128 -68.737047136,45.205428128 -68.737047136,45.204130652 -68.739282012,45.204130652</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_19702_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739851261,45.203423238 -68.739851261,45.204293885 -68.737814673,45.204293885 -68.737814673,45.203423238 -68.739851261,45.203423238</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741339014,45.204764014 -68.741339014,45.206462837 -68.73928434,45.206462837 -68.73928434,45.204764014 -68.741339014,45.204764014</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_21032_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739201188,45.2030957 -68.739201188,45.204614024 -68.737032432,45.204614024 -68.737032432,45.2030957 -68.739201188,45.2030957</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_23032_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738282784,45.204054211 -68.738282784,45.205823111 -68.736089956,45.205823111 -68.736089956,45.204054211 -68.738282784,45.204054211</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_25032_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.737307289,45.205205637 -68.737307289,45.206611413 -68.735474895,45.206611413 -68.735474895,45.205205637 -68.737307289,45.205205637</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.740530846,45.205874237 -68.740530846,45.207124995 -68.738854639,45.207124995 -68.738854639,45.205874237 -68.740530846,45.205874237</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_5114_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.740179665,45.205544682 -68.740179665,45.206814552 -68.737890663,45.206814552 -68.737890663,45.205544682 -68.740179665,45.205544682</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_7114_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.740944969,45.204424412 -68.740944969,45.205660306 -68.738653009,45.205660306 -68.738653009,45.204424412 -68.740944969,45.204424412</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos_raw_9114_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741398968,45.203753341 -68.741398968,45.204507194 -68.73947952,45.204507194 -68.73947952,45.203753341 -68.741398968,45.203753341</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100009_Howland_plot_2_110m_2019_07_05_16_02_27_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738062497,45.209893982 -68.738062497,45.211655034 -68.736437057,45.211655034 -68.736437057,45.209893982 -68.738062497,45.209893982</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100009_Howland_plot_2_110m_2019_07_05_16_02_27_Orthos_raw_1657_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738599719,45.20989185 -68.738599719,45.211351937 -68.736703857,45.211351937 -68.736703857,45.20989185 -68.738599719,45.20989185</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100009_Howland_plot_2_110m_2019_07_05_16_02_27_Orthos_raw_3388_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738926211,45.209848354 -68.738926211,45.211454856 -68.737082132,45.211454856 -68.737082132,45.209848354 -68.738926211,45.209848354</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100009_Howland_plot_2_110m_2019_07_05_16_02_27_Orthos_raw_5049_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739368313,45.209724579 -68.739368313,45.211182632 -68.737506979,45.211182632 -68.737506979,45.209724579 -68.739368313,45.209724579</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.740841886,45.208286795 -68.740841886,45.209642343 -68.737963947,45.209642343 -68.737963947,45.208286795 -68.740841886,45.208286795</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_11762_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747178295,45.207567244 -68.747178295,45.208897958 -68.744584377,45.208897958 -68.744584377,45.207567244 -68.747178295,45.207567244</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_13762_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745250356,45.207994788 -68.745250356,45.209364823 -68.74243684,45.209364823 -68.74243684,45.207994788 -68.745250356,45.207994788</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_15762_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743091313,45.2084428 -68.743091313,45.209806627 -68.740435872,45.209806627 -68.740435872,45.2084428 -68.743091313,45.2084428</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_17762_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741083351,45.208871688 -68.741083351,45.21025414 -68.738533288,45.21025414 -68.738533288,45.208871688 -68.741083351,45.208871688</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_19708_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741081986,45.209331905 -68.741081986,45.210799208 -68.738622662,45.210799208 -68.738622662,45.209331905 -68.741081986,45.209331905</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_21708_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743134384,45.208894759 -68.743134384,45.210345506 -68.740631163,45.210345506 -68.740631163,45.208894759 -68.743134384,45.208894759</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_23708_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745134727,45.208423739 -68.745134727,45.209841374 -68.742652021,45.209841374 -68.742652021,45.208423739 -68.745134727,45.208423739</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_25708_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747211886,45.207978153 -68.747211886,45.209406135 -68.744600381,45.209406135 -68.744600381,45.207978153 -68.747211886,45.207978153</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_27708_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749208447,45.207511958 -68.749208447,45.208962705 -68.746681865,45.208962705 -68.746681865,45.207511958 -68.749208447,45.207511958</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_29708_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749209009,45.207527748 -68.749209009,45.208485945 -68.748626404,45.208485945 -68.748626404,45.207527748 -68.749209009,45.207527748</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744974821,45.207360419 -68.744974821,45.208755289 -68.742240383,45.208755289 -68.742240383,45.207360419 -68.744974821,45.207360419</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747111904,45.206946994 -68.747111904,45.208285986 -68.744313079,45.208285986 -68.744313079,45.206946994 -68.747111904,45.206946994</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.748845243,45.206602491 -68.748845243,45.207900093 -68.746488507,45.207900093 -68.746488507,45.206602491 -68.748845243,45.206602491</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100012_Howland_plot_3a_110m_2019_07_05_17_00_47_Orthos_raw_9762_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749201784,45.207100442 -68.749201784,45.208482895 -68.746566899,45.208482895 -68.746566899,45.207100442 -68.749201784,45.207100442</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741023633,45.209864384 -68.741023633,45.211247718 -68.737529606,45.211247718 -68.737529606,45.209864384 -68.741023633,45.209864384</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_10000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749611457,45.208188606 -68.749611457,45.209266638 -68.748574899,45.209266638 -68.748574899,45.208188606 -68.749611457,45.208188606</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_10518_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749966938,45.208673818 -68.749966938,45.210012936 -68.747390408,45.210012936 -68.747390408,45.208673818 -68.749966938,45.208673818</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_12518_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747919347,45.20905572 -68.747919347,45.210417999 -68.745321949,45.210417999 -68.745321949,45.20905572 -68.747919347,45.20905572</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_14518_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745847492,45.209501743 -68.745847492,45.210805067 -68.743247096,45.210805067 -68.743247096,45.209501743 -68.745847492,45.209501743</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_16518_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743766425,45.209875192 -68.743766425,45.211180621 -68.741219629,45.211180621 -68.741219629,45.209875192 -68.743766425,45.209875192</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_18518_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741732477,45.210233601 -68.741732477,45.211589563 -68.739129068,45.211589563 -68.739129068,45.210233601 -68.741732477,45.210233601</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742889891,45.209472588 -68.742889891,45.210876977 -68.740369919,45.210876977 -68.740369919,45.209472588 -68.742889891,45.209472588</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_20518_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739645782,45.210596559 -68.739645782,45.211636691 -68.73891897,45.211636691 -68.73891897,45.210596559 -68.739645782,45.210596559</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_20750_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741748155,45.210680101 -68.741748155,45.21210344 -68.739287704,45.21210344 -68.739287704,45.210680101 -68.741748155,45.210680101</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_22750_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743890377,45.21032418 -68.743890377,45.211724358 -68.741385261,45.211724358 -68.741385261,45.21032418 -68.743890377,45.21032418</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_24750_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746010321,45.209953955 -68.746010321,45.21132255 -68.74355586,45.21132255 -68.74355586,45.209953955 -68.746010321,45.209953955</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_26750_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747997516,45.209555242 -68.747997516,45.210915415 -68.745674135,45.210915415 -68.745674135,45.209555242 -68.747997516,45.209555242</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_28750_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749985936,45.209139051 -68.749985936,45.210606606 -68.74763874,45.210606606 -68.74763874,45.209139051 -68.749985936,45.209139051</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_30618_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.750336711,45.209701812 -68.750336711,45.211017769 -68.747789922,45.211017769 -68.747789922,45.209701812 -68.750336711,45.209701812</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_32618_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.748311368,45.210090461 -68.748311368,45.21139589 -68.745734775,45.21139589 -68.745734775,45.210090461 -68.748311368,45.210090461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_34618_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746272717,45.210468337 -68.746272717,45.211805349 -68.743633553,45.211805349 -68.743633553,45.210468337 -68.746272717,45.210468337</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_36618_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744200398,45.210892974 -68.744200398,45.21218577 -68.741555258,45.21218577 -68.741555258,45.210892974 -68.744200398,45.210892974</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_38618_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742140687,45.211252201 -68.742140687,45.212532364 -68.739659363,45.212532364 -68.739659363,45.211252201 -68.742140687,45.211252201</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744987538,45.209076659 -68.744987538,45.210436832 -68.742327587,45.210436832 -68.742327587,45.209076659 -68.744987538,45.209076659</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747047503,45.208652996 -68.747047503,45.210048963 -68.744473952,45.210048963 -68.744473952,45.208652996 -68.747047503,45.208652996</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100015_Howland_plot_3b_110m_2019_07_05_17_40_21_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749057813,45.208281234 -68.749057813,45.20967299 -68.746534915,45.20967299 -68.746534915,45.208281234 -68.749057813,45.208281234</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.74253188,45.202409882 -68.74253188,45.203991948 -68.740683943,45.203991948 -68.740683943,45.202409882 -68.74253188,45.202409882</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_10651_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.74152495,45.200545883 -68.74152495,45.202333698 -68.739493412,45.202333698 -68.739493412,45.200545883 -68.74152495,45.200545883</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_12651_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.74154871,45.200365335 -68.74154871,45.2008847 -68.739991879,45.2008847 -68.739991879,45.200365335 -68.74154871,45.200365335</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_12902_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.74090537,45.200189585 -68.74090537,45.201909483 -68.738887974,45.201909483 -68.738887974,45.200189585 -68.74090537,45.200189585</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_14902_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.740383493,45.201586397 -68.740383493,45.203440131 -68.738459288,45.203440131 -68.738459288,45.201586397 -68.740383493,45.201586397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_16902_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739922394,45.203052397 -68.739922394,45.203609716 -68.738405048,45.203609716 -68.738405048,45.203052397 -68.739922394,45.203052397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742821498,45.200891891 -68.742821498,45.202557855 -68.741049898,45.202557855 -68.741049898,45.200891891 -68.742821498,45.200891891</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742874522,45.200651504 -68.742874522,45.201100955 -68.741368543,45.201100955 -68.741368543,45.200651504 -68.742874522,45.200651504</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_4324_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742286693,45.200494154 -68.742286693,45.202188083 -68.740393608,45.202188083 -68.740393608,45.200494154 -68.742286693,45.200494154</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_6324_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741870938,45.201872389 -68.741870938,45.203692164 -68.739960852,45.203692164 -68.739960852,45.201872389 -68.741870938,45.201872389</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_8324_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741444037,45.203309942 -68.741444037,45.203937175 -68.739921032,45.203937175 -68.739921032,45.203309942 -68.741444037,45.203309942</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100021_Howland_plot_4b_110m_2019_07_04_15_28_02_Orthos_raw_8651_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741031695,45.202077824 -68.741031695,45.203737794 -68.739093349,45.203737794 -68.739093349,45.202077824 -68.741031695,45.202077824</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739643994,45.201826612 -68.739643994,45.203492719 -68.737656833,45.203492719 -68.737656833,45.201826612 -68.739643994,45.201826612</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_10574_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738749301,45.200013177 -68.738749301,45.20177137 -68.736725852,45.20177137 -68.736725852,45.200013177 -68.738749301,45.200013177</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_12574_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738812459,45.199846562 -68.738812459,45.200283433 -68.737264603,45.200283433 -68.737264603,45.199846562 -68.738812459,45.199846562</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_12825_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738175597,45.199774984 -68.738175597,45.201342582 -68.736236974,45.201342582 -68.736236974,45.199774984 -68.738175597,45.199774984</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_14825_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.737682526,45.201069352 -68.737682526,45.202883225 -68.735752943,45.202883225 -68.735752943,45.201069352 -68.737682526,45.201069352</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_16825_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.737152286,45.202501869 -68.737152286,45.203114345 -68.735692203,45.203114345 -68.735692203,45.202501869 -68.737152286,45.202501869</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_17148_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.736838046,45.201324141 -68.736838046,45.202851049 -68.734826671,45.202851049 -68.734826671,45.201324141 -68.736838046,45.201324141</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_19148_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.737347217,45.199853911 -68.737347217,45.201498604 -68.735369212,45.201498604 -68.735369212,45.199853911 -68.737347217,45.199853911</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.740047364,45.20034532 -68.740047364,45.202045692 -68.738123865,45.202045692 -68.738123865,45.20034532 -68.740047364,45.20034532</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_21148_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.737390959,45.199663121 -68.737390959,45.200080719 -68.735876428,45.200080719 -68.735876428,45.199663121 -68.737390959,45.199663121</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.740160359,45.20013078 -68.740160359,45.200576218 -68.738527681,45.200576218 -68.738527681,45.20013078 -68.740160359,45.20013078</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_4255_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739521801,45.199988372 -68.739521801,45.201609508 -68.737589228,45.201609508 -68.737589228,45.199988372 -68.739521801,45.199988372</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_6255_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.739041838,45.201312634 -68.739041838,45.20315863 -68.737100129,45.20315863 -68.737100129,45.201312634 -68.739041838,45.201312634</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_8255_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738551716,45.202756974 -68.738551716,45.203399432 -68.737009837,45.203399432 -68.737009837,45.202756974 -68.738551716,45.202756974</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100025_Howland_plot_4c_110m_2019_07_05_15_07_28_Orthos_raw_8574_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.738273252,45.201563675 -68.738273252,45.203180527 -68.736277013,45.203180527 -68.736277013,45.201563675 -68.738273252,45.201563675</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742153441,45.212095564 -68.742153441,45.213273851 -68.739602322,45.213273851 -68.739602322,45.212095564 -68.742153441,45.212095564</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_10000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.751892408,45.210293102 -68.751892408,45.2113876 -68.750151381,45.2113876 -68.750151381,45.210293102 -68.751892408,45.210293102</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_11535_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.751991765,45.21090256 -68.751991765,45.212094812 -68.749499969,45.212094812 -68.749499969,45.21090256 -68.751991765,45.21090256</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_13535_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749976171,45.211338325 -68.749976171,45.212474718 -68.747457192,45.212474718 -68.747457192,45.211338325 -68.749976171,45.211338325</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_15535_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747931962,45.211725552 -68.747931962,45.212895111 -68.745222805,45.212895111 -68.745222805,45.211725552 -68.747931962,45.211725552</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_17535_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745706747,45.212154609 -68.745706747,45.2132718 -68.743172914,45.2132718 -68.743172914,45.212154609 -68.745706747,45.212154609</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_19535_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743642447,45.212548297 -68.743642447,45.213667233 -68.741056734,45.213667233 -68.741056734,45.212548297 -68.743642447,45.212548297</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744169241,45.211728254 -68.744169241,45.212882103 -68.741697167,45.212882103 -68.741697167,45.211728254 -68.744169241,45.211728254</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_21535_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741549802,45.212893567 -68.741549802,45.213883328 -68.740045784,45.213883328 -68.740045784,45.212893567 -68.741549802,45.212893567</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_22539_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742596459,45.213137508 -68.742596459,45.214376891 -68.74028732,45.214376891 -68.74028732,45.213137508 -68.742596459,45.213137508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_24539_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744703029,45.212831013 -68.744703029,45.213929002 -68.742240787,45.213929002 -68.742240787,45.212831013 -68.744703029,45.212831013</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_26539_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746775688,45.212368206 -68.746775688,45.213590133 -68.744293706,45.213590133 -68.744293706,45.212368206 -68.746775688,45.212368206</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_28539_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.748804453,45.211993991 -68.748804453,45.213146094 -68.746362003,45.213146094 -68.746362003,45.211993991 -68.748804453,45.211993991</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_30539_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.750870549,45.211585601 -68.750870549,45.212760397 -68.748386132,45.212760397 -68.748386132,45.211585601 -68.750870549,45.211585601</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_32539_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.75169082,45.211446174 -68.75169082,45.212367856 -68.750446148,45.212367856 -68.750446148,45.211446174 -68.75169082,45.211446174</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_33341_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.751771433,45.211827674 -68.751771433,45.213149101 -68.747810174,45.213149101 -68.747810174,45.211827674 -68.751771433,45.211827674</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_35341_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.748274221,45.212300824 -68.748274221,45.213625742 -68.744399366,45.213625742 -68.744399366,45.212300824 -68.748274221,45.212300824</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_37341_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744878383,45.212733372 -68.744878383,45.214182229 -68.741403579,45.214182229 -68.741403579,45.212733372 -68.744878383,45.212733372</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_39341_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742490743,45.213058844 -68.742490743,45.214219675 -68.739932173,45.214219675 -68.739932173,45.213058844 -68.742490743,45.213058844</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746219396,45.211347462 -68.746219396,45.212517021 -68.743816486,45.212517021 -68.743816486,45.211347462 -68.746219396,45.211347462</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.748277244,45.210982141 -68.748277244,45.212148209 -68.745943498,45.212148209 -68.745943498,45.210982141 -68.748277244,45.210982141</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100028_Howland_plot_5a_90m_2019_07_07_14_24_01_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.750310315,45.210578799 -68.750310315,45.211807709 -68.748058079,45.211807709 -68.748058079,45.210578799 -68.750310315,45.210578799</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.742476196,45.213082432 -68.742476196,45.214365186 -68.7402606,45.214365186 -68.7402606,45.213082432 -68.742476196,45.213082432</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_10000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.751675984,45.211335862 -68.751675984,45.212317525 -68.750617373,45.212317525 -68.750617373,45.211335862 -68.751675984,45.211335862</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_10780_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.751710516,45.211961845 -68.751710516,45.213130576 -68.749210145,45.213130576 -68.749210145,45.211961845 -68.751710516,45.211961845</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_12780_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.749701655,45.212366954 -68.749701655,45.213539248 -68.747140773,45.213539248 -68.747140773,45.212366954 -68.749701655,45.212366954</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_14780_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747638512,45.21278202 -68.747638512,45.213906211 -68.745059969,45.213906211 -68.745059969,45.21278202 -68.747638512,45.21278202</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_16780_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745562804,45.21316466 -68.745562804,45.214304885 -68.742981722,45.214304885 -68.742981722,45.21316466 -68.745562804,45.21316466</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_18780_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.743477566,45.213494468 -68.743477566,45.214663199 -68.740934278,45.214663199 -68.740934278,45.213494468 -68.743477566,45.213494468</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744613174,45.212703541 -68.744613174,45.213916812 -68.742188387,45.213916812 -68.742188387,45.212703541 -68.744613174,45.212703541</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_20780_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.741457555,45.213890675 -68.741457555,45.214777913 -68.740474516,45.214777913 -68.740474516,45.213890675 -68.741457555,45.213890675</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746708906,45.212275222 -68.746708906,45.213511654 -68.744251369,45.213511654 -68.744251369,45.212275222 -68.746708906,45.212275222</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.748819339,45.21187524 -68.748819339,45.213097419 -68.746387025,45.213097419 -68.746387025,45.21187524 -68.748819339,45.21187524</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100031_Howland_plot_5b_90m_2019_07_07_15_11_55_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.750887894,45.211481033 -68.750887894,45.212710339 -68.748495925,45.212710339 -68.748495925,45.211481033 -68.750887894,45.211481033</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.731471075,45.210577099 -68.731471075,45.212107298 -68.729969988,45.212107298 -68.729969988,45.210577099 -68.731471075,45.210577099</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_10000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.731575157,45.204889226 -68.731575157,45.205686989 -68.730219842,45.205686989 -68.730219842,45.204889226 -68.731575157,45.204889226</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_10755_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730941481,45.204904381 -68.730941481,45.206335603 -68.729513351,45.206335603 -68.729513351,45.204904381 -68.730941481,45.204904381</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_12755_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730895184,45.206148028 -68.730895184,45.207636657 -68.729439019,45.207636657 -68.729439019,45.206148028 -68.730895184,45.206148028</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_14755_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730818897,45.207395602 -68.730818897,45.208975291 -68.729351498,45.208975291 -68.729351498,45.207395602 -68.730818897,45.207395602</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_16755_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730821559,45.20872259 -68.730821559,45.210324054 -68.729379329,45.210324054 -68.729379329,45.20872259 -68.730821559,45.20872259</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_18755_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730823577,45.210070625 -68.730823577,45.211608742 -68.729330905,45.211608742 -68.729330905,45.210070625 -68.730823577,45.210070625</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.731503231,45.209260605 -68.731503231,45.210883844 -68.730035783,45.210883844 -68.730035783,45.209260605 -68.731503231,45.209260605</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_20755_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730804216,45.211348806 -68.730804216,45.21204759 -68.729387136,45.21204759 -68.729387136,45.211348806 -68.730804216,45.211348806</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_21538_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.729997449,45.210673845 -68.729997449,45.212114964 -68.728549571,45.212114964 -68.728549571,45.210673845 -68.729997449,45.210673845</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_23538_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730043122,45.209327754 -68.730043122,45.210901504 -68.728620481,45.210901504 -68.728620481,45.209327754 -68.730043122,45.209327754</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_25538_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730027441,45.208028107 -68.730027441,45.209635509 -68.728677642,45.209635509 -68.728677642,45.208028107 -68.730027441,45.208028107</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_27538_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.73006752,45.206736041 -68.73006752,45.208392933 -68.72870375,45.208392933 -68.72870375,45.206736041 -68.73006752,45.206736041</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_29538_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.730133425,45.20543122 -68.730133425,45.207123744 -68.728710879,45.207123744 -68.728710879,45.20543122 -68.730133425,45.20543122</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_31538_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.73010984,45.204883039 -68.73010984,45.20582729 -68.728799327,45.20582729 -68.728799327,45.204883039 -68.73010984,45.204883039</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_32463_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.729510377,45.204944507 -68.729510377,45.20637177 -68.727964635,45.20637177 -68.727964635,45.204944507 -68.729510377,45.204944507</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_34463_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.729458499,45.206195446 -68.729458499,45.207640525 -68.728033137,45.207640525 -68.728033137,45.206195446 -68.729458499,45.206195446</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_36463_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.729412383,45.207411824 -68.729412383,45.208944003 -68.727950585,45.208944003 -68.727950585,45.207411824 -68.729412383,45.207411824</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_38463_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.729369217,45.208703224 -68.729369217,45.210162159 -68.727893384,45.210162159 -68.727893384,45.208703224 -68.729369217,45.208703224</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.731568241,45.207954203 -68.731568241,45.209624951 -68.730075622,45.209624951 -68.730075622,45.207954203 -68.731568241,45.207954203</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_40463_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.729378048,45.209895231 -68.729378048,45.211484817 -68.727809766,45.211484817 -68.727809766,45.209895231 -68.729378048,45.209895231</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_42463_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.72926824,45.211214844 -68.72926824,45.212044279 -68.727834359,45.212044279 -68.727834359,45.211214844 -68.72926824,45.211214844</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.731550746,45.206651115 -68.731550746,45.208306027 -68.73012537,45.208306027 -68.73012537,45.206651115 -68.731550746,45.206651115</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100034_Howland_plot_6a_110m_2019_07_07_16_36_57_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.731581189,45.205376599 -68.731581189,45.206987961 -68.730164246,45.206987961 -68.730164246,45.205376599 -68.731581189,45.205376599</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.728334615,45.210608549 -68.728334615,45.212247156 -68.726912399,45.212247156 -68.726912399,45.210608549 -68.728334615,45.210608549</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_10000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.72854361,45.205231936 -68.72854361,45.205710738 -68.727164717,45.205710738 -68.727164717,45.205231936 -68.72854361,45.205231936</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_10417_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.727946254,45.205155098 -68.727946254,45.206639193 -68.726405445,45.206639193 -68.726405445,45.205155098 -68.727946254,45.205155098</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_12417_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.727904431,45.206387586 -68.727904431,45.208001395 -68.726374381,45.208001395 -68.726374381,45.206387586 -68.727904431,45.206387586</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_14417_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.727771274,45.207668216 -68.727771274,45.209310639 -68.726359926,45.209310639 -68.726359926,45.207668216 -68.727771274,45.207668216</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_16417_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.72769997,45.208951587 -68.72769997,45.210689388 -68.726323671,45.210689388 -68.726323671,45.208951587 -68.72769997,45.208951587</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_18417_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.727636655,45.210300672 -68.727636655,45.211933556 -68.726295407,45.211933556 -68.726295407,45.210300672 -68.727636655,45.210300672</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.728429136,45.209317527 -68.728429136,45.210948504 -68.726977267,45.210948504 -68.726977267,45.209317527 -68.728429136,45.209317527</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_20417_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.727595732,45.211557414 -68.727595732,45.212255586 -68.726273357,45.212255586 -68.726273357,45.211557414 -68.727595732,45.211557414</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_20861_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726861896,45.210721522 -68.726861896,45.212154111 -68.72541809,45.212154111 -68.72541809,45.210721522 -68.726861896,45.210721522</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_22861_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726936678,45.209417395 -68.726936678,45.21093201 -68.725471315,45.21093201 -68.725471315,45.209417395 -68.726936678,45.209417395</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_24861_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726875211,45.208081441 -68.726875211,45.209693342 -68.725426073,45.209693342 -68.725426073,45.208081441 -68.726875211,45.208081441</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_26861_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726964439,45.206766249 -68.726964439,45.208393411 -68.725442474,45.208393411 -68.725442474,45.206766249 -68.726964439,45.206766249</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_28861_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726867348,45.205487001 -68.726867348,45.207096996 -68.725510023,45.207096996 -68.725510023,45.205487001 -68.726867348,45.205487001</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_30861_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726901754,45.205109078 -68.726901754,45.20583205 -68.725530957,45.20583205 -68.725530957,45.205109078 -68.726901754,45.205109078</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_31448_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726251747,45.205190772 -68.726251747,45.206585211 -68.724764907,45.206585211 -68.724764907,45.205190772 -68.726251747,45.205190772</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_33448_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726209609,45.206371425 -68.726209609,45.207928007 -68.724706545,45.207928007 -68.724706545,45.206371425 -68.726209609,45.206371425</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_35448_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726294954,45.207675725 -68.726294954,45.209224677 -68.724700104,45.209224677 -68.724700104,45.207675725 -68.726294954,45.207675725</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_37448_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726188105,45.20888209 -68.726188105,45.210530235 -68.724663384,45.210530235 -68.724663384,45.20888209 -68.726188105,45.20888209</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_39448_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726178733,45.210235388 -68.726178733,45.211790062 -68.724788912,45.211790062 -68.724788912,45.210235388 -68.726178733,45.210235388</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.728479632,45.208034092 -68.728479632,45.209636456 -68.727073672,45.209636456 -68.727073672,45.208034092 -68.728479632,45.208034092</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_41448_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726129498,45.211527529 -68.726129498,45.212111247 -68.724780138,45.212111247 -68.724780138,45.211527529 -68.726129498,45.211527529</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.728558062,45.206730365 -68.728558062,45.208336544 -68.727119752,45.208336544 -68.727119752,45.206730365 -68.728558062,45.206730365</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100037_Howland_plot_6b_110m_2019_07_07_17_31_21_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.728540376,45.205457879 -68.728540376,45.207006831 -68.727123687,45.207006831 -68.727123687,45.205457879 -68.728540376,45.205457879</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.727905637,45.211086279 -68.727905637,45.212790679 -68.726301677,45.212790679 -68.726301677,45.211086279 -68.727905637,45.211086279</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_10000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.72634122,45.204968662 -68.72634122,45.2064671 -68.724865738,45.2064671 -68.724865738,45.204968662 -68.72634122,45.204968662</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_11598_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.725683609,45.204938616 -68.725683609,45.206372808 -68.724034385,45.206372808 -68.724034385,45.204938616 -68.725683609,45.204938616</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_13598_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.725950687,45.206315078 -68.725950687,45.207603772 -68.724293407,45.207603772 -68.724293407,45.206315078 -68.725950687,45.206315078</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_15598_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726219051,45.207548895 -68.726219051,45.208899945 -68.724535003,45.208899945 -68.724535003,45.207548895 -68.726219051,45.207548895</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_17598_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.72653223,45.208827033 -68.72653223,45.210196978 -68.724834778,45.210196978 -68.724834778,45.208827033 -68.72653223,45.208827033</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_19598_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726760843,45.210117828 -68.726760843,45.211485883 -68.725103451,45.211485883 -68.725103451,45.210117828 -68.726760843,45.210117828</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.727555324,45.209804598 -68.727555324,45.211537342 -68.726012884,45.211537342 -68.726012884,45.209804598 -68.727555324,45.209804598</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_21598_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726904649,45.211404197 -68.726904649,45.212212937 -68.725434356,45.212212937 -68.725434356,45.211404197 -68.726904649,45.211404197</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_22770_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.725970861,45.210482037 -68.725970861,45.212124081 -68.724503254,45.212124081 -68.724503254,45.210482037 -68.725970861,45.210482037</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_24770_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.725700973,45.209167662 -68.725700973,45.210894737 -68.72427617,45.210894737 -68.72427617,45.209167662 -68.725700973,45.209167662</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_26770_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.725425105,45.207862221 -68.725425105,45.209647874 -68.724027065,45.209647874 -68.724027065,45.207862221 -68.725425105,45.207862221</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_28770_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.725153204,45.206596373 -68.725153204,45.208385805 -68.723771233,45.208385805 -68.723771233,45.206596373 -68.725153204,45.206596373</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_30770_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.724882984,45.205302338 -68.724882984,45.207148458 -68.723511736,45.207148458 -68.723511736,45.205302338 -68.724882984,45.205302338</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_32770_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.724694521,45.204981112 -68.724694521,45.205857878 -68.723400808,45.205857878 -68.723400808,45.204981112 -68.724694521,45.204981112</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_33269_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.72420804,45.205090423 -68.72420804,45.206471706 -68.72262831,45.206471706 -68.72262831,45.205090423 -68.72420804,45.205090423</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_35269_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.724455841,45.206416099 -68.724455841,45.207742584 -68.722849345,45.207742584 -68.722849345,45.206416099 -68.724455841,45.206416099</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_37269_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.724728235,45.207686447 -68.724728235,45.209035607 -68.723100318,45.209035607 -68.723100318,45.207686447 -68.724728235,45.207686447</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_39269_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.724953558,45.208946573 -68.724953558,45.21030707 -68.723384414,45.21030707 -68.723384414,45.208946573 -68.724953558,45.208946573</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.727221418,45.208536591 -68.727221418,45.2102939 -68.725654953,45.2102939 -68.725654953,45.208536591 -68.727221418,45.208536591</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_41269_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.725174967,45.210213237 -68.725174967,45.211562396 -68.723627174,45.211562396 -68.723627174,45.210213237 -68.725174967,45.210213237</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_43269_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.725212501,45.211481566 -68.725212501,45.21168753 -68.723894589,45.21168753 -68.723894589,45.211481566 -68.725212501,45.211481566</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726879586,45.207229754 -68.726879586,45.20904753 -68.725425426,45.20904753 -68.725425426,45.207229754 -68.726879586,45.207229754</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100040_Howland_plot_7a_110m_2019_07_09_15_34_47_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.726584265,45.205947149 -68.726584265,45.207749809 -68.725138157,45.207749809 -68.725138157,45.205947149 -68.726584265,45.205947149</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.724388981,45.210003756 -68.724388981,45.211815484 -68.72278673,45.211815484 -68.72278673,45.210003756 -68.724388981,45.210003756</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_11610_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.722925876,45.206456978 -68.722925876,45.207940137 -68.72125362,45.207940137 -68.72125362,45.206456978 -68.722925876,45.206456978</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_13610_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.723212386,45.207725942 -68.723212386,45.209179731 -68.721402466,45.209179731 -68.721402466,45.207725942 -68.723212386,45.207725942</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_15610_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.723278348,45.208942303 -68.723278348,45.210408941 -68.721720277,45.210408941 -68.721720277,45.208942303 -68.723278348,45.208942303</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_17610_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.723707059,45.210181033 -68.723707059,45.211344798 -68.721897066,45.211344798 -68.721897066,45.210181033 -68.723707059,45.210181033</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_19104_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.722702181,45.209697624 -68.722702181,45.211257876 -68.721305091,45.211257876 -68.721305091,45.209697624 -68.722702181,45.209697624</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.724077641,45.208716751 -68.724077641,45.210422015 -68.722478025,45.210422015 -68.722478025,45.208716751 -68.724077641,45.208716751</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_21104_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.722539019,45.208389047 -68.722539019,45.210061271 -68.721084831,45.210061271 -68.721084831,45.208389047 -68.722539019,45.208389047</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_23104_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.722321698,45.207070999 -68.722321698,45.208800127 -68.720815609,45.208800127 -68.720815609,45.207070999 -68.722321698,45.207070999</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_25104_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.721985393,45.205812425 -68.721985393,45.207503006 -68.720603977,45.207503006 -68.720603977,45.205812425 -68.721985393,45.205812425</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_27104_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.721770938,45.205141525 -68.721770938,45.206263072 -68.720511585,45.206263072 -68.720511585,45.205141525 -68.721770938,45.205141525</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_28102_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.721157979,45.205216951 -68.721157979,45.206597317 -68.71967791,45.206597317 -68.71967791,45.205216951 -68.721157979,45.205216951</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_30102_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.721386153,45.206472635 -68.721386153,45.207935602 -68.719856713,45.207935602 -68.719856713,45.206472635 -68.721386153,45.206472635</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_32102_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.721685877,45.207742631 -68.721685877,45.209205598 -68.720091485,45.209205598 -68.720091485,45.207742631 -68.721685877,45.207742631</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_34102_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.721891444,45.208997012 -68.721891444,45.210504033 -68.720335968,45.210504033 -68.720335968,45.208997012 -68.721891444,45.208997012</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_36102_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.721936679,45.210302893 -68.721936679,45.210921487 -68.720570748,45.210921487 -68.720570748,45.210302893 -68.721936679,45.210302893</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.723792697,45.207472019 -68.723792697,45.209135065 -68.722226874,45.209135065 -68.722226874,45.207472019 -68.723792697,45.207472019</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.72352918,45.206179562 -68.72352918,45.207897676 -68.721986761,45.207897676 -68.721986761,45.206179562 -68.72352918,45.206179562</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.723275948,45.205174616 -68.723275948,45.206589858 -68.721759527,45.206589858 -68.721759527,45.205174616 -68.723275948,45.205174616</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100043_Howland_plot_7b_110m_2019_07_09_16_35_19_Orthos_raw_9610_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.722673901,45.205201112 -68.722673901,45.206601669 -68.720892625,45.206601669 -68.720892625,45.205201112 -68.722673901,45.205201112</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746696816,45.209183659 -68.746696816,45.210497511 -68.745000347,45.210497511 -68.745000347,45.209183659 -68.746696816,45.209183659</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_10075_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745930534,45.20783093 -68.745930534,45.209234186 -68.744060887,45.209234186 -68.744060887,45.20783093 -68.745930534,45.20783093</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_12075_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745783969,45.207821662 -68.745783969,45.20813652 -68.74436525,45.20813652 -68.74436525,45.207821662 -68.745783969,45.207821662</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_12105_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745273389,45.207699647 -68.745273389,45.208978515 -68.743480733,45.208978515 -68.743480733,45.207699647 -68.745273389,45.207699647</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_14105_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744992707,45.208770573 -68.744992707,45.210039723 -68.743197268,45.210039723 -68.743197268,45.208770573 -68.744992707,45.208770573</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_16105_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744561439,45.20987204 -68.744561439,45.210060566 -68.743192163,45.210060566 -68.743192163,45.20987204 -68.744561439,45.20987204</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747085951,45.208126955 -68.747085951,45.209499114 -68.745290531,45.209499114 -68.745290531,45.208126955 -68.747085951,45.208126955</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747046736,45.208107582 -68.747046736,45.208459368 -68.745641757,45.208459368 -68.745641757,45.208107582 -68.747046736,45.208107582</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_4039_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746523607,45.207964648 -68.746523607,45.209239628 -68.744758438,45.209239628 -68.744758438,45.207964648 -68.746523607,45.207964648</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_6039_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746171241,45.209059263 -68.746171241,45.210264275 -68.744450032,45.210264275 -68.744450032,45.209059263 -68.746171241,45.209059263</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_8039_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745830812,45.210113254 -68.745830812,45.210286231 -68.744453282,45.210286231 -68.744453282,45.210113254 -68.745830812,45.210113254</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100312_Flux_Tower_Flight_2020_07_02_15_26_02_Orthos_raw_8075_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745467706,45.208953147 -68.745467706,45.210253394 -68.743757497,45.210253394 -68.743757497,45.208953147 -68.745467706,45.208953147</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746669595,45.209286365 -68.746669595,45.210555496 -68.744949091,45.210555496 -68.744949091,45.209286365 -68.746669595,45.209286365</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_11142_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745771706,45.208182395 -68.745771706,45.209404449 -68.744004062,45.209404449 -68.744004062,45.208182395 -68.745771706,45.208182395</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_13142_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745858792,45.207905861 -68.745858792,45.208515907 -68.744299285,45.208515907 -68.744299285,45.207905861 -68.745858792,45.207905861</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_13723_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745316044,45.207716166 -68.745316044,45.208885258 -68.743581714,45.208885258 -68.743581714,45.207716166 -68.745316044,45.207716166</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_15723_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745011779,45.208683164 -68.745011779,45.209793409 -68.743291295,45.209793409 -68.743291295,45.208683164 -68.745011779,45.208683164</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_17723_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744695017,45.209602601 -68.744695017,45.210051799 -68.743202066,45.210051799 -68.743202066,45.209602601 -68.744695017,45.209602601</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746957396,45.20833186 -68.746957396,45.209646108 -68.745261894,45.209646108 -68.745261894,45.20833186 -68.746957396,45.20833186</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747039195,45.208098874 -68.747039195,45.208712843 -68.745510207,45.208712843 -68.745510207,45.208098874 -68.747039195,45.208098874</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_4570_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746556234,45.207942888 -68.746556234,45.209127673 -68.744816347,45.209127673 -68.744816347,45.207942888 -68.746556234,45.207942888</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_6570_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746264666,45.208907596 -68.746264666,45.210025687 -68.744485901,45.210025687 -68.744485901,45.208907596 -68.746264666,45.208907596</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_8570_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745932131,45.209812073 -68.745932131,45.210282848 -68.744403099,45.210282848 -68.744403099,45.209812073 -68.745932131,45.209812073</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100316_Flux2_Tower_Flight_2020_07_02_16_41_26_Orthos_raw_9142_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745420098,45.209101786 -68.745420098,45.210247339 -68.743757876,45.210247339 -68.743757876,45.209101786 -68.745420098,45.209101786</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746723369,45.209175365 -68.746723369,45.210514483 -68.745057145,45.210514483 -68.745057145,45.209175365 -68.746723369,45.209175365</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_11152_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745743799,45.208134848 -68.745743799,45.209402054 -68.744041863,45.209402054 -68.744041863,45.208134848 -68.745743799,45.208134848</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_13152_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745814281,45.207880686 -68.745814281,45.208467644 -68.744326821,45.208467644 -68.744326821,45.207880686 -68.745814281,45.207880686</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_13724_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745264741,45.207685835 -68.745264741,45.208898621 -68.743584815,45.208898621 -68.743584815,45.207685835 -68.745264741,45.207685835</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_15724_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744983749,45.208689779 -68.744983749,45.209770403 -68.743257054,45.209770403 -68.743257054,45.208689779 -68.744983749,45.208689779</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_17724_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.744660266,45.209581171 -68.744660266,45.210072894 -68.743194759,45.210072894 -68.743194759,45.209581171 -68.744660266,45.209581171</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.74696369,45.208332906 -68.74696369,45.209561241 -68.74530849,45.209561241 -68.74530849,45.208332906 -68.74696369,45.208332906</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.747096312,45.208063542 -68.747096312,45.208689371 -68.745578603,45.208689371 -68.745578603,45.208063542 -68.747096312,45.208063542</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_4575_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746558356,45.207936136 -68.746558356,45.209125599 -68.744746448,45.209125599 -68.744746448,45.207936136 -68.746558356,45.207936136</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_6575_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.746227329,45.208914715 -68.746227329,45.21006142 -68.74447863,45.21006142 -68.74447863,45.208914715 -68.746227329,45.208914715</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_8575_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.74588051,45.209870027 -68.74588051,45.21033454 -68.744428744,45.21033454 -68.744428744,45.209870027 -68.74588051,45.209870027</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100322_Flux3_Tower_Flight_2020_07_02_17_35_01_Orthos_raw_9152_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.745441094,45.20910388 -68.745441094,45.210248641 -68.743706137,45.210248641 -68.743706137,45.20910388 -68.745441094,45.20910388</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

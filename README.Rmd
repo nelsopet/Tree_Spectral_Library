@@ -40,8 +40,22 @@ loaded by sourcing /Functions/lecospectR.R
     /Functions/type_conversion.R   
     /Functions/utilities.R 
     /Functions/validation.R    
+## Ground spectra from Maine 
+1\) Ground spectra were collected around Maine.
 
-## How to run treespectra
+```{r}
+knitr::include_graphics("M:/MSGC_DATA/Tree_Spec_Lib/Outputs/Tree_species_spectral_profiles.jpg")
+#<img src = "M:/Tree_Spectral_Library/Outputs/Tree_species_spectral_profiles.jpg" width = 500 height = 500 >
+```
+
+
+2\) Locations where ground spectra were collected
+
+```{r}
+knitr::include_graphics("./Outputs/MSGC_ground_spectra_locations_Maine.jpg")
+#<img src = "M:/Tree_Spectral_Library/Outputs/Tree_species_spectral_profiles.jpg" width = 500 height = 500 >
+```
+## How to run tree spectra
 
 1\) Our workflow assumes a list of tree species from a table.
 This table is used for several steps, including aggregating validation

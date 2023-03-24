@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>Deboullie_all</name>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.836661241,46.966328035 -68.836661241,46.967739115 -68.834983851,46.967739115 -68.834983851,46.966328035 -68.836661241,46.966328035</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_11621_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.839303115,46.96370758 -68.839303115,46.964979792 -68.837739229,46.964979792 -68.837739229,46.96370758 -68.839303115,46.96370758</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_13621_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.838511349,46.964717018 -68.838511349,46.966004162 -68.836969245,46.966004162 -68.836969245,46.964717018 -68.838511349,46.964717018</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_15621_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.837824165,46.9657118 -68.837824165,46.967009397 -68.836177333,46.967009397 -68.836177333,46.9657118 -68.837824165,46.9657118</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_17621_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.83716301,46.966691457 -68.83716301,46.967800909 -68.835485613,46.967800909 -68.835485613,46.966691457 -68.83716301,46.966691457</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_19148_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.837833056,46.966643317 -68.837833056,46.968103673 -68.836088035,46.968103673 -68.836088035,46.966643317 -68.837833056,46.966643317</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.837325707,46.965280451 -68.837325707,46.966743794 -68.835853383,46.966743794 -68.835853383,46.965280451 -68.837325707,46.965280451</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_21148_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.838416625,46.965659168 -68.838416625,46.967097126 -68.83694211,46.967097126 -68.83694211,46.965659168 -68.838416625,46.965659168</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_23148_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.839158247,46.9646543 -68.839158247,46.966057914 -68.837666311,46.966057914 -68.837666311,46.9646543 -68.839158247,46.9646543</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_25148_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.839912616,46.963632594 -68.839912616,46.965009331 -68.838497049,46.965009331 -68.838497049,46.963632594 -68.839912616,46.963632594</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_27148_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.840468429,46.962836286 -68.840468429,46.963998001 -68.839244824,46.963998001 -68.839244824,46.962836286 -68.840468429,46.962836286</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.838009965,46.964256551 -68.838009965,46.965687043 -68.836546395,46.965687043 -68.836546395,46.964256551 -68.838009965,46.964256551</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.838748942,46.963258617 -68.838748942,46.9646473 -68.837278856,46.9646473 -68.837278856,46.963258617 -68.838748942,46.963258617</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.839421559,46.962432076 -68.839421559,46.963665465 -68.837999482,46.963665465 -68.837999482,46.962432076 -68.839421559,46.962432076</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100332_Deboullie_Push_flight_2020_07_21_15_19_27_Orthos_raw_9621_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.840001139,46.962653713 -68.840001139,46.963984161 -68.838515802,46.963984161 -68.838515802,46.962653713 -68.840001139,46.962653713</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.83659688,46.966245515 -68.83659688,46.967698243 -68.83486567,46.967698243 -68.83486567,46.966245515 -68.83659688,46.966245515</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_11521_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.839221103,46.963656221 -68.839221103,46.964988144 -68.837711115,46.964988144 -68.837711115,46.963656221 -68.839221103,46.963656221</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_13521_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.838488285,46.964685472 -68.838488285,46.966023511 -68.836895619,46.966023511 -68.836895619,46.964685472 -68.838488285,46.964685472</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_15521_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.837790911,46.965700743 -68.837790911,46.96698679 -68.836097695,46.96698679 -68.836097695,46.965700743 -68.837790911,46.965700743</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_17521_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.837108805,46.966645231 -68.837108805,46.967764596 -68.835484811,46.967764596 -68.835484811,46.966645231 -68.837108805,46.966645231</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_19051_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.837963397,46.966540098 -68.837963397,46.968061639 -68.836095912,46.968061639 -68.836095912,46.966540098 -68.837963397,46.966540098</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.837327916,46.965235517 -68.837327916,46.966682128 -68.835764272,46.966682128 -68.835764272,46.965235517 -68.837327916,46.965235517</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_21051_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.838539482,46.965617271 -68.838539482,46.967005773 -68.836960191,46.967005773 -68.836960191,46.965617271 -68.838539482,46.965617271</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_23051_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.839199659,46.964617122 -68.839199659,46.966011741 -68.837792396,46.966011741 -68.837792396,46.964617122 -68.839199659,46.964617122</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_25051_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8399834,46.963579981 -68.8399834,46.964971542 -68.838524789,46.964971542 -68.838524789,46.963579981 -68.8399834,46.963579981</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_27051_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.840479878,46.962890284 -68.840479878,46.963940836 -68.839255826,46.963940836 -68.839255826,46.962890284 -68.840479878,46.962890284</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.837919179,46.964237317 -68.837919179,46.965657932 -68.836489588,46.965657932 -68.836489588,46.964237317 -68.837919179,46.964237317</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.838767147,46.963201194 -68.838767147,46.964649335 -68.837154421,46.964649335 -68.837154421,46.963201194 -68.838767147,46.963201194</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.839302123,46.962415317 -68.839302123,46.963621847 -68.837997668,46.963621847 -68.837997668,46.962415317 -68.839302123,46.962415317</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100336_Deboullie_Push2_flight_2020_07_21_15_43_52_Orthos_raw_9521_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.839953554,46.962628077 -68.839953554,46.963963058 -68.838416791,46.963963058 -68.838416791,46.962628077 -68.839953554,46.962628077</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.919323632,46.9729159 -68.919323632,46.973978126 -68.917341863,46.973978126 -68.917341863,46.9729159 -68.919323632,46.9729159</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_10000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.917187584,46.968390456 -68.917187584,46.96939425 -68.915407192,46.96939425 -68.915407192,46.968390456 -68.917187584,46.968390456</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_12000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.916758592,46.968360652 -68.916758592,46.968475431 -68.915435504,46.968475431 -68.915435504,46.968360652 -68.916758592,46.968360652</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_12106_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.917779644,46.968172513 -68.917779644,46.969291086 -68.91608157,46.969291086 -68.91608157,46.968172513 -68.917779644,46.968172513</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_14106_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.918260749,46.969061937 -68.918260749,46.970199292 -68.916468138,46.970199292 -68.916468138,46.969061937 -68.918260749,46.969061937</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_16106_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.918624379,46.969959813 -68.918624379,46.971103428 -68.916889663,46.971103428 -68.916889663,46.969959813 -68.918624379,46.969959813</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_18106_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.91907378,46.970845998 -68.91907378,46.972008395 -68.917198792,46.972008395 -68.917198792,46.970845998 -68.91907378,46.970845998</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.918921981,46.97197118 -68.918921981,46.973083492 -68.916918904,46.973083492 -68.916918904,46.97197118 -68.918921981,46.97197118</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_20106_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.919584309,46.971754307 -68.919584309,46.97284575 -68.917559899,46.97284575 -68.917559899,46.971754307 -68.919584309,46.971754307</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_22106_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.92008916,46.972586833 -68.92008916,46.973851487 -68.917964103,46.973851487 -68.917964103,46.972586833 -68.92008916,46.972586833</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_24106_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.920100615,46.97358931 -68.920100615,46.973893996 -68.918414578,46.973893996 -68.918414578,46.97358931 -68.920100615,46.97358931</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_24208_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.920642667,46.972622589 -68.920642667,46.973782899 -68.918639565,46.973782899 -68.918639565,46.972622589 -68.920642667,46.972622589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_26208_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.920261232,46.97175755 -68.920261232,46.972834385 -68.91819109,46.972834385 -68.91819109,46.97175755 -68.920261232,46.97175755</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_28208_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.919751614,46.970849741 -68.919751614,46.971966227 -68.917867481,46.971966227 -68.917867481,46.970849741 -68.919751614,46.970849741</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_30208_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.91930269,46.969929855 -68.91930269,46.971035906 -68.91748871,46.971035906 -68.91748871,46.969929855 -68.91930269,46.969929855</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_32208_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.918868987,46.969024835 -68.918868987,46.970110018 -68.917082475,46.970110018 -68.917082475,46.969024835 -68.918868987,46.969024835</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_34208_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.918394992,46.96813278 -68.918394992,46.969201268 -68.916745698,46.969201268 -68.916745698,46.96813278 -68.918394992,46.96813278</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_36208_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.917946739,46.968131638 -68.917946739,46.968296502 -68.916760842,46.968296502 -68.916760842,46.968131638 -68.917946739,46.968131638</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.918499156,46.971092453 -68.918499156,46.972115029 -68.916532699,46.972115029 -68.916532699,46.971092453 -68.918499156,46.971092453</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.918048245,46.970217955 -68.918048245,46.971215488 -68.916234257,46.971215488 -68.916234257,46.970217955 -68.918048245,46.970217955</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100346_Deb_07222020_flight_2020_07_22_15_48_49_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.917624399,46.969296655 -68.917624399,46.970327579 -68.915828733,46.970327579 -68.915828733,46.969296655 -68.917624399,46.969296655</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_11156_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.885051023,46.93522606 -68.885051023,46.935713424 -68.883603175,46.935713424 -68.883603175,46.93522606 -68.885051023,46.93522606</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_13156_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.883681014,46.93520137 -68.883681014,46.935788473 -68.882198417,46.935788473 -68.882198417,46.93520137 -68.883681014,46.93520137</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_15156_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.882303174,46.935182963 -68.882303174,46.935835804 -68.880812303,46.935835804 -68.880812303,46.935182963 -68.882303174,46.935182963</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_17156_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.880939781,46.935156202 -68.880939781,46.93586798 -68.880089273,46.93586798 -68.880089273,46.935156202 -68.880939781,46.935156202</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_18209_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.881626034,46.935540771 -68.881626034,46.936325086 -68.8801699,46.936325086 -68.8801699,46.935540771 -68.881626034,46.935540771</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.882897169,46.934749771 -68.882897169,46.935330074 -68.881444368,46.935330074 -68.881444368,46.934749771 -68.882897169,46.934749771</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_20209_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.88300145,46.935564833 -68.88300145,46.936299279 -68.881553589,46.936299279 -68.881553589,46.935564833 -68.88300145,46.935564833</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_22209_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.884400478,46.935586114 -68.884400478,46.936249155 -68.882922833,46.936249155 -68.882922833,46.935586114 -68.884400478,46.935586114</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_24209_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.885793264,46.935610438 -68.885793264,46.936131804 -68.884330513,46.936131804 -68.884330513,46.935610438 -68.885793264,46.935610438</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_26209_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.886373918,46.935627168 -68.886373918,46.936074863 -68.885738515,46.936074863 -68.885738515,46.935627168 -68.886373918,46.935627168</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_27075_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.886357665,46.934332566 -68.886357665,46.934866399 -68.88527221,46.934866399 -68.88527221,46.934332566 -68.886357665,46.934332566</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.884314799,46.934761828 -68.884314799,46.935243525 -68.882823942,46.935243525 -68.882823942,46.934761828 -68.884314799,46.934761828</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.885703496,46.934786707 -68.885703496,46.935187932 -68.884240769,46.935187932 -68.884240769,46.934786707 -68.885703496,46.934786707</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.886491615,46.934796613 -68.886491615,46.935119633 -68.885639461,46.935119633 -68.885639461,46.934796613 -68.886491615,46.934796613</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100349_DEB2_07222020_flight_2020_07_22_17_06_23_Orthos_raw_9156_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.886418349,46.935229649 -68.886418349,46.935652409 -68.884993667,46.935652409 -68.884993667,46.935229649 -68.886418349,46.935229649</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

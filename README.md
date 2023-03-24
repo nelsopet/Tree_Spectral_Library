@@ -24,7 +24,16 @@ loaded by sourcing /Functions/lecospectR.R
     /Functions/utilities.R 
     /Functions/validation.R    
 
-## How to run treespectra
+## Ground spectra from Maine
+
+1\) Ground spectra were collected around Maine.
+
+<img src="Outputs/Tree_species_spectral_profiles.jpg" width="6000" />
+
+2\) Locations where ground spectra were collected
+
+<img src="./Outputs/MSGC_ground_spectra_locations_Maine.jpg" width="992" />
+\## How to run tree spectra
 
 1\) Our workflow assumes a list of tree species from a table. This table
 is used for several steps, including aggregating validation to the same
@@ -82,7 +91,7 @@ Median reflectance of fully-illuminated branches (orange) and
 fully-shaded branches (blue) are also shown. Sample size in number of
 individuals and number of spectral pixels is displayed for each species.
 
-<img src="Outputs/Spectral_profiles/PEF_all.jpg" width="9000" />
+<img src="../../Tree_Spectral_Library/Outputs/Spectral_profiles/PEF_all.jpg" width="9000" />
 
 ## Study Area and Data locations
 
@@ -99,7 +108,7 @@ image below (bottom left) shows a screen capture of one data cube. The
 fourth image below (bottom right) shows a portion of the same data cube
 enlarged, with hand-digitized shapefiles of tree canopies overlaid.
 
-<img src="Outputs/Spectra_locations/MSGC_flight_locations_Maine_esristreet.jpg" width="40%" /><img src="Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_envicapture.JPG" width="40%" /><img src="Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.JPG" width="40%" />
+<img src="../../Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_Maine_esristreet.jpg" width="40%" /><img src="../../Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg" width="40%" /><img src="../../Tree_Spectral_Library/Outputs/Spectra_locations/PEF_100047_15568_envicapture.JPG" width="40%" /><img src="../../Tree_Spectral_Library/Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.JPG" width="40%" />
 
 ## Model training and validation
 

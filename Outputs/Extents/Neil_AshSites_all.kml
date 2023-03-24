@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>Neil_AshSites_all</name>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.824410243,46.672249008 -68.824410243,46.673395958 -68.82263735,46.673395958 -68.82263735,46.672249008 -68.824410243,46.672249008</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_10009_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823631958,46.672988292 -68.823631958,46.67418112 -68.821850153,46.67418112 -68.821850153,46.672988292 -68.823631958,46.672988292</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_12009_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822415373,46.67280209 -68.822415373,46.673673772 -68.821355628,46.673673772 -68.821355628,46.67280209 -68.822415373,46.67280209</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_12864_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.821609343,46.672279345 -68.821609343,46.673308541 -68.820083056,46.673308541 -68.820083056,46.672279345 -68.821609343,46.672279345</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_14485_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822374546,46.672702568 -68.822374546,46.673548252 -68.821101522,46.673548252 -68.821101522,46.672702568 -68.822374546,46.672702568</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_16485_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822233441,46.672792119 -68.822233441,46.673289131 -68.821304779,46.673289131 -68.821304779,46.672792119 -68.822233441,46.672792119</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_18485_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.821973056,46.672972941 -68.821973056,46.673254326 -68.821610922,46.673254326 -68.821610922,46.672972941 -68.821973056,46.672972941</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823221621,46.671764339 -68.823221621,46.67290976 -68.821442079,46.67290976 -68.821442079,46.671764339 -68.823221621,46.671764339</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822003159,46.671529431 -68.822003159,46.672408759 -68.820881233,46.672408759 -68.820881233,46.671529431 -68.822003159,46.671529431</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_4952_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822165746,46.671873821 -68.822165746,46.6729596 -68.820408418,46.6729596 -68.820408418,46.671873821 -68.822165746,46.671873821</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_6952_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823374457,46.672293418 -68.823374457,46.673474012 -68.821517138,46.673474012 -68.821517138,46.672293418 -68.823374457,46.672293418</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100352_NelsonAsh1_flight_2020_07_24_14_54_58_Orthos_raw_8952_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.824052141,46.672820034 -68.824052141,46.673743711 -68.822699132,46.673743711 -68.822699132,46.672820034 -68.824052141,46.672820034</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.824446086,46.672272271 -68.824446086,46.673405457 -68.822639867,46.673405457 -68.822639867,46.672272271 -68.824446086,46.672272271</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_11903_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822521285,46.672859283 -68.822521285,46.673717201 -68.821585954,46.673717201 -68.821585954,46.672859283 -68.822521285,46.672859283</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_12475_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.821545218,46.672245564 -68.821545218,46.673293111 -68.82013668,46.673293111 -68.82013668,46.672245564 -68.821545218,46.672245564</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823270608,46.671780424 -68.823270608,46.672930432 -68.821444411,46.672930432 -68.821444411,46.671780424 -68.823270608,46.671780424</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.8220303,46.671496458 -68.8220303,46.672417076 -68.820906153,46.672417076 -68.820906153,46.671496458 -68.8220303,46.671496458</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_4949_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822292,46.671928203 -68.822292,46.672994102 -68.820501345,46.672994102 -68.820501345,46.671928203 -68.822292,46.671928203</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_6949_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823495645,46.672335565 -68.823495645,46.673552861 -68.821664984,46.673552861 -68.821664984,46.672335565 -68.823495645,46.672335565</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_8949_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.824093153,46.672887747 -68.824093153,46.673811424 -68.822851227,46.673811424 -68.822851227,46.672887747 -68.824093153,46.672887747</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100354_NelsonAsh1_flight2_2020_07_24_15_17_18_Orthos_raw_9903_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823711723,46.673029715 -68.823711723,46.674153726 -68.82197213,46.674153726 -68.82197213,46.673029715 -68.823711723,46.673029715</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_0_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.82436582,46.672545573 -68.82436582,46.673308767 -68.823203753,46.673308767 -68.823203753,46.672545573 -68.82436582,46.672545573</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_10196_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822582233,46.672169802 -68.822582233,46.672921122 -68.82143272,46.672921122 -68.82143272,46.672169802 -68.822582233,46.672169802</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_12196_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823295278,46.672450416 -68.823295278,46.673161795 -68.822123805,46.673161795 -68.822123805,46.672450416 -68.823295278,46.672450416</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_14196_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.82403552,46.672698719 -68.82403552,46.673477026 -68.82282013,46.673477026 -68.82282013,46.672698719 -68.82403552,46.672698719</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_16196_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.824153931,46.672990645 -68.824153931,46.673548737 -68.823528199,46.673548737 -68.823528199,46.672990645 -68.824153931,46.672990645</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_16583_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.82385233,46.673048999 -68.82385233,46.673845657 -68.82269182,46.673845657 -68.82269182,46.673048999 -68.82385233,46.673048999</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_18583_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823112148,46.67277662 -68.823112148,46.673553847 -68.821989282,46.673553847 -68.821989282,46.67277662 -68.823112148,46.67277662</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_2000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.82365576,46.672242136 -68.82365576,46.673011807 -68.822509382,46.673011807 -68.822509382,46.672242136 -68.82365576,46.672242136</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_20583_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822392654,46.672698571 -68.822392654,46.673248027 -68.821784176,46.673248027 -68.821784176,46.672698571 -68.822392654,46.672698571</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_21160_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.82172628,46.672189438 -68.82172628,46.672972063 -68.820647337,46.672972063 -68.820647337,46.672189438 -68.82172628,46.672189438</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_23160_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.821011221,46.672139049 -68.821011221,46.672644247 -68.820479593,46.672644247 -68.820479593,46.672139049 -68.821011221,46.672139049</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_23640_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.821239924,46.672410088 -68.821239924,46.673127944 -68.820129613,46.673127944 -68.820129613,46.672410088 -68.821239924,46.672410088</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_25640_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.821442998,46.672686259 -68.821442998,46.673213046 -68.820806292,46.673213046 -68.820806292,46.672686259 -68.821442998,46.672686259</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_26221_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822819,46.673022822 -68.822819,46.673786016 -68.82165065,46.673786016 -68.82165065,46.673022822 -68.822819,46.673022822</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_28221_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.823551828,46.673318183 -68.823551828,46.674105125 -68.822336424,46.674105125 -68.822336424,46.673318183 -68.823551828,46.673318183</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_30221_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.82360617,46.673614065 -68.82360617,46.674117104 -68.823036889,46.674117104 -68.823036889,46.673614065 -68.82360617,46.673614065</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_4000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822936163,46.671944856 -68.822936163,46.672688619 -68.821799201,46.672688619 -68.821799201,46.671944856 -68.822936163,46.671944856</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_6000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.822220921,46.671642871 -68.822220921,46.672390952 -68.821090238,46.672390952 -68.821090238,46.671642871 -68.822220921,46.671642871</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_8000_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.821506164,46.671613096 -68.821506164,46.672075114 -68.821021587,46.672075114 -68.821021587,46.671613096 -68.821506164,46.671613096</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>100356_NelsonAsh1_flight3_2020_07_24_15_31_28_Orthos_raw_8196_rd_rf_or</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-68.821905843,46.671865714 -68.821905843,46.672614875 -68.820724972,46.672614875 -68.820724972,46.671865714 -68.821905843,46.671865714</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
