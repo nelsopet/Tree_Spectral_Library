@@ -1,11 +1,11 @@
 ##Functions
 read_files<-function(path) {list.files(paste(path),pattern = ".sed", full.names = TRUE)}
 
-read_header<-function(files) {read_delim(paste(path,files[1],sep=""), n_max=24, delim=":") %>% 
+read_header<-function(files) {read_delim(files[1], n_max=24, delim=":") %>% 
     as.data.frame() %>% 
     dplyr::select(2)}
 
-read_header_cols<-function(files) {read_delim(paste(path,files[1],sep=""), n_max=24, delim=":") %>% 
+read_header_cols<-function(files) {read_delim(files[1], n_max=24, delim=":") %>% 
     as.data.frame() %>% 
     dplyr::select(1)}
 
