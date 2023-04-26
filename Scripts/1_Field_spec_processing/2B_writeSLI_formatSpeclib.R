@@ -11,3 +11,18 @@ pivot_longer(cols = `X350`:`X2500`,  names_to  = "Wavelength", values_to = "Refl
   pivot_wider(names_from = c(taxon_code,sample_name), values_from = Reflectance)
 
 RStoolbox::writeSLI(Cleaned_TreeSpeclib_tall,"Outputs/Cleaned_Tree_Speclib2.sli", wavl.units = "Nanometers")
+
+Cleaned_TreeSpeclib_tall_median_by_taxon<-Cleaned_TreeSpeclib %>% 
+group_by(taxon_code) %>%
+dplyr::select(`X350`:`X2500`) %>% #dim
+pivot_longer(cols = `X350`:`X2500`,  names_to  = "Wavelength", values_to = "Reflectance") %>% #dim
+mutate(Wavelength = gsub("X","",Wavelength)) %>%
+group_by(taxon_code,Wavelength) %>%  
+dplyr::summarise(Reflectance = median(Reflectance))%>%
+mutate(Wavelength = as.numeric(Wavelength)) %>%
+as.data.frame() %>% 
+pivot_wider(names_from = taxon_code, values_from = Reflectance) %>%
+mutate(Wavelength = as.numeric(Wavelength)) %>%
+dplyr::arrange(Wavelength)
+RStoolbox::writeSLI(Cleaned_TreeSpeclib_tall_median_by_taxon,"Outputs/Cleaned_TreeSpeclib_tall_median_by_taxon.sli", wavl.units = "Nanometers")
+
