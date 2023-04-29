@@ -1,0 +1,11 @@
+{
+"Lichen"         : 1,
+"Shrub_Decid"    : 2,
+"Graminoid"      : 3,
+"Forb"           : 4,
+"Moss"           : 5,
+"Abiotic"        : 6,
+"Tree_Decid"     : 7,
+"Shrub_Evergreen": 8,
+"Tree_Evergreen" : 9
+}
