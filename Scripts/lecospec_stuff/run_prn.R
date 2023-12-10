@@ -232,12 +232,19 @@ base_df<-df
             rm(df_preprocessed)
             gc()
 
-            prediction <- convert_and_save_output(
-                prediction,
-                4,
-                save_path = save_path,
-                return_raster = TRUE,
-                target_crs = input_crs)
+            #prediction <- convert_and_save_output(
+            #    prediction,
+            #    4,
+            #    save_path = save_path,
+            #    return_raster = TRUE,
+            #    target_crs = input_crs)
+                            prediction <- terra::rast(prediction, digits=6)
+
+                             #print("Converted to Raster")
+
+                             # set to int datatype (unsigned int // 2 bytes)
+                             raster::dataType(prediction) <- "INT2U" 
+                             levels(prediction) <- get_attribute_table(aggregation_level)
 
             
             raster::crs(prediction) <- input_crs
