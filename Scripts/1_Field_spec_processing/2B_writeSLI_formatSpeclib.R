@@ -1,4 +1,5 @@
 require(devtools)
+install.packages("RStoolbox")
 require(RStoolbox) #need to install from github using devtools
 require(tidyverse)
 
@@ -10,7 +11,7 @@ pivot_longer(cols = `X350`:`X2500`,  names_to  = "Wavelength", values_to = "Refl
   mutate(Wavelength = gsub("X","",Wavelength)) %>%
   pivot_wider(names_from = c(taxon_code,sample_name), values_from = Reflectance)
 
-RStoolbox::writeSLI(Cleaned_TreeSpeclib_tall,"Outputs/Cleaned_Tree_Speclib2.sli", wavl.units = "Nanometers")
+writeSLI(Cleaned_TreeSpeclib_tall,"Outputs/Cleaned_Tree_Speclib2.sli", wavl.units = "Nanometers")
 
 Cleaned_TreeSpeclib_tall_median_by_taxon<-Cleaned_TreeSpeclib %>% 
 group_by(taxon_code) %>%
