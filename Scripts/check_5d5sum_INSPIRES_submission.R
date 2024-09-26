@@ -1,6 +1,7 @@
 require(tools)
 imgs<-list.files("K:/INSPIRES_Image_Submission/")
 as.matrix(file.size(paste("K:/INSPIRES_Image_Submission/",imgs, sep=""))/10^9)
+
 #md5sum("K:/INSPIRES_Image_Submission/100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos.zip")
 #"12839678390aa6e6eb84c9361879ac87"
 #md5sum("K:/INSPIRES_Image_Submission/100006_Howland_plot_1b_110m_2019_07_01_18_04_21_Orthos.zip")
