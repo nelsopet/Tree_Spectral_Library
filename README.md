@@ -91,9 +91,11 @@ Median reflectance of fully-illuminated branches (orange) and
 fully-shaded branches (blue) are also shown. Sample size in number of
 individuals and number of spectral pixels is displayed for each species.
 
-<img src="./Outputs/Spectral_profiles/PEF_all.jpg" width="9000" />
+<img src="./Outputs/Spectral_profiles/PEF_all.jpg" width="9000" /> \##
+Example UAS-based VNIR images showing RGB
 
-## Study Area and Data locations
+<img src="./Outputs/Extents/quicklooks/image_75_.jpg" width="480" /><img src="./Outputs/Extents/quicklooks/image_150_.jpg" width="480" />
+\## Study Area and Data locations
 
 All UAV flights for Maine are shown in the map in the first image below
 (top left). Flight extents are generated from

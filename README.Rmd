@@ -113,7 +113,19 @@ fully-shaded branches (blue) are also shown. Sample size in number of individual
 knitr::include_graphics("./Outputs/Spectral_profiles/PEF_all.jpg")
 #<img src = "M:/Tree_Spectral_Library/Outputs/Spectral_profiles/PEF_all.jpg" width = 500 height = 500 >
 ```
+## Example UAS-based VNIR images showing RGB
 
+```{r}
+
+knitr::include_graphics("./Outputs/Extents/quicklooks/image_75_.jpg")
+
+
+
+knitr::include_graphics("./Outputs/Extents/quicklooks/image_150_.jpg")
+
+
+#<img src = "M:/Tree_Spectral_Library/Outputs/Spectral_profiles/PEF_all.jpg" width = 500 height = 500 >
+```
 ## Study Area and Data locations
 
 All UAV flights for Maine are shown in the map in the first image
