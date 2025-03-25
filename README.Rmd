@@ -142,9 +142,13 @@ hand-digitized shapefiles of tree canopies overlaid.
 ```{r, echo=FALSE, out.width="40%", include=TRUE}
 
 knitr::include_graphics(path=c("./Outputs/Spectra_locations/MSGC_flight_locations_Maine_esristreet.jpg", 
-"./Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg", 
-"./Outputs/Spectra_locations/PEF_100047_15568_envicapture.jpg", 
-"./Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.jpg"))
+"./Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg"))
+
+knitr::include_graphics("./Outputs/Spectra_locations/PEF_100047_15568_envicapture.jpg")
+
+knitr::include_graphics("./Outputs/Spectra_locations/PEF_100047_15568_ROIs_envicapture.jpg")
+
+
 #<img src = "M:/Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_Maine.jpg" width = 500 height = 500 >
 #<img src = "M:/Tree_Spectral_Library/Outputs/Spectra_locations/MSGC_flight_locations_PEF_esrisat.jpg" width = 500 height = 500 >
 #<img src = "M:/Tree_Spectral_Library/Outputs/Spectra_locations/PEF_100047_15568_envicapture.jpg" width = 500 height = 500 >
