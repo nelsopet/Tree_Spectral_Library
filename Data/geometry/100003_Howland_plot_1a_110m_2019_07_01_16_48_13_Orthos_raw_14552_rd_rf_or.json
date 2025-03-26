@@ -1,0 +1,272 @@
+{
+    "file_type": "ENVI Session File",
+    "version": "5.5.1",
+    "layout": "1,1",
+    "view00": {
+        "name": "View",
+        "layer000": {
+            "name": "raw_14552_rd_rf_or",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "url": "M:\\MSGC_DATA\\Howland\\Imagery\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13\\Orthos\\raw_14552_rd_rf_or.hdr",
+                "factory": "URLRaster",
+                "auxiliary_url": ["M:\\MSGC_DATA\\Howland\\Imagery\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13\\Orthos\\raw_14552_rd_rf_or.hdr"]
+            },
+            "bands": "131,82,39",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.0067614497165057203,
+                    "stretch_max": 0.086963538026333623
+                },
+                {
+                    "stretch_min": 0.014275526472823452,
+                    "stretch_max": 0.15471149979151544
+                },
+                {
+                    "stretch_min": 0.0046413755653306951,
+                    "stretch_max": 0.048727024039754388
+                }
+            ],
+            "zoom_percent": 596.04596,
+            "sharpen": 10.000000,
+            "roi000": {
+                "name": "RS_25m_38cm_full_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 17
+                }
+            },
+            "roi001": {
+                "name": "RS_25m_38cm_light_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 16
+                }
+            },
+            "roi002": {
+                "name": "RS_25m_38cm_shadow_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 15
+                }
+            },
+            "roi003": {
+                "name": "WP_20m_35cm_full_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 14
+                }
+            },
+            "roi004": {
+                "name": "WP_20m_35cm_light_100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 13
+                }
+            },
+            "roi005": {
+                "name": "WP_20m_35cm_shadow_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 12
+                }
+            },
+            "roi006": {
+                "name": "WP_20m_31cm_full_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 11
+                }
+            },
+            "roi007": {
+                "name": "WP_20m_31cm_light_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 10
+                }
+            },
+            "roi008": {
+                "name": "WP_20m_31cm_shadow_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 9
+                }
+            },
+            "roi009": {
+                "name": "RS_21m_30cm_full_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 8
+                }
+            },
+            "roi010": {
+                "name": "RS_21m_30cm_light_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 7
+                }
+            },
+            "roi011": {
+                "name": "RS_21m_30cm_shadow_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 6
+                }
+            },
+            "roi012": {
+                "name": "RS_19m_27cm_full_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 5
+                }
+            },
+            "roi013": {
+                "name": "RS_19m_27cm_light_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 4
+                }
+            },
+            "roi014": {
+                "name": "RS_19m_27cm_shadow_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 3
+                }
+            },
+            "roi015": {
+                "name": "WP_28m_50cm_full_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 2
+                }
+            },
+            "roi016": {
+                "name": "WP_28m_50cm_light_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 1
+                }
+            },
+            "roi017": {
+                "name": "WP_28m_50cm_shadow_Howland_100003_14552",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 0
+                }
+            }
+        },
+        "layer001": {
+            "name": "Howland_trees.shp",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "url": "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.shp",
+                "factory": "URLVector",
+                "auxiliary_url": ["M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.dbf", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.shx", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.prj", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.eq1", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.ed1", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.ebb", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.shp.qtr"]
+            },
+            "color": "255,0,0",
+            "symbol_size": 8,
+            "symbol_type": 1,
+            "zoom_percent": 596.04596
+        },
+        "center": "-68.740830,45.206342",
+        "rotation": "0.00000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]"
+    },
+    "dataset0000": {
+        "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\shadow_Howland_100003_14552.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\shadow_Howland_100003_14552.dbf", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\shadow_Howland_100003_14552.shx", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\shadow_Howland_100003_14552.prj", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\shadow_Howland_100003_14552.shp.qtr"]
+    },
+    "dataset0001": {
+        "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\light_Howland_100003_14552.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\light_Howland_100003_14552.dbf", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\light_Howland_100003_14552.shx", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\light_Howland_100003_14552.prj", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\light_Howland_100003_14552.shp.qtr"]
+    },
+    "dataset0002": {
+        "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\full_Howland_100003_14552.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\full_Howland_100003_14552.dbf", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\full_Howland_100003_14552.shx", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\full_Howland_100003_14552.prj", "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\full_Howland_100003_14552.shp.qtr"]
+    },
+    "dataset0003": {
+        "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.shp",
+        "factory": "URLVector"
+    },
+    "dataset0004": {
+        "url": "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.dbf", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.shx", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.prj", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.eq1", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.ed1", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.ebb", "M:\\MSGC_DATA\\Tree_Spec_Lib\\Outputs\\Extents\\Howland\\Howland_trees.shp.qtr"]
+    },
+    "dataset0005": {
+        "url": "M:\\MSGC_DATA\\Howland\\Imagery\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13\\Orthos\\raw_14552_rd_rf_or.hdr",
+        "factory": "URLRaster",
+        "auxiliary_url": ["M:\\MSGC_DATA\\Howland\\Imagery\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13\\Orthos\\raw_14552_rd_rf_or.hdr"]
+    },
+    "dataset0006": {
+        "url": "M:\\MSGC_DATA\\Howland\\Digitize_Canopies\\100003_14552\\100003_Howland_plot_1a_110m_2019_07_01_16_48_13_Orthos_raw_14552_rd_rf_or.xml",
+        "factory": "URLRoi",
+        "dataset_index": 0
+    }
+}

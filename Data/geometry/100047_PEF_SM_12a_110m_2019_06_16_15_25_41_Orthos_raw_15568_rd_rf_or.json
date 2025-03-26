@@ -1,0 +1,579 @@
+{
+    "file_type": "ENVI Session File",
+    "version": "5.5.1",
+    "layout": "1,1",
+    "view00": {
+        "name": "View",
+        "layer000": {
+            "name": "raw_15568_rd_rf_or",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "url": "M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100047_PEF_SM_12a_110m_2019_06_16_15_25_41\\Orthos\\raw_15568_rd_rf_or.hdr",
+                "factory": "URLRaster",
+                "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100047_PEF_SM_12a_110m_2019_06_16_15_25_41\\Orthos\\raw_15568_rd_rf_or.hdr"]
+            },
+            "bands": "131,82,39",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.0029693784827207357,
+                    "stretch_max": 0.075268190825556539
+                },
+                {
+                    "stretch_min": 0.0068812326138843853,
+                    "stretch_max": 0.12490303286976340
+                },
+                {
+                    "stretch_min": 0.0020077748816667274,
+                    "stretch_max": 0.036637837887192368
+                }
+            ],
+            "zoom_percent": 156.25000,
+            "sharpen": 10.000000,
+            "roi000": {
+                "name": "EH_16m_27cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 0
+                }
+            },
+            "roi001": {
+                "name": "EH_21m_44cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 1
+                }
+            },
+            "roi002": {
+                "name": "EH_21m_44cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 2
+                }
+            },
+            "roi003": {
+                "name": "EH_21m_44cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 3
+                }
+            },
+            "roi004": {
+                "name": "EH_20m_35cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 4
+                }
+            },
+            "roi005": {
+                "name": "EH_20m_35cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 5
+                }
+            },
+            "roi006": {
+                "name": "EH_20m_35cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 6
+                }
+            },
+            "roi007": {
+                "name": "RS_18m_33cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 7
+                }
+            },
+            "roi008": {
+                "name": "RS_18m_33cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 8
+                }
+            },
+            "roi009": {
+                "name": "RS_18m_33cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 9
+                }
+            },
+            "roi010": {
+                "name": "RM_15m_20cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 10
+                }
+            },
+            "roi011": {
+                "name": "RM_15m_20cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 11
+                }
+            },
+            "roi012": {
+                "name": "RM_15m_20cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 12
+                }
+            },
+            "roi013": {
+                "name": "EH_16m_27cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 13
+                }
+            },
+            "roi014": {
+                "name": "EH_16m_27cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 14
+                }
+            },
+            "roi015": {
+                "name": "RM_15m_20cm_shadow_PEF_100047_15568_1",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 15
+                }
+            },
+            "roi016": {
+                "name": "RM_15m_20cm_light_PEF_100047_15568_1",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 16
+                }
+            },
+            "roi017": {
+                "name": "RM_15m_20cm_full_PEF_100047_15568_1",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 17
+                }
+            },
+            "roi018": {
+                "name": "BF_12m_13cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 18
+                }
+            },
+            "roi019": {
+                "name": "BF_12m_13cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 19
+                }
+            },
+            "roi020": {
+                "name": "BF_12m_13cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 20
+                }
+            },
+            "roi021": {
+                "name": "RS_20m_41cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 21
+                }
+            },
+            "roi022": {
+                "name": "RS_20m_41cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 22
+                }
+            },
+            "roi023": {
+                "name": "RS_20m_41cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 23
+                }
+            },
+            "roi024": {
+                "name": "BF_14m_19cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 24
+                }
+            },
+            "roi025": {
+                "name": "BF_14m_19cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 25
+                }
+            },
+            "roi026": {
+                "name": "BF_14m_19cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 26
+                }
+            },
+            "roi027": {
+                "name": "RM_13m_20cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 27
+                }
+            },
+            "roi028": {
+                "name": "RM_13m_20cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 28
+                }
+            },
+            "roi029": {
+                "name": "RM_13m_20cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 29
+                }
+            },
+            "roi030": {
+                "name": "RM_16m_18cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 30
+                }
+            },
+            "roi031": {
+                "name": "RM_16m_18cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 31
+                }
+            },
+            "roi032": {
+                "name": "RM_16m_18cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 32
+                }
+            },
+            "roi033": {
+                "name": "EH_5m_26cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 33
+                }
+            },
+            "roi034": {
+                "name": "EH_5m_26cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 34
+                }
+            },
+            "roi035": {
+                "name": "EH_5m_26cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 35
+                }
+            },
+            "roi036": {
+                "name": "BF_11m_18cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 36
+                }
+            },
+            "roi037": {
+                "name": "BF_11m_18cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 37
+                }
+            },
+            "roi038": {
+                "name": "BF_11m_18cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 38
+                }
+            },
+            "roi039": {
+                "name": "RS_16m_30cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 39
+                }
+            },
+            "roi040": {
+                "name": "RS_16m_30cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 40
+                }
+            },
+            "roi041": {
+                "name": "RS_16m_30cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 41
+                }
+            },
+            "roi042": {
+                "name": "RS_21m_41cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 42
+                }
+            },
+            "roi043": {
+                "name": "RS_21m_41cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 43
+                }
+            },
+            "roi044": {
+                "name": "RS_21m_41cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 44
+                }
+            },
+            "roi045": {
+                "name": "RS_9m_15cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 45
+                }
+            },
+            "roi046": {
+                "name": "RS_9m_15cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 46
+                }
+            },
+            "roi047": {
+                "name": "RS_9m_15cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 47
+                }
+            },
+            "roi048": {
+                "name": "EH_19m_47cm_shadow_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 48
+                }
+            },
+            "roi049": {
+                "name": "EH_19m_47cm_light_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 49
+                }
+            },
+            "roi050": {
+                "name": "EH_19m_47cm_full_PEF_100047_15568",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 50
+                }
+            }
+        },
+        "center": "-68.626413,44.850861",
+        "rotation": "0.00000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]"
+    },
+    "dataset0000": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\light_PEF_100047_15568.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\light_PEF_100047_15568.dbf", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\light_PEF_100047_15568.shx", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\light_PEF_100047_15568.prj", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\light_PEF_100047_15568.shp.qtr"]
+    },
+    "dataset0001": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\shadow_PEF_100047_15568.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\shadow_PEF_100047_15568.dbf", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\shadow_PEF_100047_15568.shx", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\shadow_PEF_100047_15568.prj", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\shadow_PEF_100047_15568.shp.qtr"]
+    },
+    "dataset0002": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\full_PEF_100047_15568.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\full_PEF_100047_15568.dbf", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\full_PEF_100047_15568.shx", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\full_PEF_100047_15568.prj", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100047_15568\\full_PEF_100047_15568.shp.qtr"]
+    },
+    "dataset0003": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100047_PEF_SM_12a_110m_2019_06_16_15_25_41\\Orthos\\raw_15568_rd_rf_or.hdr",
+        "factory": "URLRaster",
+        "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100047_PEF_SM_12a_110m_2019_06_16_15_25_41\\Orthos\\raw_15568_rd_rf_or.hdr"]
+    },
+    "dataset0004": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100038_3965\\100038_PEF_SM_4_110m_2019_06_18_15_16_13_ortho_raw_3965_rd_rf_or.xml",
+        "factory": "URLRoi",
+        "dataset_index": 0
+    }
+}
