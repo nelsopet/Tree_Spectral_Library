@@ -1,0 +1,309 @@
+{
+    "file_type": "ENVI Session File",
+    "version": "5.5.1",
+    "layout": "1,1",
+    "view00": {
+        "name": "View",
+        "layer000": {
+            "name": "raw_0_rd_rf_or",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "url": "M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100299_PEF_SM_1_flight_2020_06_27_16_19_38\\Orthos\\raw_0_rd_rf_or.hdr",
+                "factory": "URLRaster",
+                "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100299_PEF_SM_1_flight_2020_06_27_16_19_38\\Orthos\\raw_0_rd_rf_or.hdr"]
+            },
+            "bands": "131,82,39",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.016698645955129703,
+                    "stretch_max": 0.10920068834053584
+                },
+                {
+                    "stretch_min": 0.034325973282986477,
+                    "stretch_max": 0.20204078546865983
+                },
+                {
+                    "stretch_min": 0.011739513774561944,
+                    "stretch_max": 0.054356157184060457
+                }
+            ],
+            "zoom_percent": 305.17575,
+            "sharpen": 10.000000,
+            "roi000": {
+                "name": "WA_23m_29cm_shadow_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 0
+                }
+            },
+            "roi001": {
+                "name": "WA_23m_29cm_light_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 1
+                }
+            },
+            "roi002": {
+                "name": "WA_23m_29cm_full_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 2
+                }
+            },
+            "roi003": {
+                "name": "HH_13m_17cm_shadow_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 3
+                }
+            },
+            "roi004": {
+                "name": "HH_13m_17cm_light_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 4
+                }
+            },
+            "roi005": {
+                "name": "HH_13m_17cm_full_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 5
+                }
+            },
+            "roi006": {
+                "name": "SM_16m_15cm_shadow_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 6
+                }
+            },
+            "roi007": {
+                "name": "SM_16m_15cm_light_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 7
+                }
+            },
+            "roi008": {
+                "name": "SM_16m_15cm_full_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 8
+                }
+            },
+            "roi009": {
+                "name": "EH_16m_28cm_shadow_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 9
+                }
+            },
+            "roi010": {
+                "name": "EH_16m_28cm_light_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 10
+                }
+            },
+            "roi011": {
+                "name": "EH_16m_28cm_full_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 11
+                }
+            },
+            "roi012": {
+                "name": "YB_18m_17cm_shadow_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 12
+                }
+            },
+            "roi013": {
+                "name": "YB_18m_17cm_light_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 13
+                }
+            },
+            "roi014": {
+                "name": "YB_18m_17cm_full_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 14
+                }
+            },
+            "roi015": {
+                "name": "RM_21m_25cm_shadow_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 15
+                }
+            },
+            "roi016": {
+                "name": "RM_21m_25cm_light_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 16
+                }
+            },
+            "roi017": {
+                "name": "RM_21m_25cm_full_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 17
+                }
+            },
+            "roi018": {
+                "name": "SM_27m_52cm_shadow_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 18
+                }
+            },
+            "roi019": {
+                "name": "SM_27m_52cm_light_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 19
+                }
+            },
+            "roi020": {
+                "name": "SM_27m_52cm_full_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 20
+                }
+            },
+            "roi021": {
+                "name": "SM_26m_45cm_shadow_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 21
+                }
+            },
+            "roi022": {
+                "name": "SM_26m_45cm_light_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 22
+                }
+            },
+            "roi023": {
+                "name": "SM_26m_45cm_full_PEF_100299_0",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+                    "factory": "URLRoi",
+                    "dataset_index": 23
+                }
+            }
+        },
+        "center": "-68.622481,44.843277",
+        "rotation": "0.00000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]"
+    },
+    "dataset0000": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.dbf", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.shx", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.prj", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.shp.qtr"]
+    },
+    "dataset0001": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\light_PEF_100299_0.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\light_PEF_100299_0.dbf", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\light_PEF_100299_0.shx", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\light_PEF_100299_0.prj", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\light_PEF_100299_0.shp.qtr"]
+    },
+    "dataset0002": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp",
+        "factory": "URLVector",
+        "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.dbf", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.shx", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.prj", "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\full_PEF_100299_0.shp.shp.qtr"]
+    },
+    "dataset0003": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100299_PEF_SM_1_flight_2020_06_27_16_19_38\\Orthos\\raw_0_rd_rf_or.hdr",
+        "factory": "URLRaster",
+        "auxiliary_url": ["M:\\MSGC_DATA\\PEF-Demerit\\Imagery\\100299_PEF_SM_1_flight_2020_06_27_16_19_38\\Orthos\\raw_0_rd_rf_or.hdr"]
+    },
+    "dataset0004": {
+        "url": "M:\\MSGC_DATA\\PEF-Demerit\\Digitize_Canopies\\100299_0\\100299_PEF_SM_1_flight_2020_06_27_16_19_38_Orthos_raw_0_rd_rf_or.xml",
+        "factory": "URLRoi",
+        "dataset_index": 0
+    }
+}
